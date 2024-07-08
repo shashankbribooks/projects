@@ -6,7 +6,7 @@ const ImageNameExtractor = () => {
   useEffect(() => {
     const fetchImageAndExtractName = async () => {
       try {
-        const imageUrl = '/public/EventGallery/NYAF_2023/UserGallery/nyaf_2023/jury_award_winners/Anisha-Mathur.JPG'; // Replace with your actual image URL
+        const imageUrl = './public/EventGallery/NYAF_2023/UserGallery/nyaf_2023/jury_award_winners/Anisha-Mathur.JPG'; // Replace with your actual image URL
         const imageName = extractNameFromImageUrl(imageUrl);
         setImageName(imageName);
        
@@ -29,7 +29,7 @@ const ImageNameExtractor = () => {
   return (
     <div>
       <h1>Image Name: {imageName}</h1>
-      <img src="/public/EventGallery/NYAF_2023/UserGallery/nyaf_2023/jury_award_winners/Anisha-Mathur.JPG" alt="Sample Image" />
+      <img src="./public/EventGallery/NYAF_2023/UserGallery/nyaf_2023/jury_award_winners/Anisha-Mathur.JPG" alt="Sample Image" />
     </div>
   );
 };

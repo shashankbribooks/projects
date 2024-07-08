@@ -15,7 +15,7 @@ const Swiperjdk = () => {
           id="previousButton"
           onClick={() => swiperRef.current.swiper.slidePrev()}
         >
-          <img src="/assets/images/ae/left-arrow.png" alt="" />
+          <img src="./assets/images/ae/left-arrow.png" alt="" />
 
         </div>
         <Swiper
@@ -76,7 +76,7 @@ const Swiperjdk = () => {
                     <div className="col-4">
                       <div className={`${styles.bookimg} ms-1`}>
                         <img
-                          src="/assets/images/Ae/schoolslogo/book.png"
+                          src="./assets/images/Ae/schoolslogo/book.png"
                           alt=""
                         />
                       </div>
@@ -85,14 +85,14 @@ const Swiperjdk = () => {
                       <div className={`${styles.booktext}`}>
                         <div className="fs-6 d-flex Poppins-Regular">
                           <span className="me-2">
-                            <img src="/assets/images/Ae/Group (4).svg" alt="" />
+                            <img src="./assets/images/Ae/Group (4).svg" alt="" />
                           </span>
                           <p>Grade: 2</p>
                         </div>
                         <div className=" d-flex fs-6 Poppins-Regular ">
                           <span className="me-2">
                             <img
-                              src="/assets/images/Ae/Group 1000001664.svg"
+                              src="./assets/images/Ae/Group 1000001664.svg"
                               alt=""
                             />
                           </span>
@@ -100,7 +100,7 @@ const Swiperjdk = () => {
                         </div>
                         <div className="d-flex fs-6 Poppins-Regular">
                           <span className="me-2">
-                            <img src="/assets/images/Ae/Group (5).svg" alt="" />
+                            <img src="./assets/images/Ae/Group (5).svg" alt="" />
                           </span>
                           <p>gurgaon</p>
                         </div>
@@ -117,7 +117,7 @@ const Swiperjdk = () => {
           className={`${styles.nextbtn} my-auto `}
           onClick={() => swiperRef.current.swiper.slideNext()}
         >
-          <img src="/assets/images/ae/right-arrow.png" alt="" />
+          <img src="./assets/images/ae/right-arrow.png" alt="" />
 
         </div>
       </div>

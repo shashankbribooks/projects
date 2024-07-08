@@ -15,43 +15,43 @@ function Head() {
   const btn = [
     {
       id: 1,
-      image: "/assets/images/bristore/Toddlers.svg",
+      image: "./assets/images/bristore/Toddlers.svg",
       name: "Toddlers",
       category: "Toddlers",
     },
     {
       id: 2,
-      image: "/assets/images/bristore/pre-school.svg",
+      image: "./assets/images/bristore/pre-school.svg",
       name: "Pre-School",
       category: "Pre-School",
     },
     {
       id: 3,
-      image: "/assets/images/bristore/primary school.svg",
+      image: "./assets/images/bristore/primary school.svg",
       name: "Primary School",
       category: "Primary School",
     },
     {
       id: 4,
-      image: "/assets/images/bristore/9th grade.svg",
+      image: "./assets/images/bristore/9th grade.svg",
       name: "9th Grade",
       category: "9th Grade",
     },
     {
       id: 5,
-      image: "/assets/images/bristore/10th grade.svg",
+      image: "./assets/images/bristore/10th grade.svg",
       name: "10th Grade",
       category: "10th Grade",
     },
     {
       id: 6,
-      image: "/assets/images/bristore/11th grade.svg",
+      image: "./assets/images/bristore/11th grade.svg",
       name: "11th Grade",
       category: "11th Grade",
     },
     {
       id: 7,
-      image: "/assets/images/bristore/12th grade.svg",
+      image: "./assets/images/bristore/12th grade.svg",
       name: "12th Grade",
       category: "12th Grade",
     },
@@ -63,7 +63,7 @@ function Head() {
       <Navbar expand="lg" className="container-fluid bg-body-tertiary  ">
         <Container className="">
           <Navbar.Brand href="/bristore" className="">
-            <img src="/assets/images/bristore/LOGO (1).svg" alt="" />
+            <img src="./assets/images/bristore/LOGO (1).svg" alt="" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse

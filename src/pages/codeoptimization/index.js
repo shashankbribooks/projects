@@ -42,7 +42,7 @@ const Home = () => {
       }}
     >
       <Image
-        src="/assets/images/bagckround image.svg"
+        src="./assets/images/bagckround image.svg"
         layout="fill"
         alt="background image"
         className={style.backgroundImage}
@@ -82,13 +82,13 @@ const Home = () => {
           >
             advertisement 
             <Image
-              src={"/assets/images/ads.png"}
+              src={"./assets/images/ads.png"}
               width={670}
               height={50}
               className="d-none d-sm-block "
             />
             <Image
-              src={"/assets/images/ads_mobile.png"}
+              src={"./assets/images/ads_mobile.png"}
               width={300}
               height={50}
               className="d-block d-sm-none"
@@ -169,13 +169,13 @@ const Home = () => {
           >
             advertisement 
             <Image
-              src={"/assets/images/ads.png"}
+              src={"./assets/images/ads.png"}
               width={670}
               height={50}
               className="d-none d-sm-block "
             />
             <Image
-              src={"/assets/images/ads_mobile.png"}
+              src={"./assets/images/ads_mobile.png"}
               width={300}
               height={50}
               className="d-block d-sm-none"

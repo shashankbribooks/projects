@@ -11,7 +11,7 @@ const Box = (props) => {
             <div className="col-4 d-flex ">
               <div className={`${styles.authorimg} ms-2 `}>
                 <img
-                  src="/assets/images/Ae/schoolslogo/shri-img.png"
+                  src="./assets/images/Ae/schoolslogo/shri-img.png"
                   alt="..."
                   class={`${styles.authorimage} rounded-circle`}
                 ></img>
@@ -39,26 +39,26 @@ const Box = (props) => {
           <div className="row">
             <div className="col-4">
               <div className={`${styles.bookimg} ms-1`}>
-                <img src="/assets/images/Ae/schoolslogo/book.png" alt="" />
+                <img src="./assets/images/Ae/schoolslogo/book.png" alt="" />
               </div>
             </div>
             <div className="col-8">
               <div className={`${styles.booktext}`}>
                 <div className="fs-6 d-flex Poppins-Regular">
                   <span className="me-2">
-                    <img src="/assets/images/Ae/Group (4).svg" alt="" />
+                    <img src="./assets/images/Ae/Group (4).svg" alt="" />
                   </span>
                   <p>Grade: 2</p>
                 </div>
                 <div className=" d-flex fs-6 Poppins-Regular ">
                   <span className="me-2">
-                    <img src="/assets/images/Ae/Group 1000001664.svg" alt="" />
+                    <img src="./assets/images/Ae/Group 1000001664.svg" alt="" />
                   </span>
                   <p>gd goenka university gurgaon</p>
                 </div>
                 <div className="d-flex fs-6 Poppins-Regular">
                   <span className="me-2">
-                    <img src="/assets/images/Ae/Group (5).svg" alt="" />
+                    <img src="./assets/images/Ae/Group (5).svg" alt="" />
                   </span>
                   <p>gurgaon</p>
                 </div>

@@ -89,7 +89,7 @@ const Footer = () => {
         <div className="row">
           <div className="col col-sm-6 col-md-5  ">
             <img
-              src="/assets/images/inter-generational/Ellipse 33.svg"
+              src="./assets/images/inter-generational/Ellipse 33.svg"
               className={`${styles.circleimg}`}
             />
             <h4 className={`${styles.downloadtxt}`}>Download The App Now</h4>
@@ -97,7 +97,7 @@ const Footer = () => {
               Unleash endless possibilities with just a tap. 
             </p>
             <img
-              src="/assets/images/inter-generational/image 158.svg"
+              src="./assets/images/inter-generational/image 158.svg"
               className={`${styles.downloadplay} justify-content-center`}
             />
           </div>
@@ -105,7 +105,7 @@ const Footer = () => {
             className={`${styles.mobileimg} col col-sm-6 col-md-5 d-flex flex-wrap`}
           >
             <img
-              src="/assets/images/inter-generational/home illustration Mask.svg"
+              src="./assets/images/inter-generational/home illustration Mask.svg"
               className={`${styles.mobilimg}`}
             />
           </div>
@@ -122,7 +122,7 @@ const Footer = () => {
             className={`${styles.footerlogocontent} col-12 col-sm-4 col-md-6  col-xl-4 `}
           >
             <img
-              src="/assets/images/inter-generational/BriBooks.svg"
+              src="./assets/images/inter-generational/BriBooks.svg"
               className={`${styles.footerlogo}`}
             />
             <p className={`${styles.footerpara}`}>
@@ -136,10 +136,10 @@ const Footer = () => {
             </p>
             <div className={`${styles.footerplaystore}`}>
               <img
-                src="/assets/images/inter-generational/image 97.svg"
+                src="./assets/images/inter-generational/image 97.svg"
                 className={`${styles.playstore}`}
               />
-              <img src="/assets/images/inter-generational/image 98.svg" />
+              <img src="./assets/images/inter-generational/image 98.svg" />
             </div>
           </div>
 
@@ -199,7 +199,7 @@ const Footer = () => {
             <p className={`${styles.parasocial2} text-white`}>Follow us on</p>
             <div>
               <img
-                src="/assets/images/inter-generational/317727_facebook_social media_social_icon.svg"
+                src="./assets/images/inter-generational/317727_facebook_social media_social_icon.svg"
                 width={23.562}
                 height={23.563}
                 className={`${styles.logofb}`}
@@ -208,7 +208,7 @@ const Footer = () => {
 
             <div>
               <img
-                src="/assets/images/inter-generational/317723_social media_tweet_twitter_social_icon.svg"
+                src="./assets/images/inter-generational/317723_social media_tweet_twitter_social_icon.svg"
                 width={23.562}
                 height={23.563}
                 className={`${styles.logofb}`}
@@ -217,7 +217,7 @@ const Footer = () => {
 
             <div>
               <img
-                src="/assets/images/inter-generational/_x37__stroke.svg"
+                src="./assets/images/inter-generational/_x37__stroke.svg"
                 width={23.562}
                 height={23.563}
                 className={`${styles.logofb}`}

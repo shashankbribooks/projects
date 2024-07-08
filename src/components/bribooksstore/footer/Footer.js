@@ -76,22 +76,22 @@ const Footer = () => {
       <div className={`${styles.delivery} `}>
         <div className="container w-100 py-4 text-center">
           <img
-            src="/assets/images/bristore/STAT.svg"
+            src="./assets/images/bristore/STAT.svg"
             alt=""
             className={`${styles.deliveryimg}   my-3`}
           />
           <img
-            src="/assets/images/bristore/STAT (1).svg"
+            src="./assets/images/bristore/STAT (1).svg"
             alt=""
             className={`${styles.deliveryimg}   my-3`}
           />
           <img
-            src="/assets/images/bristore/STAT (2).svg"
+            src="./assets/images/bristore/STAT (2).svg"
             alt=""
             className={`${styles.deliveryimg}   my-3`}
           />
           <img
-            src="/assets/images/bristore/STAT (3).svg"
+            src="./assets/images/bristore/STAT (3).svg"
             alt=""
             className={`${styles.deliveryimg}  my-3`}
           />
@@ -103,7 +103,7 @@ const Footer = () => {
             className={`${styles.footerlogocontent} col-12 col-sm-4 col-md-6  col-xl-4 `}
           >
             <img
-              src="/assets/images/festival-website/BriBooks.svg"
+              src="./assets/images/festival-website/BriBooks.svg"
               className={`${styles.footerlogo}`}
             />
             <p className={`${styles.footerpara} text-black`}>
@@ -176,22 +176,22 @@ const Footer = () => {
             <Col className="text-center border py-4 col-12 col-md-4">
               <h2>Follow Us</h2>
               <img
-                src="/assets/images/bristore/SOCIAL.svg"
+                src="./assets/images/bristore/SOCIAL.svg"
                 className="px-1 py-3"
                 alt=""
               />
               <img
-                src="/assets/images/bristore/SOCIAL (1).svg"
+                src="./assets/images/bristore/SOCIAL (1).svg"
                 className="px-1"
                 alt=""
               />
               <img
-                src="/assets/images/bristore/SOCIAL (2).svg"
+                src="./assets/images/bristore/SOCIAL (2).svg"
                 className="px-1"
                 alt=""
               />
               <img
-                src="/assets/images/bristore/SOCIAL (3).svg"
+                src="./assets/images/bristore/SOCIAL (3).svg"
                 className="px-1"
                 alt=""
               />
@@ -199,11 +199,11 @@ const Footer = () => {
             <Col className="text-center border py-4 col-12 col-md-4">
               <h2>Download Application</h2>
               <img
-                src="/assets/images/bristore/playstore.svg"
+                src="./assets/images/bristore/playstore.svg"
                 alt=""
                 className="px-1 py-3"
               />
-              <img src="/assets/images/bristore/apple store.svg" alt="" />
+              <img src="./assets/images/bristore/apple store.svg" alt="" />
             </Col>
             <Col className="text-center border py-4 col-12 col-md-4">
               <h2>We Accept</h2>
