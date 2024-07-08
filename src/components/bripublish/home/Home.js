@@ -6,20 +6,20 @@ const Home = () => {
   const carddata = [
     {
       id: 1,
-      imgscr: "/assets/images/bripublish/email_icon.svg",
+      imgscr: "./assets/images/bripublish/email_icon.svg",
       head: "Check Your Email",
       para: "Your User ID & Password has been shared on the registered email ID",
     },
     {
       id: 2,
-      imgscr: "/assets/images/bripublish/laptop_icon.svg",
-      mobilscr: "/assets/images/bripublish/mobile_icon.svg",
+      imgscr: "./assets/images/bripublish/laptop_icon.svg",
+      mobilscr: "./assets/images/bripublish/mobile_icon.svg",
       head: "Laptop/Desktop/Tablet",
       para: "You need to access the BriPublish platform on a Laptop/Desktop OR Full-Sized Tablet",
     },
     {
       id: 3,
-      imgscr: "/assets/images/bripublish/writing_icon.svg",
+      imgscr: "./assets/images/bripublish/writing_icon.svg",
       head: "Start writing",
       para: "Select your favorite theme and start writing!",
     },
@@ -28,19 +28,19 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <img
-        src="/assets/images/bripublish/bg_cover.svg "
+        src="./assets/images/bripublish/bg_cover.svg "
         className={styles.image}
       />
       <navbar className={`${styles.content} container`}>
         <div class="position-absolute top-0 start-0 ">
           <img
-            src="/assets/images/bripublish/LOGO (1).svg"
+            src="./assets/images/bripublish/LOGO (1).svg"
             className={styles.imglogo}
           />
         </div>
         <div class="position-absolute top-0 end-0 ">
           <img
-            src="/assets/images/bripublish/cross_btn.svg"
+            src="./assets/images/bripublish/cross_btn.svg"
             className={styles.imgcross}
           />
         </div>

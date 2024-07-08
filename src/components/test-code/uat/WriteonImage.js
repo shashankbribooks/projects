@@ -4,7 +4,7 @@ const ImageWithText = () => (
  
   <div style={{ position: "relative", width: "500px", height: "500px" }}>
     <Image
-      src="/assets/images/test-code/609-536x354.jpeg"
+      src="./assets/images/test-code/609-536x354.jpeg"
       alt="Description of the image"
       layout="fill"
       objectFit="cover"

@@ -86,7 +86,7 @@ const Bestselling = () => {
       {/* ---------------------- banner img----------------------------- */}
       <div>
         <img
-          src="/assets/images/bristore/banner.svg"
+          src="./assets/images/bristore/banner.svg"
           alt=""
           className={`${styles.banner} w-100`}
         />
@@ -101,7 +101,7 @@ const Bestselling = () => {
       {/* ---------- Best selling authors books banner img ------------ */}
       <div>
         <img
-          src="/assets/images/bristore/ADVERT.svg"
+          src="./assets/images/bristore/ADVERT.svg"
           alt=""
           className={`${styles.banner} w-100 mt-2`}
         />

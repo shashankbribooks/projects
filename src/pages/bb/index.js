@@ -20,7 +20,7 @@ const index = () => {
             <div className="">
               <div className="w-100 text-center mt-4 ">
                 <Image
-                  src="/assets/images/BriBooks.png"
+                  src="./assets/images/BriBooks.png"
                   height={45}
                   width={150}
                   alt="BriBooks"
@@ -52,7 +52,7 @@ const index = () => {
               >
                 <div className="text-center">
                   <Image
-                    src="/assets/images/Signup/write1.png"
+                    src="./assets/images/Signup/write1.png"
                     width={114}
                     height={79}
                     alt="write"
@@ -61,7 +61,7 @@ const index = () => {
                   <p className={`mb-0 ${styles.stepsTitle}`}>Write</p>
                 </div>
                 <Image
-                  src="/assets/images/Signup/greaterThan_icon.png"
+                  src="./assets/images/Signup/greaterThan_icon.png"
                   width={20}
                   height={20}
                   alt="play icon"
@@ -69,7 +69,7 @@ const index = () => {
                 />
                 <div className="text-center">
                   <Image
-                    src="/assets/images/Signup/publish1.png"
+                    src="./assets/images/Signup/publish1.png"
                     width={94}
                     height={79}
                     alt="publish"
@@ -78,7 +78,7 @@ const index = () => {
                   <p className={`mb-0 ${styles.stepsTitle}`}>Publish</p>
                 </div>
                 <Image
-                  src="/assets/images/Signup/greaterThan_icon.png"
+                  src="./assets/images/Signup/greaterThan_icon.png"
                   width={20}
                   height={20}
                   alt="play icon"
@@ -86,7 +86,7 @@ const index = () => {
                 />
                 <div className="text-center">
                   <Image
-                    src="/assets/images/Signup/promote1.png"
+                    src="./assets/images/Signup/promote1.png"
                     width={77}
                     height={79}
                     alt="promote"
@@ -98,7 +98,7 @@ const index = () => {
               <div className={`${styles.part_bg} d-none d-sm-block `}>
                 <div className="my-2">
                   <Image
-                    src="/assets/images/Signup/patner.png"
+                    src="./assets/images/Signup/patner.png"
                     width={728}
                     height={100}
                     alt="partner logos"
@@ -114,7 +114,7 @@ const index = () => {
           <div className="d-sm-none">
             <div className="">
               <Image
-                src="/assets/images/Signup/Group 1000004537.png"
+                src="./assets/images/Signup/Group 1000004537.png"
                 width={480}
                 height={167}
                 alt="partner logos"

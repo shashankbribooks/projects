@@ -26,35 +26,35 @@ const Eventhub = () => {
   const cardData = [
     {
       id: 1,
-      imagesrc: "/assets/images/inter-generational/nyaf2023.png",
+      imagesrc: "./assets/images/inter-generational/nyaf2023.png",
       head: "Registration",
       paratxt:
         "Parents can easily register their child as an author for the event on the BriBooks Platform. Simply log in using the credentials or your email address. ",
     },
     {
       id: 2,
-      imagesrc: "/assets/images/inter-generational/summer-bwf.png",
+      imagesrc: "./assets/images/inter-generational/summer-bwf.png",
       head: "Writing Book",
       paratxt:
         "Begin your co-authoring journey on the AI-Enabled platform, choosing from a variety of thrilling themes and backgrounds to craft your book. ",
     },
     {
       id: 3,
-      imagesrc: "/assets/images/inter-generational/NYAfair.svg",
+      imagesrc: "./assets/images/inter-generational/NYAfair.svg",
       head: "Promote your book",
       paratxt:
         "Share your creative story and utilize this promotional period to expand the reach of your amazing book worldwide, attracting a broader readership and engaging a global audience. ",
     },
     {
       id: 4,
-      imagesrc: "/assets/images/inter-generational/inter-G-bwf.png",
+      imagesrc: "./assets/images/inter-generational/inter-G-bwf.png",
       head: "Promote your book",
       paratxt:
         "Share your creative story and utilize this promotional period to expand the reach of your amazing book worldwide, attracting a broader readership and engaging a global audience. ",
     },
     {
       id: 5,
-      imagesrc: "/assets/images/inter-generational/nyaf-uae.png",
+      imagesrc: "./assets/images/inter-generational/nyaf-uae.png",
       head: "Promote your book",
       paratxt:
         "Share your creative story and utilize this promotional period to expand the reach of your amazing book worldwide, attracting a broader readership and engaging a global audience. ",

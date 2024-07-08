@@ -9,7 +9,7 @@ const Cart = () => {
         <div className="col-lg-3 col-sm-4   ">
           <div className="align-items-center vstack gap-4 ">
             <div style={{ width: "250px", height: "350px" }} className="">
-              <img src="/assets/images/bristore/book dhairya.webp" alt="" />
+              <img src="./assets/images/bristore/book dhairya.webp" alt="" />
             </div>
             <div className="hstack gap-2">
               <div className="hstack gap-0">
@@ -53,16 +53,16 @@ const Cart = () => {
               <div>
                 <div className="justify-content-end  hstack gap-3">
                   <a href="/">
-                    <img src="/assets/images/bristore/whatsapp.webp" alt="" />
+                    <img src="./assets/images/bristore/whatsapp.webp" alt="" />
                   </a>
                   <a href="/">
-                    <img src="/assets/images/bristore/fb.webp" alt="" />
+                    <img src="./assets/images/bristore/fb.webp" alt="" />
                   </a>
                   <a href="/">
-                    <img src="/assets/images/bristore/twitter.webp" alt="" />
+                    <img src="./assets/images/bristore/twitter.webp" alt="" />
                   </a>
                   <a href="/">
-                    <img src="/assets/images/bristore/linkedin.webp" alt="" />
+                    <img src="./assets/images/bristore/linkedin.webp" alt="" />
                   </a>
                 </div>
               </div>

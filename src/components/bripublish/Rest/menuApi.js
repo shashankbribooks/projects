@@ -1,7 +1,7 @@
 const Menu = [
   {
     id: 1,
-    image: "/assets/images/bristore/1.svg",
+    image: "./assets/images/bristore/1.svg",
     writer: "By Ahana Gangul",
     bookname: "Apocalypse 1",
     price: "170.00",
@@ -9,7 +9,7 @@ const Menu = [
   },
   {
     id: 2,
-    image: "/assets/images/bristore/2.svg",
+    image: "./assets/images/bristore/2.svg",
     writer: "By Nysa Gar",
     bookname: "The Secrets of the Realms 2",
     price: "99.00",
@@ -17,7 +17,7 @@ const Menu = [
   },
   {
     id: 3,
-    image: "/assets/images/bristore/3.svg",
+    image: "./assets/images/bristore/3.svg",
     writer: "By Abhay Srivastav",
     bookname: "How to Write Nicely 3",
     price: "120.00",
@@ -25,7 +25,7 @@ const Menu = [
   },
   {
     id: 4,
-    image: "/assets/images/bristore/4.svg",
+    image: "./assets/images/bristore/4.svg",
     writer: "By Avni Sara",
     bookname: "Oceans of the world 4",
     price: "80.00",
@@ -33,7 +33,7 @@ const Menu = [
   },
   {
     id: 5,
-    image: "/assets/images/bristore/5.svg",
+    image: "./assets/images/bristore/5.svg",
     writer: "By Sanvi Pund",
     bookname: "Fantastic poems-6 in 1",
     price: "145.00",
@@ -41,7 +41,7 @@ const Menu = [
   },
   {
     id: 6,
-    image: "/assets/images/bristore/4.svg",
+    image: "./assets/images/bristore/4.svg",
     writer: "By Thiruvarma",
     bookname: "Harry’s Birthday 2",
     price: "96.00",
@@ -49,7 +49,7 @@ const Menu = [
   },
   {
     id: 7,
-    image: "/assets/images/bristore/3.svg",
+    image: "./assets/images/bristore/3.svg",
     writer: "By Abhay Srivastav",
     bookname: "How to Write Nicely 3",
     price: "120.00",
@@ -57,7 +57,7 @@ const Menu = [
   },
   {
     id: 8,
-    image: "/assets/images/bristore/4.svg",
+    image: "./assets/images/bristore/4.svg",
     writer: "By Avni Sara",
     bookname: "Oceans of the world 4",
     price: "80.00",
@@ -65,7 +65,7 @@ const Menu = [
   },
   {
     id: 9,
-    image: "/assets/images/bristore/5.svg",
+    image: "./assets/images/bristore/5.svg",
     writer: "By Sanvi Pund",
     bookname: "Fantastic poems-6 in 1",
     price: "145.00",
@@ -73,7 +73,7 @@ const Menu = [
   },
   {
     id: 10,
-    image: "/assets/images/bristore/4.svg",
+    image: "./assets/images/bristore/4.svg",
     writer: "By Thiruvarma",
     bookname: "Harry’s Birthday 2",
     price: "96.00",
@@ -81,7 +81,7 @@ const Menu = [
   },
   {
     id: 11,
-    image: "/assets/images/bristore/1.svg",
+    image: "./assets/images/bristore/1.svg",
     writer: "By Ahana Gangul",
     bookname: "Apocalypse 3",
     price: "170.00",
@@ -89,7 +89,7 @@ const Menu = [
   },
   {
     id: 12,
-    image: "/assets/images/bristore/2.svg",
+    image: "./assets/images/bristore/2.svg",
     writer: "By Nysa Gar ",
     bookname: "The Secrets of the Realms 1",
     price: "99.00",
@@ -97,7 +97,7 @@ const Menu = [
   },
   {
     id: 13,
-    image: "/assets/images/bristore/3.svg",
+    image: "./assets/images/bristore/3.svg",
     writer: "By Abhay Srivastav",
     bookname: "How to Write Nicely 2 ",
     price: "120.00",
@@ -105,7 +105,7 @@ const Menu = [
   },
   {
     id: 14,
-    image: "/assets/images/bristore/4.svg",
+    image: "./assets/images/bristore/4.svg",
     writer: "By Avni Sara",
     bookname: "Oceans of the world 3",
     price: "80.00",
@@ -113,7 +113,7 @@ const Menu = [
   },
   {
     id: 15,
-    image: "/assets/images/bristore/5.svg",
+    image: "./assets/images/bristore/5.svg",
     writer: "By Sanvi Pund",
     bookname: "Fantastic poems-6 in 1",
     price: "145.00",
@@ -121,7 +121,7 @@ const Menu = [
   },
   {
     id: 16,
-    image: "/assets/images/bristore/4.svg",
+    image: "./assets/images/bristore/4.svg",
     writer: "By Thiruvarma",
     bookname: "Harry’s Birthday 2",
     price: "96.00",
@@ -129,7 +129,7 @@ const Menu = [
   },
   {
     id: 17,
-    image: "/assets/images/bristore/3.svg",
+    image: "./assets/images/bristore/3.svg",
     writer: "By Abhay Srivastav",
     bookname: "How to Write Nicely 3",
     price: "120.00",
@@ -137,7 +137,7 @@ const Menu = [
   },
   {
     id: 18,
-    image: "/assets/images/bristore/4.svg",
+    image: "./assets/images/bristore/4.svg",
     writer: "By Avni Sara",
     bookname: "Oceans of the world 1",
     price: "80.00",
@@ -145,7 +145,7 @@ const Menu = [
   },
   {
     id: 19,
-    image: "/assets/images/bristore/5.svg",
+    image: "./assets/images/bristore/5.svg",
     writer: "By Sanvi Pund",
     bookname: "Fantastic poems-6 in 2",
     price: "145.00",
@@ -153,7 +153,7 @@ const Menu = [
   },
   {
     id: 20,
-    image: "/assets/images/bristore/4.svg",
+    image: "./assets/images/bristore/4.svg",
     writer: "By Thiruvarma",
     bookname: "Harry’s Birthday 3",
     price: "96.00",
@@ -161,7 +161,7 @@ const Menu = [
   },
   {
     id: 21,
-    image: "/assets/images/bristore/4.svg",
+    image: "./assets/images/bristore/4.svg",
     writer: "By Thiruvarma",
     bookname: "Harry’s Birthday 4",
     price: "96.00",
@@ -169,7 +169,7 @@ const Menu = [
   },
   {
     id: 22,
-    image: "/assets/images/bristore/4.svg",
+    image: "./assets/images/bristore/4.svg",
     writer: "By Thiruvarma",
     bookname: "Harry’s Birthday 1",
     price: "96.00",
@@ -177,7 +177,7 @@ const Menu = [
   },
   {
     id: 23,
-    image: "/assets/images/bristore/4.svg",
+    image: "./assets/images/bristore/4.svg",
     writer: "By Thiruvarma",
     bookname: "Harry’s Birthday 2",
     price: "96.00",
@@ -185,7 +185,7 @@ const Menu = [
   },
   {
     id: 24,
-    image: "/assets/images/bristore/4.svg",
+    image: "./assets/images/bristore/4.svg",
     writer: "By Thiruvarma",
     bookname: "Harry’s Birthday 3",
     price: "96.00",
@@ -193,7 +193,7 @@ const Menu = [
   },
   {
     id: 25,
-    image: "/assets/images/bristore/4.svg",
+    image: "./assets/images/bristore/4.svg",
     writer: "By Thiruvarma",
     bookname: "Harry’s Birthday 4",
     price: "96.00",

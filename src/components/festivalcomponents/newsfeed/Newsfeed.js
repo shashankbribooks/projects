@@ -7,32 +7,32 @@ const Newsfeed = () => {
   const imagesdata = [
     {
       id: 1,
-      imagesrc: "/assets/images/festival-website/image 691.png",
+      imagesrc: "./assets/images/festival-website/image 691.png",
       caption: "Read article",
     },
     {
       id: 2,
-      imagesrc: "/assets/images/festival-website/image 676.png",
+      imagesrc: "./assets/images/festival-website/image 676.png",
       caption: "Read article",
     },
     {
       id: 3,
-      imagesrc: "/assets/images/festival-website/Group 1000001638.svg",
+      imagesrc: "./assets/images/festival-website/Group 1000001638.svg",
       caption: "Read article",
     },
     {
       id: 4,
-      imagesrc: "/assets/images/festival-website/image 692.png",
+      imagesrc: "./assets/images/festival-website/image 692.png",
       caption: "Read article",
     },
     {
       id: 5,
-      imagesrc: "/assets/images/festival-website/image 679.png",
+      imagesrc: "./assets/images/festival-website/image 679.png",
       caption: "Read article",
     },
     {
       id: 6,
-      imagesrc: "/assets/images/festival-website/image 680.png",
+      imagesrc: "./assets/images/festival-website/image 680.png",
       caption: "Read article",
     },
   ];

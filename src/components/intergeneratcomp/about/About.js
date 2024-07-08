@@ -4,13 +4,13 @@ import styles from "../about/about.module.css";
 const About = (props) => {
   const img = [
     {
-      image: "/assets/images/inter-generational/Group 1000004209.svg",
+      image: "./assets/images/inter-generational/Group 1000004209.svg",
     },
     {
-      image: "/assets/images/inter-generational/Group 1000004210.svg",
+      image: "./assets/images/inter-generational/Group 1000004210.svg",
     },
     {
-      image: "/assets/images/inter-generational/Group 1000004211.svg",
+      image: "./assets/images/inter-generational/Group 1000004211.svg",
       heading: "text",
     },
   ];
@@ -49,7 +49,7 @@ const About = (props) => {
           </p>
         </div>
         <div className="">
-          <img src="/assets/images/inter-generational/Team-Jobs.svg" className="img-fluid" />
+          <img src="./assets/images/inter-generational/Team-Jobs.svg" className="img-fluid" />
         </div>
       </div>
       {/* ------------InterGenerational end------------ */}

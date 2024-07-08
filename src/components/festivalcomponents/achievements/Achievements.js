@@ -24,7 +24,7 @@ const Achievements = () => {
         className={`${styles.cardcontainer} container-fluid  d-flex  justify-content-center`}
       >
         <div class={styles.card}>
-          <img src="/assets/images/festival-website/image 43.png" class={styles.cardimg} alt="..." />
+          <img src="./assets/images/festival-website/image 43.png" class={styles.cardimg} alt="..." />
           <div class={styles.cardbody}>
             <h1 className={styles.headtext}>Writing Books</h1>
             <p class={styles.cardtext}>
@@ -34,7 +34,7 @@ const Achievements = () => {
           </div>
         </div>
         <div class={styles.card}>
-          <img src="/assets/images/festival-website/podium 1.png" class={styles.cardimg} alt="..." />
+          <img src="./assets/images/festival-website/podium 1.png" class={styles.cardimg} alt="..." />
           <div class={styles.cardbody}>
             <h1 className={styles.headtext}>Achievements</h1>
             <p class={styles.cardtext2}>
@@ -59,7 +59,7 @@ const Achievements = () => {
         </div>
       </div>
       <div className="container-fluid m-0 p-0">
-        <img src="/assets/images/festival-website/Team-Jobs.svg" className="logo-img img-fluid" />
+        <img src="./assets/images/festival-website/Team-Jobs.svg" className="logo-img img-fluid" />
       </div>
     </>
   );

@@ -8,19 +8,19 @@ const Partners = () => {
   const dataimg = [
     {
       id: 1,
-      imagesrc: "/assets/images/festival-website/Group 1000001665.svg",
+      imagesrc: "./assets/images/festival-website/Group 1000001665.svg",
     },
     {
       id: 2,
-      imagesrc: "/assets/images/festival-website/Group 1000001666.svg",
+      imagesrc: "./assets/images/festival-website/Group 1000001666.svg",
     },
     {
       id: 3,
-      imagesrc: "/assets/images/festival-website/Group 1000001667.svg",
+      imagesrc: "./assets/images/festival-website/Group 1000001667.svg",
     },
     {
       id: 4,
-      imagesrc: "/assets/images/festival-website/Group 1000004096.svg",
+      imagesrc: "./assets/images/festival-website/Group 1000004096.svg",
     },
   ]; // {`${styles}`}
   return (

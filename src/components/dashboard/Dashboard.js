@@ -12,7 +12,7 @@ const Dashboard = () => {
           <div className="text-center m-3">
             <div>
               <img
-                src="/assets/images/dashboard/bribooks-logo.png"
+                src="./assets/images/dashboard/bribooks-logo.png"
                 className="mt-2 mx-auto"
                 alt="bribooks logo"
               />
@@ -20,7 +20,7 @@ const Dashboard = () => {
 
             <div className={`${styles.school_logo} mx-auto mt-3 mb-2 `}>
               <img
-                src="/assets/images/dashboard/Kothari International School.png"
+                src="./assets/images/dashboard/Kothari International School.png"
                 alt="school logo"
                 className=""
               />
@@ -30,7 +30,7 @@ const Dashboard = () => {
               <p className=" ">
                 <span className="me-1">
                   <img
-                    src="/assets/images/dashboard/location-icon.svg"
+                    src="./assets/images/dashboard/location-icon.svg"
                     alt=""
                   />
                 </span>
@@ -41,7 +41,7 @@ const Dashboard = () => {
             <div className="">
               <div className="text-start ps-2 fs-6 p-2 fw-bolder  bg-white rounded">
                 <img
-                  src="/assets/images/dashboard/Group 1000004374 (1).svg"
+                  src="./assets/images/dashboard/Group 1000004374 (1).svg"
                   alt=""
                   className="me-3 ms-1"
                 />
@@ -50,7 +50,7 @@ const Dashboard = () => {
               <div className="text-start ps-2 d-flex fs-6 p-2 fw-bolder mt-1 rounded">
                 <div className={styles.box}>
                   <img
-                    src="/assets/images/dashboard/surface1.svg"
+                    src="./assets/images/dashboard/surface1.svg"
                     alt=""
                     className=""
                   />
@@ -60,7 +60,7 @@ const Dashboard = () => {
               <div className="text-start ps-2 d-flex fs-6 p-2 fw-bolder mt-1 rounded">
                 <div className={styles.box}>
                   <img
-                    src="/assets/images/dashboard/Group 1000004514 (1).svg"
+                    src="./assets/images/dashboard/Group 1000004514 (1).svg"
                     alt=""
                     className=""
                   />
@@ -70,7 +70,7 @@ const Dashboard = () => {
               <div className="text-start ps-2 d-flex fs-6 p-2 fw-bolder mt-1 rounded">
                 <div className={styles.box}>
                   <img
-                    src="/assets/images/dashboard/Bookshelves-book-books-education-book store.svg"
+                    src="./assets/images/dashboard/Bookshelves-book-books-education-book store.svg"
                     alt=""
                     className=""
                   />
@@ -80,7 +80,7 @@ const Dashboard = () => {
               <div className="text-start ps-2 d-flex fs-6 p-2 fw-bolder mt-1 rounded">
                 <div className={styles.box}>
                   <img
-                    src="/assets/images/dashboard/Vector (2).svg"
+                    src="./assets/images/dashboard/Vector (2).svg"
                     alt=""
                     className=""
                   />
@@ -89,7 +89,7 @@ const Dashboard = () => {
               </div>
               <div className="text-start ps-2 fs-6 p-2 fw-bolder mt-4 bg-white rounded">
                 <img
-                  src="/assets/images/dashboard/Group 1000004374 (1).svg"
+                  src="./assets/images/dashboard/Group 1000004374 (1).svg"
                   alt=""
                   className="me-3 ms-1"
                 />
@@ -143,7 +143,7 @@ const Dashboard = () => {
                   <span>
                     <img src="" alt="" />
                     <Image
-                      src="/assets/images/dashboard/add-cart.svg"
+                      src="./assets/images/dashboard/add-cart.svg"
                       width={25}
                       height={25}
                       alt="Picture of the author"
@@ -162,7 +162,7 @@ const Dashboard = () => {
                   Total <br /> Registerd Student
                 </p>
                 <Image
-                  src="/assets/images/dashboard/add-cart.svg"
+                  src="./assets/images/dashboard/add-cart.svg"
                   width={70}
                   height={70}
                   alt="Picture of the author"

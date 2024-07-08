@@ -9,12 +9,12 @@ const Login = () => {
           <div className="row hstack">
             <div className="col-6 text-start">
               <span >
-                <img src="/assets/images/bristore/LOGO (1).svg" href="/bristore" alt="" />
+                <img src="./assets/images/bristore/LOGO (1).svg" href="/bristore" alt="" />
               </span>
             </div>
             <div className="col-6  text-end">
               <span>
-                <img src="/assets/images/bristore/close.svg" alt="" />
+                <img src="./assets/images/bristore/close.svg" alt="" />
               </span>
             </div>
           </div>
@@ -24,7 +24,7 @@ const Login = () => {
                 <div className="pop pt-5 text-end">
                   <div className={styles.pop}>
                     <img
-                      src="/assets/images/bristore/LoginBallon.png"
+                      src="./assets/images/bristore/LoginBallon.png"
                       width={180}
                       alt="Login Ballon"
                     />
@@ -33,7 +33,7 @@ const Login = () => {
                 </div>
                 <div className="gif text-center">
                   <img
-                    src="/assets/images/bristore/login page .gif"
+                    src="./assets/images/bristore/login page .gif"
                     width={280}
                     height={300}
                     alt="robot"
