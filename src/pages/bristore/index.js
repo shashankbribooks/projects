@@ -3,7 +3,7 @@ import Head from "@/components/bribooksstore/head/Navbar";
 import Footer from "@/components/bribooksstore/footer/Footer";
 import Cart from "@/components/bribooksstore/cart/Cart";
 
-const cart = () => {
+const index = () => {
   return (
     <>
       <Head />
@@ -13,4 +13,4 @@ const cart = () => {
   );  
 };
 
-export default cart;
+export default index;
