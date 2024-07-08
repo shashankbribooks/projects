@@ -1,0 +1,76 @@
+.logo {
+  width: 50px;
+  padding: 5px;
+}
+.icons {
+  margin: auto;
+}
+
+.btn:hover {
+  background: #aaabad;
+  border-radius: 5px;
+  padding: 0px 1px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.update:hover {
+  background: #aaabad;
+  border-radius: 30px;
+  margin: auto;
+  /* padding: 1px; */
+}
+
+/* ------------------------ */
+.editornav {
+  background-color: #edf2fa;
+}
+.iconhover {
+  opacity: 70%;
+  position: relative;
+}
+.iconhover:hover {
+  cursor: pointer;
+}
+.hide {
+  display: none;
+  padding: 5px;
+  position: relative;
+  left: 1px;
+  top: 20px;
+}
+.myDIV:hover + .hide {
+  display: block;
+}
+.vl {
+  border-left: 2px solid #c7c7c7;
+  height: 20px;
+  margin: 5px;
+}
+.drop {
+  background-color: transparent;
+  color: black;
+  border: 0px;
+  padding: 2px;
+}
+.drop:hover {
+  background-color: #aaabad;
+}
+.inputfont {
+  width: 40px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.inputfont:hover {
+  background-color: transparent;
+}
+.fontbtn {
+  background-color: transparent;
+  color: black;
+  border: none;
+}
+.fontbtn:hover {
+  background-color: #aaabad;
+}

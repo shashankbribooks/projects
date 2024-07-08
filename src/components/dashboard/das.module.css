@@ -1,0 +1,65 @@
+.sidebar {
+  position: relative;
+  height: 100vh;
+  min-height: 100vh;
+  width: 271px;
+  background: linear-gradient(
+      180deg,
+      rgba(225, 226, 255, 0.57) 0%,
+      rgba(158, 243, 255, 0.72) 152.59%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(225, 226, 255, 0.57) 0%,
+      rgba(158, 243, 255, 0.72) 152.59%
+    );
+}
+.sidebar2 {
+  width: calc(100% - 271px);
+  background: #ffffff;
+}
+.school_logo {
+  /* position: absolute; */
+
+  width: 130px;
+  height: 130px;
+  background: linear-gradient(180deg, #f7f7f7 7%, #dededf 100%);
+  border-radius: 50%;
+  border: 1px solid rgba(211, 212, 214, 1);
+  /* margin: 10px auto; */
+}
+.horizontal {
+  color: white;
+  opacity: 1;
+}
+.btn {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 10px;
+}
+.btn img {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+.box img {
+  width: 100%;
+}
+
+
+/* ---------- side bar --------- */
+.navdate{
+  width: 80%;
+  height: 40px;
+  background-color: white;
+  border: 1px solid rgba(200, 200, 200, 1);
+  border-radius: 10px;
+}

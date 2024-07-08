@@ -1,0 +1,82 @@
+.box {
+  margin: 12px;
+  padding: 5px;
+  width: 387px;
+  height: auto;
+  background: linear-gradient(180deg, #e8fdff 0%, #fdfdff 100%);
+  border-radius: 11.2px;
+  border: 0.5px solid lightgray;
+}
+.box .boxChild {
+  /* border: 1px solid red; */
+  padding: 5px;
+}
+.authorimg {
+  width: 96px;
+  height: 96px;
+  /* border: 1px solid red; */
+  border-radius: 100%;
+}
+.authorimg img {
+  width: 100%;
+}
+.myheading {
+  font-size: 20px;
+  display: block;
+  color: #10284b;
+}
+.authorhead {
+  color: #3d3d3d;
+}
+.para {
+  font-weight: 600 !important;
+  color: #10284b;
+}
+.booktext p {
+  color: #10284b;
+  text-transform: capitalize;
+}
+.booktext img {
+  width: 30px;
+}
+.bookimg {
+  width: 101px;
+  height: 140px;
+  /* border: 1px solid red; */
+}
+@media (max-width: 500px) {
+  .box {
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+    margin: 0 30px 0 30px;
+  }
+
+  .myheading {
+    font-size: 18px;
+    display: block;
+    color: #10284b;
+    margin-left: 10px;
+  }
+  .authorhead {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .para {
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: 500;
+  }
+}
+.nextbtn img {
+  width: 40px;
+  border: 2px solid #5a5656;
+  padding: 7px;
+  border-radius: 50%;
+}
+.nextprev img {
+  width: 40px;
+  border: 2px solid #5a5656;
+  padding: 7px;
+  border-radius: 50%;
+}

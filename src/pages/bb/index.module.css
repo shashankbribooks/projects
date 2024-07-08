@@ -1,0 +1,14 @@
+.bg {
+  background-color: rgba(57, 175, 249, 1);
+  width: 100vw;
+  height: 100vh;
+}
+.heading {
+  font-size: 20px;
+  font-weight: 400;
+    
+}
+.subHeading {
+  font-size: 26px;
+  font-weight: 600;
+}

@@ -1,0 +1,67 @@
+.banner {
+  width: auto;
+  margin: auto;
+}
+.item {
+  width: 300px;
+  /* height: 403px; */
+}
+
+.imgdiv {
+  margin-left: 0;
+  margin-right: 0;
+}
+.imgdiv img {
+  width: 100%;
+}
+.item p {
+  margin: 0;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.item h4 {
+  margin: 7px 0;
+  font-family: Signika;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.item h5 {
+  font-family: Signika;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: Orange;
+}
+.cartbtn {
+  width: 130px;
+  /* height: 30px; */
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.cartbtn a {
+  color: white;
+  text-decoration: none;
+  text-align: left;
+  margin: 2px auto;
+}
+.btncolor {
+  background-color: rgba(20, 129, 8, 1);
+  border: none;
+}
+.btncolor:hover {
+  background-color: rgba(20, 129, 8, 1);
+}
+
+
+

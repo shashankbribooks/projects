@@ -1,0 +1,110 @@
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.box {
+  width: 350px;
+  border-radius: 20px;
+  padding: 12px;
+  height: auto;
+  background-color: rgb(193, 234, 221);
+  margin-left: 10px;
+  margin-top: 10px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.normal {
+  color: rgb(188, 111, 111);
+}
+
+.ageHigh {
+  color: red;
+}
+.femalecolor {
+  color: rgb(37, 234, 149);
+}
+.backgroundImage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+}
+
+.text {
+  color: red;
+}
+.main {
+  margin-top: 130px;
+  /* margin-bottom: 20px; */
+}
+.nontext {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* .heading {
+    padding: 30px;
+  } */
+.adsbox {
+  width: 728px;
+  height: 90px;
+  background-color: #dbe0f1;
+  position: absolute;
+  top: 24.7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  opacity: 97%;
+}
+
+.adsboxs {
+  width: 728px;
+  height: 90px;
+  background-color: #dbe0f1;
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  opacity: 97%;
+}
+@media screen and (max-width: 430px) {
+  .adsbox {
+    /* width: 360px; */
+    top: 1.4%;
+  }
+  .adsboxs {
+    /* width: 360px; */
+    top: 22.8%;
+  }
+}
+
+.adsContainer {
+  width: 670px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .adsContainer {
+    width: 100%;
+    height: auto;
+  }
+
+  .adsContainer img {
+    width: 100%;
+    height: auto;
+  }
+}

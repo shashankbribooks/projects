@@ -1,0 +1,141 @@
+.cont {
+  height: 157.229px;
+  background: rgba(5, 6, 15, 0.05);
+}
+.imgsize {
+  width: 120px;
+  height: 87px;
+  margin: 3.85% 4.7%;
+}
+.soft {
+  float: left;
+  margin: 5% auto;
+}
+.textp {
+  color: var(--navy-blue, #04004d);
+  font-family: Nunito;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35.46px;
+}
+.patner-one {
+  flex-shrink: 0;
+  margin-top: 35px;
+  margin-left: 120px;
+}
+/* .patner-txt {
+  color: #3d3d3d;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+  margin-top: 8px;
+  width: 133px;
+} */
+/* .patner-logo{
+  margin-left: 10px;
+}
+.patner-logo-1{
+margin-top: 45px;
+
+}
+.patner-logo-2{
+margin-top: 60px;
+}
+.patner-logo-3{
+margin-top: 45px;
+margin-left: 30px;
+
+}
+.patner-logo-4{
+margin-top: 45px;
+margin-left: 15px;
+} */
+@media (min-width: 0) and (max-width: 425px) {
+  .cont {
+    /* display: none; */
+  }
+  /* .partnertxt {
+    margin-left: 70px;
+    float: none;
+  } */
+  .soft {
+    text-align: center;
+    float: none;
+    margin: 0;
+  }
+  .imgsize {
+    width: 106px;
+    height: 68px;
+    margin: 26.85% 9%;
+  }
+  .img {
+    width: 79px;
+    height: 60px;
+    display: flex;
+  }
+  .textp {
+    color: var(--navy-blue, #04004d);
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    white-space: nowrap;
+    padding-top: 10px;
+  }
+  .patneroneew {
+    margin-top: 50px;
+    margin-left: -237px;
+  }
+  .patner-two {
+    margin-top: 50px;
+    margin-left: 22px;
+  }
+  .patner-three {
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  .patner-four {
+    display: none;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .patnerone {
+    margin-top: 35px;
+    margin-left: 30px;
+  }
+  .partnertxt {
+    margin-left: 5px;
+  }
+  .partner-one {
+    margin-left: 20px;
+  }
+  .card-text {
+    word-wrap: break-word;
+  }
+  .soft{
+    margin: 8% auto;
+  }
+  .imgsize {
+    width: 100px;
+    height: 87px;
+    margin: 4.85% 1.8%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .partnertxt {
+    /* background: #04004d; */
+    margin-left: 10px;
+  }
+  .patnerone {
+    margin-left: 30px;
+  }
+  /* .cont{
+      margin-top: 31px;
+  } */
+}

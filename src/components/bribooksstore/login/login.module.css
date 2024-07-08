@@ -1,0 +1,26 @@
+.login {
+  background: linear-gradient(to right,
+      #e3e8fe 0%,
+      #e3e8fe 50%,
+      #ffffff 50%,
+      #ffffff 100%);
+  min-height: 100vh;
+}
+
+.para {
+  top: 50%;
+  left: 60%;
+}
+
+.pop {
+  position: relative;
+  top: 90%;
+  right: 20%;
+}
+
+.pop p {
+  position: absolute;
+  right: 10%;
+  top: 40%;
+  color: white;
+}

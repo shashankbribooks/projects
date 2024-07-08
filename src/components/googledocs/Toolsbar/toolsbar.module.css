@@ -1,0 +1,73 @@
+.editornav {
+  background-color: #edf2fa;
+  height: 50px;
+}
+.iconhover button {
+  background: transparent;
+  color: black;
+}
+.iconhover button:hover{
+  background-color: #aaabad;
+}
+.iconhover:hover {
+  cursor: pointer;
+  /* color: #385898; */
+}
+
+.text {
+  font-size: 10px;
+  padding-top: 15px;
+  background-color: black;
+  color: #edf2fa;
+}
+.vl {
+  border-left: 2px solid #c7c7c7;
+  height: 20px;
+  margin: 5px;
+}
+
+.dropdown {
+  border: none;
+}
+.dropfont {
+  background-color: transparent;
+  border: none;
+  color: black;
+  opacity: 70%;
+}
+.dropfont:hover {
+  background-color: #aaabad;
+}
+.dropfont:hover::after {
+  background-color: #aaabad;
+}
+.dropdownfont {
+  min-width: auto;
+  max-width: auto;
+}
+.dropheading {
+  background-color: transparent;
+  border: none;
+  color: black;
+  opacity: 70%;
+}
+.dropdownheading {
+  min-width: auto;
+  max-width: auto;
+}
+.inputfont {
+  width: 40px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.inputfont:hover {
+  background-color: transparent;
+}
+.fontbtn {
+  background-color: transparent;
+  color: black;
+  border: none;
+}
+.fontbtn:hover {
+  background-color: #aaabad;
+}

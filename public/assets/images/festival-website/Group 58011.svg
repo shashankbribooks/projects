@@ -1,0 +1,662 @@
+<svg width="110" height="112" viewBox="0 0 110 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 58011">
+<path id="Path 36674" d="M92.2342 55.3812C92.2342 88.5967 47.9077 103.538 24.765 78.8688C3.45666 56.2129 20.2814 19.631 53.7639 19.631C74.6703 19.631 92.2342 35.3379 92.2342 55.3812Z" fill="#FDC20F"/>
+<path id="Path 36675" d="M24.7649 78.8666C21.4249 75.3831 18.8659 71.2276 17.2587 66.6771C15.6514 62.1266 15.0328 57.2858 15.4441 52.4773C17.0319 70.5281 33.3338 85.2154 53.7656 85.2154C74.1975 85.2154 90.49 70.7886 92.1051 52.4261C95.3354 86.909 48.9586 104.654 24.7649 78.8666Z" fill="#FBAC18"/>
+<path id="Path 36676" d="M65.4023 13.2376C65.4023 13.2376 56.7986 12.2064 51.9858 13.2376C54.147 4.70253 58.2433 -4.94284 62.3483 2.89431C64.413 6.81841 65.4023 13.2376 65.4023 13.2376Z" fill="#FDC20F"/>
+<path id="Path 36677" d="M84.8549 27.3535C84.8549 27.3535 79.8612 19.781 75.0455 18.7498C90.4156 9.65582 98.9048 13.3037 84.8549 27.3535Z" fill="#FDC20F"/>
+<path id="Path 36678" d="M95.179 47.6662C94.8551 45.7719 93.2149 36.7995 92.0203 35.271C112.784 36.6669 113.046 44.9449 95.179 47.6662Z" fill="#FDC20F"/>
+<path id="Path 36679" d="M96.0364 67.6263C96.3586 65.8652 98.0761 56.2955 97.755 54.5402C100.28 55.1154 109.172 57.4825 109.634 60.0503C110.149 62.9746 96.0334 67.624 96.0334 67.624L96.0364 67.6263Z" fill="#FDC20F"/>
+<path id="Path 36680" d="M100.073 88.4513C98.6283 91.7171 83.531 86.2069 83.531 86.2069C85.2874 84.5296 91.3716 78.4634 92.0224 76.0562C94.2488 78.2116 101.328 85.5945 100.071 88.4513" fill="#FDC20F"/>
+<path id="Path 36681" d="M65.4023 96.8844C68.5098 96.0219 73.8356 93.8601 75.0453 91.1323C82.9825 108.798 72.6142 110.849 65.4023 96.8844Z" fill="#FDC20F"/>
+<path id="Path 36682" d="M51.9853 98.5742C51.9853 98.5742 47.6786 112.022 44.2395 111.506C40.8005 110.99 38.7294 95.3295 38.7294 95.3295C40.9308 96.4706 49.7281 98.1985 51.9853 98.5742Z" fill="#FDC20F"/>
+<path id="Path 36683" d="M26.5175 88.7945C26.5175 88.7945 16.0113 96.7119 13.6058 94.4675C11.4608 92.4964 16.0073 81.7809 17.2153 79.1479C23.6787 85.8405 13.4982 75.2995 26.5169 88.7945" fill="#FDC20F"/>
+<path id="Path 36684" d="M12.2302 62.4577C9.10991 62.5037 0.00660158 61.9831 0.00660158 58.8471C-0.338291 55.0556 13.0398 50.4138 13.0398 50.4138C11.3718 52.3331 11.9348 59.9091 12.2296 62.4571" fill="#FDC20F"/>
+<path id="Path 36685" d="M22.3826 28.0403C22.3826 28.0403 16.5299 34.9254 16.5299 37.6752C-1.68022 27.1958 1.56455 21.581 22.3826 28.0403Z" fill="#FDC20F"/>
+<path id="Path 36686" d="M40.7927 13.8656C40.7927 13.8656 30.297 17.4041 29.2658 19.6276C25.1317 -0.501837 32.827 -2.9126 40.7927 13.8656Z" fill="#FDC20F"/>
+<path id="Path 36687" d="M69.8812 55.3802C69.8812 57.6938 64.3438 64.8237 57.6158 64.8237C50.8877 64.8237 44.7151 58.5162 44.7151 56.4422C44.7151 54.4816 50.9139 56.4422 58.0019 56.4422C65.09 56.4422 69.8819 53.4301 69.8819 55.3802" fill="#442D1E"/>
+<path id="Path 36688" d="M66.4953 60.7497C62.4688 64.7197 57.6211 66.0091 52.2186 63.6222C53.091 61.4668 55.0807 58.2714 58.65 61.0841C58.65 61.0841 61.8744 55.8583 66.4953 60.7497Z" fill="#BE2026"/>
+<path id="Path 36689" d="M41.0837 50.3531C40.0618 48.5176 39.265 46.3807 37.1596 45.3205C32.4288 43.7978 33.0749 51.9996 32.9202 51.9996C32.8954 52.2467 32.9676 52.4938 33.1216 52.6886C33.2756 52.8834 33.4994 53.0107 33.7455 53.0436C35.3816 53.2611 34.7174 49.5464 36.0865 47.8464C37.1154 48.8433 37.5207 50.5113 38.0907 51.8519C38.187 52.0517 38.3221 52.2303 38.488 52.3774C38.654 52.5245 38.8475 52.6372 39.0574 52.7088C39.2673 52.7804 39.4893 52.8096 39.7106 52.7947C39.9318 52.7798 40.1479 52.721 40.3463 52.6219C40.5446 52.5227 40.7213 52.3851 40.866 52.217C41.0107 52.0489 41.1205 51.8538 41.1892 51.6429C41.2578 51.432 41.2838 51.2096 41.2657 50.9886C41.2475 50.7676 41.1857 50.5523 41.0837 50.3554V50.3531Z" fill="#442D1E"/>
+<path id="Path 36690" d="M76.026 43.0396C75.3188 40.9737 73.2122 38.9387 71.1859 40.9458C69.3561 42.9977 69.1782 46.0174 68.9758 46.0174C68.9054 46.2565 68.9315 46.5136 69.0486 46.7336C69.1657 46.9536 69.3644 47.1189 69.602 47.1941C69.8396 47.2692 70.0973 47.2482 70.3196 47.1355C70.5418 47.0228 70.7111 46.8275 70.791 46.5914C71.2632 45.3119 71.8658 43.4734 72.876 42.6144C74.4388 44.6541 73.4344 48.4601 75.9481 47.7616C78.0448 47.0201 76.4512 44.5291 76.0318 43.0384L76.026 43.0396Z" fill="#442D1E"/>
+<g id="Group 57873" opacity="0.4">
+<g id="Group 57872">
+<g id="Clip path group">
+<mask id="mask0_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="30" y="56" width="4" height="4">
+<g id="clip-path">
+<path id="Rectangle 26082" d="M33.4904 56.0826H30.3695V59.7665H33.4904V56.0826Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_1_2564)">
+<g id="Group 57871">
+<g id="Group 57870">
+<g id="Clip path group_2">
+<mask id="mask1_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="30" y="56" width="4" height="4">
+<g id="clip-path_2">
+<path id="Rectangle 26082_2" d="M33.4904 56.0826H30.3695V59.7665H33.4904V56.0826Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask1_1_2564)">
+<g id="Group 57869">
+<path id="Path 36691" d="M32.4837 58.3762C30.5644 60.7352 29.4395 59.8645 31.3786 57.4776C33.2944 55.1151 34.4222 55.9858 32.4837 58.3762Z" fill="#F6851F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Group 57878" opacity="0.4">
+<g id="Group 57877">
+<g id="Clip path group_3">
+<mask id="mask2_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="33" y="55" width="4" height="5">
+<g id="clip-path-3">
+<path id="Rectangle 26084" d="M36.5151 55.7865H33.3919V59.4681H36.5151V55.7865Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask2_1_2564)">
+<g id="Group 57876">
+<g id="Group 57875">
+<g id="Clip path group_4">
+<mask id="mask3_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="33" y="55" width="4" height="5">
+<g id="clip-path-3_2">
+<path id="Rectangle 26084_2" d="M36.5151 55.7865H33.3919V59.4681H36.5151V55.7865Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask3_1_2564)">
+<g id="Group 57874">
+<path id="Path 36692" d="M35.5061 58.0775C33.5868 60.4365 32.4626 59.5658 34.4011 57.1789C36.3204 54.8199 37.4475 55.6894 35.5061 58.0775Z" fill="#F6851F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Group 57883" opacity="0.4">
+<g id="Group 57882">
+<g id="Clip path group_5">
+<mask id="mask4_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="36" y="55" width="4" height="5">
+<g id="clip-path-5">
+<path id="Rectangle 26086" d="M39.7751 55.402H36.5762V59.1737H39.7751V55.402Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask4_1_2564)">
+<g id="Group 57881">
+<g id="Group 57880">
+<g id="Clip path group_6">
+<mask id="mask5_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="36" y="55" width="4" height="5">
+<g id="clip-path-5_2">
+<path id="Rectangle 26086_2" d="M39.7751 55.402H36.5762V59.1737H39.7751V55.402Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask5_1_2564)">
+<g id="Group 57879">
+<path id="Path 36693" d="M38.7431 57.75C36.7767 60.1678 35.6228 59.275 37.609 56.8311C39.5742 54.411 40.7287 55.305 38.7431 57.75Z" fill="#F6851F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Group 57888" opacity="0.4">
+<g id="Group 57887">
+<g id="Clip path group_7">
+<mask id="mask6_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="74" y="51" width="4" height="5">
+<g id="clip-path-7">
+<path id="Rectangle 26088" d="M77.3468 51.6127H74.1468V55.3826H77.3468V51.6127Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask6_1_2564)">
+<g id="Group 57886">
+<g id="Group 57885">
+<g id="Clip path group_8">
+<mask id="mask7_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="74" y="51" width="4" height="5">
+<g id="clip-path-8">
+<path id="Rectangle 26087" d="M77.3456 51.6127H74.1468V55.3826H77.3456V51.6127Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask7_1_2564)">
+<g id="Group 57884">
+<path id="Path 36694" d="M76.3139 53.9571C74.3475 56.3748 73.1936 55.4821 75.1798 53.0382C77.1462 50.6204 78.2995 51.5143 76.3139 53.9571Z" fill="#F6851F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Group 57893" opacity="0.4">
+<g id="Group 57892">
+<g id="Clip path group_9">
+<mask id="mask8_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="77" y="51" width="4" height="5">
+<g id="clip-path-7_2">
+<path id="Rectangle 26088_2" d="M80.444 51.3112H77.244V55.0811H80.444V51.3112Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask8_1_2564)">
+<g id="Group 57891">
+<g id="Group 57890">
+<g id="Clip path group_10">
+<mask id="mask9_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="77" y="51" width="4" height="5">
+<g id="clip-path-7_3">
+<path id="Rectangle 26088_3" d="M80.444 51.3112H77.244V55.0811H80.444V51.3112Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask9_1_2564)">
+<g id="Group 57889">
+<path id="Path 36695" d="M79.411 53.6556C77.4446 56.0733 76.2912 55.1806 78.2769 52.7366C80.2433 50.3189 81.3966 51.2128 79.411 53.6556Z" fill="#F6851F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Group 57898" opacity="0.4">
+<g id="Group 57897">
+<g id="Clip path group_11">
+<mask id="mask10_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="80" y="51" width="4" height="4">
+<g id="clip-path-5_3">
+<path id="Rectangle 26086_3" d="M83.5428 51.0104H80.3439V54.7821H83.5428V51.0104Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask10_1_2564)">
+<g id="Group 57896">
+<g id="Group 57895">
+<g id="Clip path group_12">
+<mask id="mask11_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="80" y="51" width="4" height="4">
+<g id="clip-path-5_4">
+<path id="Rectangle 26086_4" d="M83.5428 51.0104H80.3439V54.7821H83.5428V51.0104Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask11_1_2564)">
+<g id="Group 57894">
+<path id="Path 36696" d="M82.511 53.3567C80.5446 55.7745 79.3907 54.8817 81.3769 52.4378C83.3433 50.0177 84.4966 50.9117 82.511 53.3567Z" fill="#F6851F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Group 57903" opacity="0.4">
+<g id="Group 57902">
+<g id="Clip path group_13">
+<mask id="mask12_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="63" y="26" width="4" height="3">
+<g id="clip-path-13">
+<path id="Rectangle 26094" d="M66.496 26.5013H63.3425V28.7219H66.496V26.5013Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask12_1_2564)">
+<g id="Group 57901">
+<g id="Group 57900">
+<g id="Clip path group_14">
+<mask id="mask13_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="63" y="26" width="4" height="3">
+<g id="clip-path-13_2">
+<path id="Rectangle 26094_2" d="M66.496 26.5013H63.3425V28.7219H66.496V26.5013Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask13_1_2564)">
+<g id="Group 57899">
+<path id="Path 36697" d="M66.4987 27.6115C66.4987 29.0917 63.3452 29.0917 63.3452 27.6115C63.3452 26.1313 66.4987 26.1313 66.4987 27.6115Z" fill="#F6851F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Group 57908" opacity="0.4">
+<g id="Group 57907">
+<g id="Clip path group_15">
+<mask id="mask14_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="68" y="25" width="2" height="4">
+<g id="clip-path-15">
+<path id="Rectangle 26096" d="M69.8801 25.9009H68.1592V28.7193H69.8801V25.9009Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask14_1_2564)">
+<g id="Group 57906">
+<g id="Group 57905">
+<g id="Clip path group_16">
+<mask id="mask15_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="68" y="25" width="2" height="4">
+<g id="clip-path-15_2">
+<path id="Rectangle 26096_2" d="M69.8801 25.9009H68.1592V28.7193H69.8801V25.9009Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask15_1_2564)">
+<g id="Group 57904">
+<path id="Path 36698" d="M69.8801 27.31C69.8801 29.1892 68.1592 29.1892 68.1592 27.31C68.1592 25.4308 69.8801 25.4308 69.8801 27.31Z" fill="#F6851F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Group 57913" opacity="0.4">
+<g id="Group 57912">
+<g id="Clip path group_17">
+<mask id="mask16_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="66" y="30" width="2" height="3">
+<g id="clip-path-17">
+<path id="Rectangle 26098" d="M67.9002 30.4513H66.0945V32.2582H67.9002V30.4513Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask16_1_2564)">
+<g id="Group 57911">
+<g id="Group 57910">
+<g id="Clip path group_18">
+<mask id="mask17_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="66" y="30" width="2" height="3">
+<g id="clip-path-18">
+<path id="Rectangle 26097" d="M67.9002 30.4513H66.0945V32.257H67.9002V30.4513Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask17_1_2564)">
+<g id="Group 57909">
+<path id="Path 36699" d="M67.9003 31.3536C67.9002 31.532 67.8472 31.7065 67.7479 31.8548C67.6487 32.0031 67.5078 32.1187 67.3429 32.187C67.178 32.2552 66.9965 32.273 66.8215 32.2382C66.6465 32.2033 66.4857 32.1174 66.3595 31.9912C66.2334 31.865 66.1474 31.7042 66.1126 31.5292C66.0777 31.3542 66.0955 31.1728 66.1638 31.0079C66.232 30.843 66.3476 30.702 66.496 30.6028C66.6443 30.5036 66.8187 30.4506 66.9972 30.4504C67.1158 30.4503 67.2333 30.4735 67.3429 30.5189C67.4526 30.5642 67.5522 30.6307 67.6361 30.7146C67.72 30.7985 67.7865 30.8981 67.8319 31.0078C67.8772 31.1174 67.9005 31.2349 67.9003 31.3536Z" fill="#F6851F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Group 57918" opacity="0.4">
+<g id="Group 57917">
+<g id="Clip path group_19">
+<mask id="mask18_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="35" y="80" width="3" height="4">
+<g id="clip-path-19">
+<path id="Rectangle 26100" d="M37.7645 80.9957H35.0786V83.6164H37.7645V80.9957Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask18_1_2564)">
+<g id="Group 57916">
+<g id="Group 57915">
+<g id="Clip path group_20">
+<mask id="mask19_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="35" y="80" width="3" height="4">
+<g id="clip-path-19_2">
+<path id="Rectangle 26100_2" d="M37.7645 80.9957H35.0786V83.6164H37.7645V80.9957Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask19_1_2564)">
+<g id="Group 57914">
+<path id="Path 36700" d="M37.7646 82.3068C37.7712 82.5753 37.6973 82.8396 37.5522 83.0656C37.4072 83.2916 37.1978 83.469 36.951 83.5749C36.7041 83.6807 36.4313 83.7101 36.1675 83.6594C35.9038 83.6086 35.6614 83.48 35.4715 83.2901C35.2816 83.1002 35.1529 82.8577 35.1022 82.594C35.0514 82.3303 35.0809 82.0574 35.1867 81.8106C35.2925 81.5638 35.4699 81.3543 35.696 81.2093C35.922 81.0643 36.1863 80.9903 36.4548 80.997C36.7995 81.0055 37.1277 81.1463 37.3715 81.3901C37.6153 81.6339 37.756 81.9621 37.7646 82.3068Z" fill="#F6851F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Group 57923" opacity="0.4">
+<g id="Group 57922">
+<g id="Clip path group_21">
+<mask id="mask20_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="40" y="79" width="4" height="2">
+<g id="clip-path-21">
+<path id="Rectangle 26102" d="M43.2962 79.163H40.4568V80.9561H43.2962V79.163Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask20_1_2564)">
+<g id="Group 57921">
+<g id="Group 57920">
+<g id="Clip path group_22">
+<mask id="mask21_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="40" y="79" width="4" height="2">
+<g id="clip-path-22">
+<path id="Rectangle 26101" d="M43.2963 79.163H40.4581V80.9561H43.2963V79.163Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask21_1_2564)">
+<g id="Group 57919">
+<path id="Path 36701" d="M43.2962 80.0606C43.2962 81.2558 40.4568 81.2558 40.4568 80.0606C40.4568 78.8654 43.2962 78.8654 43.2962 80.0606Z" fill="#F6851F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Group 57928" opacity="0.4">
+<g id="Group 57927">
+<g id="Clip path group_23">
+<mask id="mask22_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="44" y="85" width="4" height="4">
+<g id="clip-path-23">
+<path id="Rectangle 26104" d="M47.4689 85.2675H44.7144V88.0173H47.4689V85.2675Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask22_1_2564)">
+<g id="Group 57926">
+<g id="Group 57925">
+<g id="Clip path group_24">
+<mask id="mask23_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="44" y="85" width="4" height="4">
+<g id="clip-path-23_2">
+<path id="Rectangle 26104_2" d="M47.4689 85.2675H44.7144V88.0173H47.4689V85.2675Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask23_1_2564)">
+<g id="Group 57924">
+<path id="Path 36702" d="M47.4689 86.6424C47.4694 86.915 47.3889 87.1816 47.2378 87.4084C47.0866 87.6353 46.8716 87.8121 46.6198 87.9167C46.3681 88.0212 46.091 88.0487 45.8236 87.9956C45.5562 87.9425 45.3106 87.8113 45.1178 87.6186C44.9251 87.4258 44.7938 87.1802 44.7408 86.9128C44.6877 86.6454 44.7152 86.3683 44.8197 86.1166C44.9242 85.8648 45.1011 85.6498 45.328 85.4986C45.5548 85.3474 45.8214 85.267 46.094 85.2675C46.4585 85.2681 46.8078 85.4131 47.0655 85.6708C47.3233 85.9286 47.4683 86.2779 47.4689 86.6424Z" fill="#F6851F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Group 57933" opacity="0.4">
+<g id="Group 57932">
+<g id="Clip path group_25">
+<mask id="mask24_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="19" y="70" width="9" height="9">
+<g id="clip-path-25">
+<path id="Rectangle 26106" d="M27.5584 70.4716H19.7933V78.8671H27.5584V70.4716Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask24_1_2564)">
+<g id="Group 57931">
+<g id="Group 57930">
+<g id="Clip path group_26">
+<mask id="mask25_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="19" y="70" width="9" height="9">
+<g id="clip-path-25_2">
+<path id="Rectangle 26106_2" d="M27.5584 70.4716H19.7933V78.8671H27.5584V70.4716Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask25_1_2564)">
+<g id="Group 57929">
+<path id="Path 36703" d="M24.7672 78.8671C29.2456 77.1804 28.0399 70.4716 23.2306 70.4716C22.5667 70.4701 21.9113 70.6215 21.3152 70.914C20.7192 71.2065 20.1985 71.6322 19.7933 72.1582L24.7672 78.8671Z" fill="#F6851F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Group 57938" opacity="0.4">
+<g id="Group 57937">
+<g id="Clip path group_27">
+<mask id="mask26_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="31" y="73" width="3" height="3">
+<g id="clip-path-27">
+<path id="Rectangle 26108" d="M33.868 73.8495H31.931V75.7296H33.868V73.8495Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask26_1_2564)">
+<g id="Group 57936">
+<g id="Group 57935">
+<g id="Clip path group_28">
+<mask id="mask27_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="31" y="73" width="3" height="3">
+<g id="clip-path-28">
+<path id="Rectangle 26107" d="M33.8668 73.8495H31.931V75.7296H33.8668V73.8495Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask27_1_2564)">
+<g id="Group 57934">
+<path id="Path 36704" d="M33.8682 74.7897C33.8738 74.9835 33.8211 75.1745 33.7169 75.338C33.6127 75.5015 33.4619 75.63 33.2838 75.7068C33.1058 75.7836 32.9088 75.8051 32.7184 75.7687C32.5279 75.7322 32.3528 75.6395 32.2157 75.5024C32.0786 75.3653 31.9858 75.1902 31.9494 74.9997C31.913 74.8093 31.9345 74.6123 32.0113 74.4343C32.0881 74.2562 32.2166 74.1053 32.3801 74.0012C32.5436 73.897 32.7346 73.8443 32.9284 73.8499C33.1753 73.8573 33.4101 73.9587 33.5847 74.1334C33.7594 74.308 33.8608 74.5428 33.8682 74.7897Z" fill="#F6851F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Group 57943" opacity="0.4">
+<g id="Group 57942">
+<g id="Clip path group_29">
+<mask id="mask28_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="22" y="62" width="2" height="2">
+<g id="clip-path-29">
+<path id="Rectangle 26110" d="M23.7565 62.4868H22.3827V63.8136H23.7565V62.4868Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask28_1_2564)">
+<g id="Group 57941">
+<g id="Group 57940">
+<g id="Clip path group_30">
+<mask id="mask29_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="22" y="62" width="2" height="2">
+<g id="clip-path-29_2">
+<path id="Rectangle 26110_2" d="M23.7565 62.4868H22.3827V63.8136H23.7565V62.4868Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask29_1_2564)">
+<g id="Group 57939">
+<path id="Path 36705" d="M23.7568 63.1507C23.7617 63.2887 23.7248 63.4249 23.6512 63.5416C23.5775 63.6583 23.4704 63.7502 23.3439 63.8052C23.2173 63.8602 23.0771 63.8759 22.9415 63.8502C22.8059 63.8244 22.6812 63.7585 22.5836 63.6609C22.486 63.5633 22.42 63.4385 22.3943 63.3029C22.3685 63.1673 22.3842 63.0271 22.4392 62.9006C22.4943 62.774 22.5861 62.6669 22.7028 62.5932C22.8196 62.5196 22.9558 62.4828 23.0937 62.4876C23.2677 62.4935 23.4329 62.5653 23.556 62.6884C23.6791 62.8115 23.7509 62.9767 23.7568 63.1507Z" fill="#F6851F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Group 57948" opacity="0.4">
+<g id="Group 57947">
+<g id="Clip path group_31">
+<mask id="mask30_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="15" y="52" width="5" height="6">
+<g id="clip-path-31">
+<path id="Rectangle 26112" d="M19.7731 52.9099H15.3022V57.3476H19.7731V52.9099Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask30_1_2564)">
+<g id="Group 57946">
+<g id="Group 57945">
+<g id="Clip path group_32">
+<mask id="mask31_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="15" y="52" width="5" height="6">
+<g id="clip-path-32">
+<path id="Rectangle 26111" d="M19.7732 52.9098H15.3036V57.3474H19.7732V52.9098Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask31_1_2564)">
+<g id="Group 57944">
+<path id="Path 36706" d="M19.773 55.1264C19.773 58.0827 15.3022 58.0862 15.3022 55.1264C15.3022 52.1666 19.773 52.1678 19.773 55.1264Z" fill="#F6851F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Group 57953" opacity="0.4">
+<g id="Group 57952">
+<g id="Clip path group_33">
+<mask id="mask32_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="63" y="80" width="5" height="5">
+<g id="clip-path-33">
+<path id="Rectangle 26114" d="M67.9017 80.0745H63.3425V84.6029H67.9017V80.0745Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask32_1_2564)">
+<g id="Group 57951">
+<g id="Group 57950">
+<g id="Clip path group_34">
+<mask id="mask33_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="63" y="80" width="5" height="5">
+<g id="clip-path-33_2">
+<path id="Rectangle 26114_2" d="M67.9017 80.0745H63.3425V84.6029H67.9017V80.0745Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask33_1_2564)">
+<g id="Group 57949">
+<path id="Path 36707" d="M67.9017 82.3397C67.9017 85.3541 63.3425 85.36 63.3425 82.3397C63.3425 79.3194 67.9017 79.3194 67.9017 82.3397Z" fill="#F6851F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Group 57958" opacity="0.4">
+<g id="Group 57957">
+<g id="Clip path group_35">
+<mask id="mask34_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="47" y="19" width="9" height="6">
+<g id="clip-path-35">
+<path id="Rectangle 26116" d="M55.7623 19.6356H47.468V24.8195H55.7623V19.6356Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask34_1_2564)">
+<g id="Group 57956">
+<g id="Group 57955">
+<g id="Clip path group_36">
+<mask id="mask35_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="47" y="19" width="9" height="6">
+<g id="clip-path-35_2">
+<path id="Rectangle 26116_2" d="M55.7623 19.6356H47.468V24.8195H55.7623V19.6356Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask35_1_2564)">
+<g id="Group 57954">
+<path id="Path 36708" d="M51.6219 24.8182C51.0761 24.8178 50.5357 24.7099 50.0315 24.5006C49.5274 24.2913 49.0694 23.9847 48.6838 23.5984C48.2981 23.2121 47.9924 22.7535 47.784 22.249C47.5756 21.7445 47.4687 21.2039 47.4693 20.658C47.4696 20.474 47.4815 20.2903 47.5048 20.1078C50.1964 19.693 52.923 19.551 55.6432 19.6838C55.7917 20.2938 55.7999 20.9296 55.6674 21.5433C55.5348 22.1569 55.2648 22.7326 54.8777 23.2269C54.4906 23.7212 53.9964 24.1213 53.4324 24.3971C52.8684 24.673 52.2492 24.8173 51.6214 24.8194L51.6219 24.8182Z" fill="#F6851F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Group 57963" opacity="0.4">
+<g id="Group 57962">
+<g id="Clip path group_37">
+<mask id="mask36_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="78" y="31" width="5" height="5">
+<g id="clip-path-37">
+<path id="Rectangle 26118" d="M82.7877 31.5177H78.845V35.4604H82.7877V31.5177Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask36_1_2564)">
+<g id="Group 57961">
+<g id="Group 57960">
+<g id="Clip path group_38">
+<mask id="mask37_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="78" y="31" width="5" height="5">
+<g id="clip-path-38">
+<path id="Rectangle 26117" d="M82.7865 31.5177H78.845V35.4604H82.7865V31.5177Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask37_1_2564)">
+<g id="Group 57959">
+<path id="Path 36709" d="M82.788 33.4901C82.7879 33.8798 82.6722 34.2607 82.4557 34.5847C82.2391 34.9087 81.9313 35.1611 81.5712 35.3102C81.2111 35.4592 80.815 35.4982 80.4328 35.4221C80.0506 35.346 79.6995 35.1583 79.424 34.8827C79.1485 34.6071 78.9609 34.256 78.8849 33.8737C78.8089 33.4915 78.848 33.0953 78.9971 32.7353C79.1463 32.3753 79.3988 32.0676 79.7229 31.8511C80.0469 31.6346 80.4278 31.519 80.8175 31.519C81.0764 31.519 81.3326 31.57 81.5717 31.6691C81.8109 31.7682 82.0281 31.9134 82.2111 32.0964C82.3941 32.2794 82.5392 32.4967 82.6382 32.7359C82.7372 32.975 82.7881 33.2313 82.788 33.4901Z" fill="#F6851F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Group 57968" opacity="0.4">
+<g id="Group 57967">
+<g id="Clip path group_39">
+<mask id="mask38_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="87" y="41" width="4" height="4">
+<g id="clip-path-39">
+<path id="Rectangle 26120" d="M90.0746 41.4648H87.6057V44.1495H90.0746V41.4648Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask38_1_2564)">
+<g id="Group 57966">
+<g id="Group 57965">
+<g id="Clip path group_40">
+<mask id="mask39_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="87" y="41" width="4" height="4">
+<g id="clip-path-40">
+<path id="Rectangle 26119" d="M90.0753 41.4661H87.6058V44.1496H90.0753V41.4661Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask39_1_2564)">
+<g id="Group 57964">
+<path id="Path 36710" d="M90.073 43.5407C89.9394 43.7458 89.7523 43.9104 89.5319 44.0167C89.3115 44.1231 89.0662 44.1672 88.8225 44.1441C88.5789 44.1211 88.3462 44.0319 88.1496 43.8862C87.953 43.7404 87.8 43.5437 87.7072 43.3172C87.6144 43.0908 87.5853 42.8433 87.623 42.6015C87.6607 42.3597 87.7639 42.1328 87.9213 41.9454C88.0787 41.758 88.2843 41.6172 88.5159 41.5383C88.7476 41.4593 88.9964 41.4453 89.2355 41.4975L90.0753 43.5407H90.073Z" fill="#F6851F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<path id="Path 36711" d="M20.236 43.9561C20.2843 43.8397 25.2477 31.8517 39.703 24.364C39.8219 24.3045 39.9595 24.2942 40.086 24.3354C40.2124 24.3765 40.3176 24.4658 40.3788 24.5839C40.4399 24.702 40.4521 24.8394 40.4127 24.9664C40.3733 25.0935 40.2855 25.1999 40.1683 25.2626C26.0614 32.5711 21.216 44.2172 21.1759 44.3358C21.1525 44.3993 21.1166 44.4575 21.0703 44.5069C21.024 44.5562 20.9683 44.5958 20.9064 44.6232C20.8446 44.6506 20.7778 44.6654 20.7101 44.6665C20.6425 44.6676 20.5753 44.6552 20.5125 44.6298C20.4498 44.6045 20.3927 44.5669 20.3448 44.5191C20.2969 44.4713 20.259 44.4144 20.2335 44.3517C20.208 44.289 20.1953 44.2219 20.1963 44.1542C20.1972 44.0865 20.2117 44.0198 20.2389 43.9578" fill="white"/>
+<path id="Path 36712" d="M30.8998 35.9657C30.8044 35.965 30.7112 35.9375 30.6308 35.8864C30.5503 35.8352 30.4859 35.7625 30.4449 35.6764C30.4039 35.5904 30.3879 35.4945 30.3988 35.3998C30.4097 35.3051 30.4471 35.2154 30.5066 35.141C36.1714 28.1582 45.5359 24.0026 45.8534 25.805C45.876 25.9367 45.8454 26.0719 45.7683 26.181C45.6912 26.29 45.5739 26.364 45.4422 26.3866C37.2131 27.8371 31.6582 35.9633 30.8951 35.9633L30.8998 35.9657Z" fill="white"/>
+<path id="Path 36713" d="M85.6278 73.2071C85.5394 73.2068 85.4526 73.1834 85.3761 73.1391C85.2996 73.0949 85.2359 73.0314 85.1915 72.955C85.1471 72.8785 85.1235 72.7918 85.123 72.7034C85.1225 72.615 85.1452 72.528 85.1887 72.451C85.2469 72.3481 91.0589 61.9763 89.5717 51.2137C89.5648 51.087 89.6058 50.9623 89.6865 50.8645C89.7672 50.7666 89.8818 50.7027 90.0075 50.6854C90.1332 50.6681 90.2608 50.6987 90.365 50.7712C90.4691 50.8436 90.5422 50.9526 90.5698 51.0764C91.9918 61.3842 86.516 73.2065 85.6261 73.2065L85.6278 73.2071Z" fill="white"/>
+<g id="Group 57973" opacity="0.4">
+<g id="Group 57972">
+<g id="Clip path group_41">
+<mask id="mask40_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="28" y="54" width="14" height="6">
+<g id="clip-path-41">
+<path id="Rectangle 26122" d="M41.2583 54.5471H28.6484V59.9311H41.2583V54.5471Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask40_1_2564)">
+<g id="Group 57971">
+<g id="Group 57970">
+<g id="Clip path group_42">
+<mask id="mask41_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="28" y="54" width="14" height="6">
+<g id="clip-path-41_2">
+<path id="Rectangle 26122_2" d="M41.2583 54.5471H28.6484V59.9311H41.2583V54.5471Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask41_1_2564)">
+<g id="Group 57969">
+<path id="Path 36714" d="M41.2583 57.6284C41.2583 60.6981 28.6484 60.7005 28.6484 57.6284C28.6484 56.3442 32.8721 54.5459 36.3541 54.5459C39.8362 54.5459 41.2583 56.3489 41.2583 57.6284Z" fill="#F6851F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Group 57978" opacity="0.4">
+<g id="Group 57977">
+<g id="Clip path group_43">
+<mask id="mask42_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="72" y="50" width="14" height="7">
+<g id="clip-path-41_3">
+<path id="Rectangle 26122_3" d="M85.1503 50.7937H72.5405V56.1776H85.1503V50.7937Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask42_1_2564)">
+<g id="Group 57976">
+<g id="Group 57975">
+<g id="Clip path group_44">
+<mask id="mask43_1_2564" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="72" y="50" width="14" height="7">
+<g id="clip-path-41_4">
+<path id="Rectangle 26122_4" d="M85.1503 50.7937H72.5405V56.1776H85.1503V50.7937Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask43_1_2564)">
+<g id="Group 57974">
+<path id="Path 36715" d="M85.1503 53.8762C85.1503 56.9448 72.5405 56.9483 72.5405 53.8762C72.5405 52.592 76.763 50.7937 80.2462 50.7937C83.7295 50.7937 85.1503 52.5967 85.1503 53.8762Z" fill="#F6851F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,219 @@
+.main {
+  background-image: linear-gradient( rgba(247, 248, 249, 0), rgba(247, 248, 249, 1)), url("../../../../public/assets/images/inter-generational/Frame 16.svg");
+  width: auto;
+  border-radius: 40%;
+  margin-top: 20px;
+  justify-content: center;
+}
+.award{
+  overflow: hidden;
+}
+.headtext {
+  margin: auto;
+  width: 850px;
+}
+.htext {
+  font-family: Nunito;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #10284B;
+}
+.paratext {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  opacity: 70%;
+}
+.h4text {
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #10284B;
+}
+.col{
+  width: 350px;
+}
+.workpara {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #474F62;
+}
+.h4text{
+  margin-top: 10px;
+}
+.h4textlast{
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #10284B;
+}
+
+@media (min-width:0) and (max-width:425px) {
+  .headtext {
+    margin: auto;
+    width: 350px;
+  }
+  .htext{
+    font-size: 20px;
+  }
+  .paratext {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    opacity: 70%;
+  }
+  .h4text{
+    font-size: 20px;
+  }
+  .h4textlast{
+    font-size: 20px;
+  }
+  .workpara{
+    font-size: 14px;
+  }
+  .main {
+    background-image: linear-gradient( rgba(247, 248, 249, 0), rgba(247, 248, 249, 1)), url("/assets/images/inter-generational/Frame 16.svg");
+    width: auto;
+    border-radius: 40%;
+    margin-top: 20px;
+  }
+  .col{
+    width: 350px;
+    margin: 0 auto;
+
+  }
+  .htext{
+    margin-top: 20px;
+  }
+  .paratext{
+    margin-top: 20px;
+  }
+  .col{
+    text-align: center;
+  }
+  .h4text{
+    text-align: center;
+  }
+  .workpara{
+    text-align: center;
+  }
+  .h4textlast{
+    text-align: center;
+  }
+}
+@media (min-width:425px) and (max-width:768px) {
+  .headtext {
+    margin: auto;
+    width: 90%;
+  }
+  .main {
+    background-image: linear-gradient( rgba(247, 248, 249, 0), rgba(247, 248, 249, 1)), url("/assets/images/inter-generational/Frame 16.svg");
+    width: auto;
+    border-radius: 40%;
+    margin-top: 20px;
+  }
+  .col{
+    width: 300px;
+  }
+  .htext{
+    margin-top: 20px;
+  }
+  .paratext{
+    margin-top: 20px;
+  }
+  .h4text {
+    font-size: 20px;
+  }
+  .h4textlast{
+    font-size: 20px;
+  }
+}
+
+
+/* ---------------card css start  ---------------- */
+.card {
+  width: 320px;
+  height: 260px;
+  margin: 20px auto;
+  text-align: left;
+}
+.card img {
+  width: 89.59px;
+  height: 80.81px;
+}
+.card h2 {
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.card p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media (min-width: 0) and (max-width: 464px) {
+  .card {
+    width: 320px;
+    height: 260px;
+    text-align: center;
+  }
+  .card img {
+    width: 73px;
+    height: 73px;
+  }
+  .card h2 {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .card p{
+    text-align: center;
+  }
+}
+@media (min-width: 464px) and (max-width: 800px) {
+  .card {
+    width: 320px;
+    height: 260px;
+    text-align: center;
+  }
+  .card h2 {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .card p{
+    text-align: center;
+  }
+}

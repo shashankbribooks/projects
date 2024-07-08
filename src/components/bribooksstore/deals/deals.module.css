@@ -1,0 +1,26 @@
+.swipernavbtns button {
+  width: 48px;
+  height: 48px;
+  border: 1px solid;
+  opacity: 80%;
+}
+.swipernavbtns button:hover {
+  background-color: transparent;
+  color: green;
+  border-color: green;
+}
+.head h1 {
+  font-family: Signika;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+}
+.SwiperSlide {
+  margin: 0;
+}
+@media (max-width: 505px) {
+  .head h1 {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,159 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 10px;
+  height: auto;
+}
+.bestsellingitem {
+  display: flex;
+  align-items: center;
+}
+.container h1 {
+  font-family: Signika;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+}
+/* .Carousel {
+  overflow: visible;
+}
+.Carousel button {
+  margin-bottom: 457.5px;
+
+}
+.Carousel ul li {
+  width: 180px;
+  position: relative;
+  flex: 1 1 auto;
+overflow-x: hidden;
+} */
+.btn {
+  margin-top: 10px;
+}
+.carouselside {
+  margin-top: -78px;
+}
+/* ------------------------------------------- */
+
+.container h1 {
+  font-family: Signika;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.btn {
+  width: 250px;
+  height: 394px;
+  background-color: rgba(244, 247, 255, 1);
+  /* border: 2px solid red; */
+}
+.button {
+  font-family: Signika;
+  font-size: 16px;
+  font-weight: 500;
+  /* line-height: 40px; */
+  letter-spacing: 0em;
+  text-align: left;
+  border: none;
+  color: black;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button:active{
+  
+}
+
+.button:after {
+  content: "➔";
+  position: absolute;
+  opacity: 0;
+  /* top: 14px; */
+  right: -10px;
+  transition: 0.5s;
+}
+
+.button:hover {
+  padding-right: 24px;
+  padding-left: 14px;
+  background-color: green;
+  color: white;
+}
+
+.button:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+/* -------------------------Hot-Deals ---------------------------- */
+
+.containerfluid {
+  background-image: url("/assets/images/bristore/HOT-DEALS.jpg");
+  width: 100%;
+}
+
+.card {
+  width: 360px;
+  height: 220px;
+  background-color: #ffff;
+  margin: 10px 0px 10px 0px;
+  border-radius: 15px;
+}
+
+.cardcontent p {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(17, 17, 17, 1);
+}
+.cardcontent h4 {
+  font-family: Signika;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+.containerfluid h1 {
+  font-family: Signika;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+.containerfluid h3 {
+  font-family: Signika;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 153, 0, 1);
+}
+@media (max-width: 425px) {
+  .btn{
+    width: 170px;
+  }
+  .container h1 {
+    font-size: 20px;
+  }
+}

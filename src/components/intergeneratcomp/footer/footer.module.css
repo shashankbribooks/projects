@@ -1,0 +1,319 @@
+/* --------------- download app css start ------------- */
+.downloaddiv {
+  width: 946px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: radial-gradient(
+    166.07% 64.53% at 35.47% 50%,
+    rgba(18, 104, 172, 1) 12.55%,
+    #023157 100%
+  );
+  margin-top: 120px;
+}
+.mobilimg {
+  width: 432px;
+  height: 412px;
+  margin-top: -75px;
+}
+.circleimg {
+  width: 54.206px;
+  height: 54.206px;
+  margin: 40px 0 0 55px;
+}
+.downloadtxt {
+  margin: 1px 0 0 30px;
+  color: #fff;
+  font-family: Signika;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 44.8px */
+}
+.downloadpara {
+  margin: 10px 0 0 30px;
+  color: #fff;
+  font-family: Signika;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%; /* 24.5px */
+  opacity: 0.75;
+}
+.downloadplay {
+  width: 170px;
+  height: 74.286px;
+  margin: 5px 0 0 20px;
+}
+@media (max-width: 480px) {
+  .downloaddiv {
+    width: 349px;
+    height: 466px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: radial-gradient(
+      166.07% 64.53% at 35.47% 50%,
+      rgba(18, 104, 172, 1) 12.55%,
+      #023157 100%
+    );
+    margin-top: 55px;
+  }
+  .downloadplay {
+    margin: 5px 50px 0 80px;
+  }
+  .circleimg {
+    width: 33px;
+    height: 33px;
+    margin: 20px 0 0 55px;
+  }
+  .downloadtxt {
+    color: var(--white, #fff);
+    font-family: Signika;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 33.6px */ /* 44.8px */
+    text-align: center;
+    margin-top: -23px;
+  }
+  .downloadpara {
+    color: var(--white, #fff);
+    font-family: Signika;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%; /* 24.5px */ /* 24.5px */
+    opacity: 0.75;
+    text-align: center;
+  }
+  .mobilimg {
+    width: 405px;
+    height: 298px;
+    margin-top: -9px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .downloaddiv {
+    width: 746px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: radial-gradient(
+      166.07% 64.53% at 35.47% 50%,
+      rgba(18, 104, 172, 1) 12.55%,
+      #023157 100%
+    );
+    margin-top: 120px;
+  }
+}
+/* --------------- download app css end ------------- */
+.imgback {
+  margin-top: 40px;
+  height: 360px;
+  background-color: var(--dark-navy, #10284b);
+}
+.hr {
+  margin: 3px;
+  opacity: 0;
+}
+.footerlogo {
+  margin: 40px 0 0 60px;
+}
+.footerpara {
+  margin: 30px 0 0 60px;
+  color: #f4f7ff;
+  font-family: Signika;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0em;
+}
+.footerplaystore {
+  margin: 20px 0 0 60px;
+}
+.playstore {
+  margin-right: 10px;
+}
+.menubutton {
+  margin: 55px 0 0 60px;
+}
+.menu-btn {
+  margin: 15px 0 0 60px;
+}
+.menutxt {
+  color: #f8b71b;
+  font-family: Signika;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.menubuttontxt {
+  margin: 50px 0 0 30px;
+}
+.menumid {
+  margin: 76px 0px 0 10px;
+}
+.applecontent {
+  margin-top: 32px;
+}
+.apple {
+  font-family: Signika;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  display: flex;
+}
+.applemedia {
+  text-decoration: none;
+  color: white;
+  margin-top: 50px;
+}
+@media (min-width: 0) and (max-width: 480px) {
+  .imgback {
+    margin-top: 40px;
+    /* width: 1440px; */
+    height: 1042px;
+    background-color: var(--dark-navy, #10284b);
+  }
+  .apple {
+    justify-content: center;
+  }
+  .footerlogocontent {
+    text-align: center;
+  }
+  .footerlogo {
+    margin: 40px 0px 0px 0px;
+  }
+  .footerparasm {
+    margin: 20px 15px 0 10px;
+    color: #f4f7ff;
+    font-family: Signika;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .footerpara {
+    color: #f4f7ff;
+    font-family: Signika;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    justify-content: center;
+    margin: 20px 15px 0 10px;
+  }
+  .menubutton {
+    margin: 0px;
+    text-align: center;
+  }
+  .menubuttontxt {
+    margin: 0px;
+    text-align: center;
+  }
+  .menutxt {
+    margin: 40px 0px 0px 0px;
+  }
+  .footerplaystore {
+    display: none;
+  }
+  .menumid {
+    display: none;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .footerplaystore {
+    display: none;
+  }
+  .menubuttontxt {
+    margin: 50px 0 0 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .footerplaystore {
+    display: none;
+  }
+  .footerpara {
+    font-size: 20px;
+  }
+  .menumid {
+    display: none;
+  }
+  .footerlogocontent {
+    margin-left: -30px;
+  }
+  .menubutton {
+    margin: 55px 0 0 10px;
+  }
+  .applecontent {
+    margin-top: 30px;
+  }
+  .divapple {
+    margin-bottom: 15px;
+  }
+  .menubuttontxt {
+    margin: 50px 0 0 20px;
+  }
+}
+/* --------------- footer social ---------------- */
+.social {
+  background-color: black;
+}
+.parasocial {
+  color: #fefefe;
+  font-family: Signika;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.parasocial2 {
+  color: #fefefe;
+  font-family: Signika;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  align-content: center;
+}
+.logofb {
+  margin-top: -10px;
+  margin-left: 40px;
+}
+.bookmark {
+  margin-left: 69px;
+  margin-top: 18px;
+}
+.socialfooterlogo {
+  margin-top: 18px;
+  margin-right: 155px;
+}
+@media (max-width: 480px) {
+  .social {
+    height: 108px;
+    background-color: black;
+  }
+  .parasocial2 {
+    width: 100px;
+  }
+  .socialfooterlogo {
+    margin-left: 13%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .bookmark {
+    margin-left: 30px;
+  }
+  .socialfooterlogo {
+    margin-top: 17px;
+    margin-right: 30px;
+  }
+}

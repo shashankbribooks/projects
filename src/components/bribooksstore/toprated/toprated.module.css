@@ -1,0 +1,36 @@
+.card {
+  width: 350px;
+  border-radius: 20px;
+  border: none;
+}
+.cardcontainer {
+  align-items: center;
+}
+.img {
+  margin-left: 20px;
+  margin-top: 18px;
+}
+.bgcolor button {
+  background-color: white;
+  border: none;
+  color: green;
+}
+.card h4 {
+  font-family: Signika;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+@media (max-width: 425px) {
+  .card {
+    margin: auto 1px;
+  }
+}
+@media (min-width: 425px) and (max-width: 768px) {
+  .card {
+    margin-left: 5px !important;
+  }
+}

@@ -1,0 +1,355 @@
+.container {
+  position: relative;
+}
+.gradientOverlay {
+  top: 0;
+  left: 0;
+}
+.image {
+  /* width: 100%; */
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.content {
+  position: absolute;
+  z-index: 2;
+  top: 2%;
+  left: 5%;
+}
+.imglogo {
+  width: 169.42px;
+  height: 30.09px;
+}
+.imgcross {
+  width: 50px;
+  height: 50px;
+}
+.maincontent {
+  position: absolute;
+  text-align: center;
+  top: 10%;
+  /* left: 50%; */
+  margin: 10px;
+  margin-right: 18%;
+  margin-left: 18%;
+  /* transform: translate(-50%, -50%); */
+}
+.maincontent h1 {
+  font-family: Inter;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 51px;
+  letter-spacing: 0em;
+  color: #f99232;
+}
+.maincontent h3 {
+  margin-top: 3%;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  color: #084481;
+}
+.maincontent p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: black;
+}
+.maincontent h2 {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  color: #084481;
+  margin: 3%;
+}
+.carddiv {
+  position: absolute;
+  top: 38%;
+  margin-left: 17%;
+  margin-top: 0%;
+}
+.card {
+  /* margin-top: 0px; */
+  margin-right: 20px;
+}
+.cardbody {
+  width: 261px;
+  height: 291px;
+  border: 2px solid #bccbd9;
+  border-bottom: 8px solid #bccbd9;
+  border-radius: 28px;
+  opacity: 80%;
+  background-color: white;
+}
+
+.imgcard {
+  width: 119px;
+  height: 119px;
+  border: 1px solid #08448140;
+  border-radius: 26px;
+  text-align: center;
+  margin: 10% auto;
+}
+.icon {
+  width: 66px;
+  height: 69px;
+  margin: 20% auto;
+}
+.text h3 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.para p {
+  margin: 7%;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #676767;
+}
+
+.btndiv .btn {
+  position: absolute;
+  left: 39%;
+  top: 75%;
+  width: 262px;
+  height: 54px;
+  background-color: #f99232;
+  border-radius: 8px;
+  margin: auto;
+  text-decoration: none;
+}
+.btndiv .btn h2 {
+  font-family: Signika;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  color: white;
+  text-align: center;
+  margin: 5% auto;
+}
+@media (max-width: 319px) {
+  .btndiv .btn {
+    top: 25%;
+    left: 12%;
+  }
+}
+@media (min-width: 320px) and (max-width: 375px) {
+  .container {
+    background-image: url("/assets/images/bripublish/bg_cover_mobile.svg");
+    height: 1547px;
+    width: 100%;
+  }
+  .imgcross {
+    width: 31.5px;
+    height: 31.5px;
+    margin-right: 30px;
+  }
+  .maincontent {
+    top: 8%;
+    margin: 0 1% 0 1%
+    
+  }
+  .maincontent h1{
+    font-size: 36px ;
+    line-height: 29.05px;
+  }
+  .maincontent h3{
+    font-size: 24px;
+  }
+  .maincontent p{
+    font-size: 18px;
+    line-height: 21.78px;
+  }
+  .maincontent h4{
+    font-size: 22px;
+    color: #f99232;
+    line-height: 26.63px;
+  }
+  .headtext{
+    margin-top: 25%;
+  }
+  .paratext{
+    display: none;
+  }
+  .carddiv {
+    top: 29%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+  }
+  .card {
+    margin-top: 15px;
+  }
+  .text h3 {
+    margin: 2%;
+  }
+  .para p {
+    margin: 3%;
+
+  }
+  .btndiv .btn {
+    top: 21%;
+    left: 12%;
+  }
+  .cardbody {
+    width: 300px;
+    height: 220px;
+  }
+  .imgcard {
+    width: 100px;
+    height: 100px;
+    margin: 4% auto;
+  }
+  .carddiv{
+    flex-direction: column;
+  }
+}
+@media (min-width: 375px) and (max-width: 425px) {
+  .container {
+    background-image: url("/assets/images/bripublish/bg_cover_mobile.svg");
+    height: 1547px;
+    width: 100%;
+  }
+  .imglogo {
+    width: 118.42px;
+    height: 21.09px;
+  }
+  .imgcross {
+    width: 31.5px;
+    height: 31.5px;
+    margin-right: 30px;
+  }
+  .maincontent {
+    top: 7%;
+    margin: 0 10% 0 10%;
+  }
+  .maincontent h1 {
+    font-size: 36px;
+  }
+  .maincontent h3 {
+    font-size: 24px;
+  }
+  .maincontent p {
+    font-size: 18px;
+  }
+  .paratext {
+    display: none !important;
+  }
+  .maincontent h4 {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 25% auto;
+    color: #084481;
+  }
+  .card {
+    margin-top: 12px;
+  }
+  .carddiv {
+    flex-direction: column;
+    gap: 10px;
+    top: 24%;
+    margin: 20% 9%;
+  }
+  .cardbody {
+    width: 349px;
+    height: 254px;
+    margin: auto;
+  }
+  .imgcard {
+    height: 95px;
+    margin: 4% auto;
+  }
+  .icon {
+    margin: 8% auto;
+  }
+
+  .btndiv .btn {
+    position: absolute;
+    left: 20%;
+    top: 21%;
+    width: 262px;
+    height: 54px;
+    background-color: #f99232;
+    border-radius: 8px;
+    margin: auto;
+    text-decoration: none;
+  }
+  .imgcross {
+    margin-right: 30px;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .carddiv {
+    position: absolute;
+    top: 40%;
+    margin-left: 12px;
+  }
+  .cardbody {
+    width: 241px;
+    height: 291px;
+    border: 2px solid #bccbd9;
+    border-radius: 28px;
+    opacity: 80%;
+    background-color: white;
+  }
+  .btndiv .btn {
+    position: absolute;
+    height: 54px;
+    margin-top: 4%;
+    left: 35%;
+    top: 75%;
+    width: 235px;
+  }
+  .maincontent h4 {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  
+  .carddiv {
+    margin-left: 10%;
+    top: 41%;
+  }
+  .btndiv .btn {
+    width: 234px;
+    left: 38.5%;
+  }
+}
+@media (min-width:1025px) and (max-width:1441px) {
+  .btndiv .btn {
+    left: 41.5%;
+  }
+  .maincontent{
+    margin-right: 21%;
+    margin-left: 23%;
+  }
+  .carddiv{
+    margin-left: 22%;
+    
+  }
+}
+@media (min-width: 769px) and (max-width: 1450px) {
+  .maincontent h4 {
+    display: none;
+  }
+}

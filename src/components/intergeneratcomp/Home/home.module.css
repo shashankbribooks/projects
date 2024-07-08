@@ -1,0 +1,155 @@
+.bannerimg {
+  position: relative;
+  top: 0%;
+  bottom: 0%;
+  width: 100%;
+}
+.bribologo {
+  position: absolute;
+  top: 5%;
+  left: 8%;
+} 
+.logokido {
+  top: 12%;
+  left: 8%;
+  position: absolute;
+}
+.logokidosize {
+  width: 550px;
+  height: 300px;
+  margin-top: 40px;
+  position: absolute;
+}
+.worldlogo {
+  top: 55%;
+  left: 8%;
+  position: absolute;
+}
+.worldlogosize {
+  width: 550px;
+  height: 100px;
+  margin-top: 50px;
+}
+@media (min-width: 0) and (max-width: 425px) {
+  .worldlogomobile {
+    top: 20%;
+    left: 8%;
+    position: absolute;
+  }
+  .bannerimgmobile {
+    width: 100%;
+    height: auto;
+  }
+  .bannerimg {
+    display: none;
+  }
+  .logokido {
+    display: none;
+  }
+  .worldlogo {
+    display: none;
+  }
+}
+@media (min-width: 425px) and (max-width: 768px) {
+  .logokidosize {
+    width: 300px;
+    height: 140px;
+    margin-top: 40px;
+    position: absolute;
+  }
+  .worldlogosize {
+    width: 300px;
+    height: 80px;
+    margin-top: -60px;
+  }
+  .bribologosize{
+    width: 100px;
+  }
+}
+@media (min-width: 576px) and (max-width: 1800px) {
+  .bannerimgmobile {
+    display: none;
+  }
+  .worldlogomobile {
+    display: none;
+  }
+}
+/* ------------ patner css------------- */
+.main {
+  width: 1000px;
+  position: absolute;
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: -5% 10%;
+  box-shadow: 0px 34px 74px 0px rgba(80, 86, 141, 0.15);
+}
+.headtxt{
+  width: 360px;
+}
+.para {
+  color: var(--navy-blue, #04004d);
+  font-family: Nunito;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 40px 0 0 10px;
+}
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.logos {
+  overflow: hidden;
+  padding: 10px 0;
+  white-space: nowrap;
+  position: relative;
+}
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  content: "";
+  z-index: 0;
+}
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+.logosslide {
+  display: inline-block;
+  animation: 10s slide infinite linear;
+}
+.logosslide img {
+  height: 80px;
+  width: auto;
+  margin: 10px 60px;
+  margin-left: 10px;
+}
+@media (min-width: 0px) and (max-width: 425px) {
+  .main {
+    width: 405.9px;
+    margin-top: -14%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .main {
+    width: 740px;
+    margin-top: -9%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}

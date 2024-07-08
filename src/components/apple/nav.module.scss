@@ -1,0 +1,64 @@
+.main {
+  position: relative;
+  background-image: url("/assets/images/apple/Group 1597881568.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  position: fixed;
+  // .nav {
+  //   display: flex;
+  //   justify-content: space-between;
+  //   align-items: center;
+  //   padding: 20px 40px;
+  // }
+  .logo img {
+    width: 80%;
+  }
+  .crossbtn img {
+    width: 80%;
+  }
+  .congrt img {
+    width: 40%;
+  }
+  .box {
+    width: 500px;
+    height: 600px;
+    background-color: grey;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+
+    .car1 {
+      // position: absolute;
+      width: 140px;
+      height: 140px;
+      background-color: red;
+      border-radius: 0 0 15px 15px;
+      border: 2px solid hotpink;
+      p{
+        padding: 10px;
+        font-weight: 600;
+        color: white;
+      }
+    }
+    .car2 {
+      // position: absolute;
+      bottom: 10%;
+      width: 130px;
+      height: 140px;
+      background-color: green;
+      border-radius: 0 0 15px 15px;
+      border: 2px solid hotpink;
+    }
+    .car3 {
+      width: 150px;
+      height: 180px;
+      background-color: yellow;
+      border-radius: 0 0 15px 15px;
+      border: 2px solid hotpink;
+    }
+  }
+}

@@ -1,0 +1,124 @@
+.awtxt {
+  text-align: center;
+  color: #10284b;
+  font-family: Nunito;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.awparatxt {
+  color: #474f62;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.textall {
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.card-bg {
+  margin-top: 20px;
+}
+.card-vector-img {
+  width: 260px;
+  height: 160px;
+  text-align: center;
+  margin-top: 240px;
+  border-radius: 12px;
+  border: 1px solid #f3f3f3;
+  background: #fff;
+  box-shadow: 0px 45px 80px 0px rgba(0, 0, 0, 0.04);
+  margin-left: 15px;
+}
+.img-card {
+  margin-top: 15px;
+}
+.img-card-three {
+  margin-top: 20px;
+  width: 150px;
+}
+.awbg {
+  margin-top: 50px;
+  background-color: red;
+  border-radius: 12px;
+  border: 1px solid #f3f3f3;
+  background: var(--white, #fff);
+  box-shadow: 0px 45px 80px 0px rgba(0, 0, 0, 0.04);
+  width: 250px;
+  height: 190px;
+  margin: 2% auto;
+}
+.onelogo {
+  width: 232px;
+  height: 108px;
+  margin: 18% auto;
+}
+@media (min-width: 0) and (max-width: 480px) {
+  .awtxt {
+    text-align: center;
+    color: #10284b;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 296px;
+    margin: auto;
+  }
+  .textall{
+    margin-top: 20px;
+  }
+  .awparatxt {
+    color: #474f62;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: auto;
+    width: 349px;
+  }
+  .onelogo {
+    width: 133px;
+    height: 64px;
+    margin: 18% auto;
+  }
+  .row {
+    margin: 0 2%;
+  }
+  .awbg {
+    background-color: red;
+    border-radius: 12px;
+    border: 1px solid #f3f3f3;
+    background: var(--white, #fff);
+    box-shadow: 0px 45px 80px 0px rgba(0, 0, 0, 0.04);
+    width: 156px;
+    height: 114px;
+    margin: 4% auto;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .awbg {
+    margin: 3% auto;
+  }
+  .row {
+    margin: 3% 7%;
+  }
+  .awparatxt{
+    width: 600px;
+    margin: 3% auto;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .awbg {
+    margin-left: 50px;
+  }
+}

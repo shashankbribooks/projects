@@ -1,0 +1,87 @@
+.container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+}
+.headdiv {
+  text-align: center;
+  margin-top: 20px;
+}
+.headdiv img {
+  width: 31.02px;
+  height: 54.58px;
+}
+.heading {
+  font-family: Nunito;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 38px;
+  letter-spacing: 0em;
+}
+
+.card {
+  width: 300px;
+  height: 210px;
+  background: #fbfafa;
+  text-align: center;
+  border-radius: 12px;
+  margin: 5%;
+}
+.card img {
+  margin-top: 30px;
+}
+.card p {
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  margin-top: 10px;
+  color: #000000;
+}
+.col {
+  box-shadow: rgba(0, 0, 0, 0.05);
+}
+.h2{
+  text-align: center;
+}
+.work {
+  display: flex;
+}
+.cmd{
+  display: flex;
+}
+@media (min-width: 0) and (max-width: 425px) {
+  .card {
+    width: 165px;
+    height: 115px;
+    background: #f3f3f3;
+    text-align: center;
+    border-radius: 12px;
+  }
+  .main .row {
+    margin: 5px;
+  }
+  .card img {
+    width: 71.5px;
+    height: 71.5px;
+    margin-top: 10px;
+  }
+  .card p {
+    font-family: Nunito;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    margin-top: 2px;
+    color: #000000;
+  }
+  .headdiv img {
+    width: 21.72px;
+    height: 38.27px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+}

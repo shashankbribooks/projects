@@ -1,0 +1,89 @@
+/*--------------------- Left Side -----------------------------*/
+
+.heading {
+  font-size: 22px;
+  font-weight: 400;
+}
+.subHeading {
+  font-size: 26px;
+  font-weight: 600;
+  /* margin-top: 20px; */
+}
+.stepsTitle,
+.partnerHeading {
+  color: #003f63;
+  font-size: 21px;
+  font-weight: 600;
+  /* margin-top: 10px; */
+}
+.part_bg {
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  border-radius: 8.9px;
+}
+.child_img {
+  margin-bottom: -27px;
+}
+.partnerHeading {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .heading {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  .subHeading {
+    font-size: 13px;
+    /* font-weight: 600; */
+    /* margin-top: 20px; */
+  }
+  .stepsTitle,
+  .partnerHeading {
+    font-size: 11px;
+    font-weight: 500;
+    /* margin-top: 10px; */
+  }
+
+  .writeImg,
+  .publishImg,
+  .promoteImg {
+    width: 62px;
+    height: 43px;
+  }
+  .publishImg {
+    width: 51px;
+  }
+  .promoteImg {
+    width: 42px;
+  }
+
+  .playIcon {
+    width: 21px;
+    height: 21px;
+  }
+}
+
+/*--------------------- Left Side -----------------------------*/
+
+/*--------------------- Teacher Form ------------------------- */
+
+.formBox {
+  /* background: linear-gradient(
+    180deg,
+    rgba(225, 226, 255, 0.7) -34.45%,
+    rgba(158, 203, 255, 0.7) 127.74%
+  ); */
+  background-image: url("/assets/images/Signup/bg-book-img.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* border-radius: 32px; */
+  max-width: 480px;
+  max-height: auto;
+}
+.formHeading {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+}
+/*--------------------- Teacher Form ------------------------- */

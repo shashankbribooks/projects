@@ -1,0 +1,104 @@
+.main {
+  margin-top: 100px;
+}
+.size {
+  width: 350px;
+  height: 280px;
+}
+.divsize {
+  margin-top: 30px;
+  margin-right: 10px;
+}
+.headtext {
+  text-align: center;
+  margin-top: 20px;
+}
+.htext {
+  font-family: Nunito;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 41px;
+  letter-spacing: 0em;
+  color: rgba(16, 40, 75, 1);
+}
+.paratext {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  opacity: 70%;
+  width: 850px;
+  margin-left: 10%;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  .paratext {
+    font-size: 14px;
+    width: 349px;
+    margin: 7%;
+  }
+  .divsize {
+    margin: 10px auto;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .paratext {
+    margin: 2% 3%;
+    width: 650px;
+  }
+}
+/* ------------InterGenerational section css start ------------   */
+.interheadtext {
+  text-align: center;
+  margin-top: 40px;
+}
+.interhtext {
+  font-family: Nunito;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(16, 40, 75, 1);
+}
+.interparatext {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  opacity: 70%;
+  width: 850px;
+  margin: auto;
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+  .interhtext {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0 24px 0 24px;
+  }
+  .interparatext {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    width: 340px;
+    margin: 2% 7% 2% 7%;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .bannerimgmobile {
+    display: none;
+  }
+  .interparatext {
+    width: 650px;
+    /* margin: 2% 3%; */
+  }
+}
+/* ------------InterGenerational section css end ------------   */

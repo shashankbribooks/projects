@@ -1,0 +1,118 @@
+.banner{
+    width: auto;
+    margin: auto;
+  }
+  .item {
+    /* width: 180px; */
+    width: 180px;
+    height: 394px;
+  }
+  .item img {
+    width: 175px;
+    height: 276px;
+  }
+  .item p {
+    margin: 0;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .item h4 {
+    margin: 7px 0;
+    font-family: Signika;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .item h5 {
+    font-family: Signika;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: Orange;
+  }
+  .cartbtn {
+    width: 130px;
+    height: 30px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+  .cartbtn a {
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    margin: 2px auto;
+  }
+  
+/* ------------------------------ */
+.container h1 {
+    font-family: Signika;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .btn {
+    width: 250px;
+    height: 394px;
+    background-color: rgba(244, 247, 255, 1);
+    /* border: 2px solid red; */
+  }
+  .carouselside {
+  }
+  /* .btn a:hover {
+    background-color: green;
+    color: white;
+  } */
+  
+  .button {
+    font-family: Signika;
+    font-size: 16px;
+    font-weight: 500;
+    /* line-height: 40px; */
+    letter-spacing: 0em;
+    text-align: left;
+    border: none;
+    color: black;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .button {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button:after {
+    content: "➔";
+    position: absolute;
+    opacity: 0;
+    /* top: 14px; */
+    right: -10px;
+    transition: 0.5s;
+  }
+  
+  .button:hover {
+    padding-right: 24px;
+    padding-left: 14px;
+    background-color: green;
+    color: white;
+  }
+  
+  .button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  
