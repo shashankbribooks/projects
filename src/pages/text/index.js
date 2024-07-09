@@ -1,6 +1,6 @@
 // pages/index.js
 
-import TextToSpeech from "@/components/text/TextToSpeech";
+import TextToSpeech from "../../components/text/TextToSpeech";
 
 export default function Home() {
   const text =

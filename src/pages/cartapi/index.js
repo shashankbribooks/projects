@@ -1,5 +1,5 @@
-import Blog from "@/components/cartapi/Firstapi";
-import Firstapi from "@/components/cartapi/Firstapi";
+import Blog from "../../components/cartapi/Firstapi";
+import Firstapi from "../../components/cartapi/Firstapi";
 import Link from "next/link";
 import React from "react";
 

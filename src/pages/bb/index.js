@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import styles from "./index.module.css";
 import { Poppins } from "next/font/google";
-import StudentForm from "@/components/signup/StudentForm";
+import StudentForm from "../../components/signup/StudentForm";
 
 const poppins = Poppins({
   weight: "400",
@@ -110,6 +110,7 @@ const index = () => {
           </Col>
           <Col md={6}>
             <StudentForm />
+
           </Col>
           <div className="d-sm-none">
             <div className="">
