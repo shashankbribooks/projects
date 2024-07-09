@@ -1,4 +1,4 @@
-import Swiperjdk from "@/components/jdk/Swiper";
+import Swiperjdk from "../../components/jdk/Swiper";
 import React from "react";
 
 const index = () => {
