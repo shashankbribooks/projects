@@ -1,5 +1,5 @@
 "use client";
-import "@/styles/globals.css";
+import "../styles/globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-multi-carousel/lib/styles.css";
 import { use, useEffect } from "react";
