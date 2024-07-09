@@ -18,7 +18,7 @@ export default function Home() {
         }}
       >
         <Image
-          src="/assets/images/bagckround image.svg"
+          src="./assets/images/bagckround image.svg"
           layout="fill"
           alt="background image"
           style={{

@@ -227,3 +227,23 @@
     transform: rotate(0deg);
   }
 }
+
+.btn {
+  position: relative;
+  width: 262px;
+  height: 54px;
+  background-color: #f99232;
+  border-radius: 8px;
+  margin: auto;
+  text-decoration: none;
+}
+.btn h2 {
+  font-family: Signika;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  color: black;
+  text-align: center;
+  margin: 5% auto;
+}
