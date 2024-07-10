@@ -1,0 +1,28 @@
+.relative_container {
+  position: relative; /* Ensures child elements can be absolutely positioned relative to this container */
+}
+
+.full_width_image {
+  position: absolute; /* Position the image absolutely */
+  left: 0;
+  top: 130px;
+  width: 100vw; /* Full viewport width */
+  height: auto;
+}
+.searchbox input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: white;
+  background-image: url("/assets/images/Indiadashboard2024/searchicon.svg");
+  background-position: 15px 18px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 20px;
+}
+.search {
+  max-width: 500px;
+  border-radius: 8px;
+  position: absolute;
+  top: 240px;
+}
