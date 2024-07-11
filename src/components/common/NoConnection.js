@@ -2,9 +2,8 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import React, { useState, useEffect, useCallback } from "react";
 import { Container, Row, Col, Form, Button, Modal } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import Lottie from "react-lottie";
+import Lottie from "../../../node_modules/react-lottie";
 import * as animationData from "../../assets/lottie/no_connection.json";
 import CrossIcon from "../../assets/images/cross.svg";
 const NoConnection = (props) => {
