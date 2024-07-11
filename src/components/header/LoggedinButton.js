@@ -1,6 +1,6 @@
 import { Button } from 'react-bootstrap';
 import Link from 'next/link'
-import { useAppState, useAppDispatch } from '@/context/AppProvider'
+import { useAppState, useAppDispatch } from '../../context/AppProvider'
 
 const LoggedinButton = (props) => {
 	const dispatch = useAppDispatch()
