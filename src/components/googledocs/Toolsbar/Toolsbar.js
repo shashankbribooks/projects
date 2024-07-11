@@ -140,226 +140,225 @@ const Toolsbar = () => {
   };
   const white = "public/assets/images/BriBooks.png";
   return (
-    // <div className="editor my-1 ">
-    //   <div
-    //     className={`${styles.editornav} mx-3 rounded rounded-5 px-1 py-2 d-flex`}
-    //   >
-    //     {/* <div className={`${styles.iconhover} mx-2`}>
-    //       <button className="border-0 ">
-    //         <span>
-    //           <SearchIcon />
-    //         </span>
-    //       </button>
-    //     </div> */}
+    <div className="editor my-1 ">
+      <div
+        className={`${styles.editornav} mx-3 rounded rounded-5 px-1 py-2 d-flex`}
+      >
+        <div className={`${styles.iconhover} mx-2`}>
+          <button className="border-0 ">
+            <span>
+              <SearchIcon />
+            </span>
+          </button>
+        </div>
 
-    //     {/* <div className={`${styles.iconhover} mx-2`}>
-    //       <button className="border-0" onClick={handleUndo}>
-    //         <span>
-    //           <UndoIcon />
-    //         </span>
-    //       </button>
-    //     </div> */}
+        <div className={`${styles.iconhover} mx-2`}>
+          <button className="border-0" onClick={handleUndo}>
+            <span>
+              <UndoIcon />
+            </span>
+          </button>
+        </div>
 
-    //     {/* <div className={`${styles.iconhover} mx-2`}>
-    //       <button className="border-0" onClick={handleRedo}>
-    //         <span>
-    //           <RedoIcon />
-    //         </span>
-    //       </button>
-    //     </div> */}
+        <div className={`${styles.iconhover} mx-2`}>
+          <button className="border-0" onClick={handleRedo}>
+            <span>
+              <RedoIcon />
+            </span>
+          </button>
+        </div>
 
-    //     {/* <div className={`${styles.iconhover} mx-2`}>
-    //       <button className="border-0">
-    //         <span>
-    //           <PrintIcon />
-    //         </span>
-    //       </button>
-    //     </div> */}
+        <div className={`${styles.iconhover} mx-2`}>
+          <button className="border-0">
+            <span>
+              <PrintIcon />
+            </span>
+          </button>
+        </div>
 
-    //     {/* --------------------- zoom level size----------------------- */}
-    //     {/* <div className={`${styles.dropdown} mx-2`}>
-    //       <span>
-    //         <select
-    //           id="zoomLevel"
-    //           value={zoomLevel}
-    //           onChange={handleZoomChange}
-    //         >
-    //           <option value="100">100%</option>
-    //           <option value="150">150%</option>
-    //           <option value="200">200%</option>
-    //           <option value="250">250%</option>
-    //           <option value="300">300%</option>
-    //           <option value="350">350%</option>
-    //           <option value="400">400%</option>
-    //         </select>
-    //       </span>
-    //     </div>
-    //     <div class={styles.vl}></div> */}
+        {/* --------------------- zoom level size----------------------- */}
+        <div className={`${styles.dropdown} mx-2`}>
+          <span>
+            <select
+              id="zoomLevel"
+              value={zoomLevel}
+              onChange={handleZoomChange}
+            >
+              <option value="100">100%</option>
+              <option value="150">150%</option>
+              <option value="200">200%</option>
+              <option value="250">250%</option>
+              <option value="300">300%</option>
+              <option value="350">350%</option>
+              <option value="400">400%</option>
+            </select>
+          </span>
+        </div>
+        <div class={styles.vl}></div>
 
-    //     {/* --------------------- Heading ----------------------- */}
-    //     {/* <div className={`${styles.dropdown} mx-2`}>
-    //       <span className="">
-    //         <select
-    //           id="heading"
-    //           value={selectedHeading}
-    //           onChange={handleHeadingChange}
-    //         >
-    //           <option value="normal">Normal</option>
-    //           <option value="subtitle">Subtitle</option>
-    //           <option value="title">Title</option>
-    //           <option value="Heading 1">Heading 1</option>
-    //           <option value="Heading 2">Heading 2</option>
-    //           <option value="Heading 3">Heading 3</option>
-    //           <option value="Heading 4">Heading 4</option>
-    //         </select>
-    //       </span>
-    //     </div> */}
+        {/* --------------------- Heading ----------------------- */}
+        <div className={`${styles.dropdown} mx-2`}>
+          <span className="">
+            <select
+              id="heading"
+              value={selectedHeading}
+              onChange={handleHeadingChange}
+            >
+              <option value="normal">Normal</option>
+              <option value="subtitle">Subtitle</option>
+              <option value="title">Title</option>
+              <option value="Heading 1">Heading 1</option>
+              <option value="Heading 2">Heading 2</option>
+              <option value="Heading 3">Heading 3</option>
+              <option value="Heading 4">Heading 4</option>
+            </select>
+          </span>
+        </div>
 
-    //     {/* --------------------- Font-family ----------------------- */}
-    //     {/* <div className={`${styles.iconhover} mx-2`}>
-    //       <span className="">
-    //         <select
-    //           id="fontFamily"
-    //           value={fontFamily}
-    //           onChange={handleFontFamilyChange}
-    //         >
-    //           <option value="Arial, sans-serif">Arial</option>
-    //           <option value="Open Sans">Open Sans</option>
-    //           <option value="Roboto Mono">Roboto Mono</option>
-    //           <option value="Courier New, monospace">Cursive</option>
-    //           <option value="Georgia">Georgia</option>
-    //           <option value="Verdana, sans-serif">Verdana</option>
-    //           <option value="system-ui">System-ui</option>
-    //         </select>
-    //       </span>
-    //     </div>
-    //     <div class={styles.vl}></div> */}
+        {/* --------------------- Font-family ----------------------- */}
+        <div className={`${styles.iconhover} mx-2`}>
+          <span className="">
+            <select
+              id="fontFamily"
+              value={fontFamily}
+              onChange={handleFontFamilyChange}
+            >
+              <option value="Arial, sans-serif">Arial</option>
+              <option value="Open Sans">Open Sans</option>
+              <option value="Roboto Mono">Roboto Mono</option>
+              <option value="Courier New, monospace">Cursive</option>
+              <option value="Georgia">Georgia</option>
+              <option value="Verdana, sans-serif">Verdana</option>
+              <option value="system-ui">System-ui</option>
+            </select>
+          </span>
+        </div>
+        <div class={styles.vl}></div>
 
-    //     {/* --------------------- Font-size ----------------------- */}
-    //     {/* <div className="div mx-2">
-    //       <div className="hstack">
-    //         <Button
-    //           className={`${styles.fontbtn} me-1 `}
-    //           onClick={decreaseFontSize}
-    //         >
-    //           -
-    //         </Button>
-    //         <span> {fontSize}px</span>
-    //         <Button
-    //           className={`${styles.fontbtn} ms-1 `}
-    //           onClick={increaseFontSize}
-    //         >
-    //           +
-    //         </Button>
-    //       </div>
-    //     </div>
-    //     <div class={styles.vl}></div> */}
+        {/* --------------------- Font-size ----------------------- */}
+        <div className="div mx-2">
+          <div className="hstack">
+            <Button
+              className={`${styles.fontbtn} me-1 `}
+              onClick={decreaseFontSize}
+            >
+              -
+            </Button>
+            <span> {fontSize}px</span>
+            <Button
+              className={`${styles.fontbtn} ms-1 `}
+              onClick={increaseFontSize}
+            >
+              +
+            </Button>
+          </div>
+        </div>
+        <div class={styles.vl}></div>
 
-    //     {/* --------------------- bold ----------------------- */}
-    //     {/* <div className={`${styles.iconhover}  mx-2`}>
-    //       <button className="border-0" onClick={toggleBold}>
-    //         <FormatBoldIcon />
-    //       </button>
-    //     </div> */}
+        {/* --------------------- bold ----------------------- */}
+        <div className={`${styles.iconhover}  mx-2`}>
+          <button className="border-0" onClick={toggleBold}>
+            <FormatBoldIcon />
+          </button>
+        </div>
 
-    //     {/* <Btnbold /> */}
+        {/* <Btnbold /> */}
 
-    //     {/* --------------------- italic  ----------------------- */}
-    //     {/* <div className={`${styles.iconhover}  mx-2`}>
-    //       <button className="border-0 " onClick={toggleItalic}>
-    //         <FormatItalicIcon />
-    //       </button>
-    //     </div> */}
+        {/* --------------------- italic  ----------------------- */}
+        <div className={`${styles.iconhover}  mx-2`}>
+          <button className="border-0 " onClick={toggleItalic}>
+            <FormatItalicIcon />
+          </button>
+        </div>
 
-    //     {/* --------------------- underline ----------------------- */}
-    //     {/* <div className={`${styles.iconhover}  mx-2`}>
-    //       <button className="border-0 " onClick={toggleUnderline}>
-    //         <span>
-    //           <FormatUnderlinedIcon />
-    //         </span>
-    //       </button>
-    //     </div> */}
+        {/* --------------------- underline ----------------------- */}
+        <div className={`${styles.iconhover}  mx-2`}>
+          <button className="border-0 " onClick={toggleUnderline}>
+            <span>
+              <FormatUnderlinedIcon />
+            </span>
+          </button>
+        </div>
 
-    //     {/* <div className={`${styles.iconhover}  mx-2`}>
-    //       <button
-    //         onClick={handleColorButtonClick}
-    //         // onClick={() => setShowColorPicker(!showColorPicker)}
-    //         style={{ cursor: "pointer", border: "none" }}
-    //       >
-    //         <FormatColorTextIcon />
-    //       </button>
-    //     </div> */}
+        <div className={`${styles.iconhover}  mx-2`}>
+          <button
+            onClick={handleColorButtonClick}
+            // onClick={() => setShowColorPicker(!showColorPicker)}
+            style={{ cursor: "pointer", border: "none" }}
+          >
+            <FormatColorTextIcon />
+          </button>
+        </div>
 
-    //     {/* <div className={`${styles.iconhover} mx-2`}>
-    //       <button className="border-0 ">
-    //         <span>
-    //           <ColorizeIcon />
-    //         </span>
-    //       </button>
-    //     </div> */}
+        <div className={`${styles.iconhover} mx-2`}>
+          <button className="border-0 ">
+            <span>
+              <ColorizeIcon />
+            </span>
+          </button>
+        </div>
 
-    //     {/* <div class={styles.vl}></div>
-    //     <div className={`${styles.iconhover} text-black mx-2`}>
-    //       <button className="border-0 ">
-    //         <InsertLinkIcon />
-    //       </button>
-    //     </div> */}
+        <div class={styles.vl}></div>
+        <div className={`${styles.iconhover} text-black mx-2`}>
+          <button className="border-0 ">
+            <InsertLinkIcon />
+          </button>
+        </div>
 
-    //     {/* <div className={`${styles.iconhover} text-black mx-2`}>
-    //       <AddCommentIcon />
-    //     </div>
-    //     <div className={`${styles.iconhover} text-black mx-2`}>
-    //       <InsertPhotoIcon />
-    //     </div>
-    //     <div class={styles.vl}></div>
-    //     <div className={`${styles.iconhover} text-black mx-2`}>
-    //       <MoreVertIcon />
-    //     </div>
-    //     <div className={`${styles.iconhover} text-black ms-auto mx-2`}>
-    //       <EditIcon />
-    //     </div>
-    //     <div class={styles.vl}></div>
-    //     <div className={`${styles.iconhover} text-black  mx-2`}>
-    //       <KeyboardArrowUpIcon />
-    //     </div> */}
-    //   </div>
+        <div className={`${styles.iconhover} text-black mx-2`}>
+          <AddCommentIcon />
+        </div>
+        <div className={`${styles.iconhover} text-black mx-2`}>
+          <InsertPhotoIcon />
+        </div>
+        <div class={styles.vl}></div>
+        <div className={`${styles.iconhover} text-black mx-2`}>
+          <MoreVertIcon />
+        </div>
+        <div className={`${styles.iconhover} text-black ms-auto mx-2`}>
+          <EditIcon />
+        </div>
+        <div class={styles.vl}></div>
+        <div className={`${styles.iconhover} text-black  mx-2`}>
+          <KeyboardArrowUpIcon />
+        </div>
+      </div>
 
-    //   {/* <div
-    //     className="my-2 mx-4"
-    //     style={{
-    //       width: `${calculateSize(300, zoomLevel)}px`,
-    //       height: `${calculateSize(150, zoomLevel)}px`,
-    //     }}
-    //   >
-    //     {showColorPicker && (
-    //       <div
-    //         style={{ position: "absolute", zIndex: 9999, right: 20 }}
-    //         className="border border-2 p-2"
-    //       >
-    //         <CirclePicker color={selectedColor} onChange={handleColorChange} />
-    //       </div>
-    //     )}
-    //     <textarea
-    //       value={text}
-    //       onChange={handleChange}
-    //       style={{
-    //         fontSize: `${fontSize}px`,
-    //         fontFamily: fontFamily,
-    //         color: selectedColor,
-    //         fontWeight: isBold ? "bold" : "normal",
-    //         fontStyle: isItalic ? "italic" : "normal",
-    //         textDecoration: isUnderline ? "underline" : "none",
-    //         width: "1200px",
-    //         height: "100%",
-    //         resize: "none",
-    //         ...getHeadingStyle(),
-    //       }}
-    //       ref={textAreaRef}
-    //     />
-    //   </div> */}
-
-    // </div>
-    <Btnbold white={white} />
+      <div
+        className="my-2 mx-4"
+        style={{
+          width: `${calculateSize(300, zoomLevel)}px`,
+          height: `${calculateSize(150, zoomLevel)}px`,
+        }}
+      >
+        {showColorPicker && (
+          <div
+            style={{ position: "absolute", zIndex: 9999, right: 20 }}
+            className="border border-2 p-2"
+          >
+            <CirclePicker color={selectedColor} onChange={handleColorChange} />
+          </div>
+        )}
+        <textarea
+          value={text}
+          onChange={handleChange}
+          style={{
+            fontSize: `${fontSize}px`,
+            fontFamily: fontFamily,
+            color: selectedColor,
+            fontWeight: isBold ? "bold" : "normal",
+            fontStyle: isItalic ? "italic" : "normal",
+            textDecoration: isUnderline ? "underline" : "none",
+            width: "1200px",
+            height: "100%",
+            resize: "none",
+            ...getHeadingStyle(),
+          }}
+          ref={textAreaRef}
+        />
+      </div>
+      <Btnbold white={white} />
+    </div>
   );
 };
 

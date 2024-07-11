@@ -26,3 +26,18 @@
   position: absolute;
   top: 240px;
 }
+
+.bookbox {
+  width: 200px;
+  height: 284px;
+  background-color: white;
+}
+
+.mainbox {
+  position: absolute; /* Position the image absolutely */
+  left: 0;
+  right: 0;
+  top: 300px;
+  width: 100vw; /* Full viewport width */
+  /* height: auto; */
+}

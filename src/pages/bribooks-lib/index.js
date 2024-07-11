@@ -13,7 +13,7 @@ const index = () => {
   return (
     <div className="" style={{ backgroundColor: "#FFFFFF" }}>
       <div className="container relative">
-        <div className="logo mt-2">
+        <div className="logo mt-2 ">
           <Image
             src={"/assets/coloured-logo.svg"}
             width={150}
@@ -22,7 +22,7 @@ const index = () => {
           />
         </div>
         <div
-          className="d-flex justify-content-center "
+          className="d-flex justify-content-center m-3 text-center "
           style={{ color: "#084481" }}
         >
           <h5 className={inter.className}>
@@ -38,7 +38,7 @@ const index = () => {
             height={30}
             style={{ width: "100vw", height: "auto" }}
           />
-          <h5 className={`${inter.className} mt-3 fw-normal`}>
+          <h5 className={`${inter.className} m-3 fw-normal`}>
             Books written by{" "}
             <span style={{ color: "#46A302" }}>young authors</span> for{" "}
             <span style={{ color: "#F99232" }}>young readers</span>
@@ -55,6 +55,16 @@ const index = () => {
             // onChange={(event) => setInput(event.target.value)}
           />
         </div>
+      </div>
+      <div
+        className={`${styles.mainbox} container absolute d-flex flex-wrap border-top`}
+      >
+        <div className={`${styles.bookbox} border mt-2 mx-2`}></div>
+        <div className={`${styles.bookbox} border mt-2 mx-2 `}></div>
+        <div className={`${styles.bookbox} border mt-2 mx-2`}></div>
+        <div className={`${styles.bookbox} border mt-2 mx-2`}></div>
+        <div className={`${styles.bookbox} border mt-2 mx-2 `}></div>
+        <div className={`${styles.bookbox} border mt-2 mx-2`}></div>
       </div>
     </div>
   );
