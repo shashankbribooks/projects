@@ -1,11 +1,30 @@
 import { useState, useRef, useEffect } from "react";
 import { ResizableBox } from "react-resizable";
 import "react-resizable/css/styles.css"; // Import styles for react-resizable
-import UndoIcon from "@mui/icons-material/Undo";
-import RedoIcon from "@mui/icons-material/Redo";
 import { ClassNames } from "@emotion/react";
 import axios from "axios";
 import { HiBattery100 } from "react-icons/hi2";
+import styles from "./button.module.css";
+import SearchIcon from "@mui/icons-material/Search";
+import PrintIcon from "@mui/icons-material/Print";
+import ImagesearchRollerIcon from "@mui/icons-material/ImagesearchRoller";
+import FormatBoldIcon from "@mui/icons-material/FormatBold";
+import FormatItalicIcon from "@mui/icons-material/FormatItalic";
+import FormatUnderlinedIcon from "@mui/icons-material/FormatUnderlined";
+import FormatColorTextIcon from "@mui/icons-material/FormatColorText";
+import ColorizeIcon from "@mui/icons-material/Colorize";
+import InsertLinkIcon from "@mui/icons-material/InsertLink";
+import AddCommentIcon from "@mui/icons-material/AddComment";
+import InsertPhotoIcon from "@mui/icons-material/InsertPhoto";
+import UndoIcon from "@mui/icons-material/Undo";
+import RedoIcon from "@mui/icons-material/Redo";
+import SpellcheckIcon from "@mui/icons-material/Spellcheck";
+import { Input } from "@mui/material";
+import MoreVertIcon from "@mui/icons-material/MoreVert";
+import EditIcon from "@mui/icons-material/Edit";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
+import TextIncreaseIcon from "@mui/icons-material/TextIncrease";
 
 export default function RichTextEditor(props) {
   const [content, setContent] = useState("");
@@ -174,19 +193,19 @@ export default function RichTextEditor(props) {
           onClick={() => applyFormat("bold")}
           className="border-0 bg-transparent fs-4 fw-bold"
         >
-          <i>B</i>
+          <FormatBoldIcon />
         </button>
         <button
           onClick={() => applyFormat("italic")}
           className="border-0 bg-transparent fs-4 fw-bold"
         >
-          <i>I</i>
+          <FormatItalicIcon />
         </button>
         <button
           onClick={() => applyFormat("underline")}
           className="border-0 bg-transparent fs-4 fw-bold text-decoration-underline"
         >
-          U
+          <FormatUnderlinedIcon />
         </button>
         <button
           onClick={() => document.execCommand("undo")}
@@ -248,15 +267,15 @@ export default function RichTextEditor(props) {
         />
         <button
           onClick={() => document.getElementById("imageUpload").click()}
-          className="border-1 bg-transparent fs-4 fw-bold"
+          className="  "
         >
-          Image
+          {/* Image */}
+          <div className={`${styles.iconhover} mx-2`}>
+            <InsertPhotoIcon />
+          </div>
         </button>
-        <button
-          onClick={insertLink}
-          className="border-1 bg-transparent fs-4 fw-bold"
-        >
-          Link 
+        <button onClick={insertLink} className="">
+          <InsertLinkIcon />
         </button>
 
         <select onChange={(e) => applyAlignment(e.target.value)}>
