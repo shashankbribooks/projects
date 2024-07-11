@@ -1,0 +1,385 @@
+[
+  {
+    "rank": 1,
+    "book_id": 122975,
+    "user_id": 4027,
+    "book_name": "Icy comet takes girl to space",
+    "author_name": "Kshipra Moreker",
+    "school": "Podar International School - Santacroz (W) Branch",
+    "author_image": "AuthorImages/author_0_122975.png",
+    "cover_image": "BookCovers/book_122975_2.png",
+    "crown_image": "/assets/images/Indiadashboard2023/crown1.svg"
+  },
+  {
+    "rank": 2,
+    "book_id": 376182,
+    "user_id": 385731,
+    "book_name": "The Cosmic Odyssey of Atticus",
+    "author_name": "Jahan Vaishnav",
+    "school": "Anand Niketan - maninagar branch",
+    "author_image": "AuthorImages/author_0_376182.png",
+    "cover_image": "BookCovers/book_376182_1.png",
+    "crown_image": "/assets/images/Indiadashboard2023/crown2.svg"
+  },
+  {
+    "rank": 3,
+    "book_id": 441937,
+    "user_id": 461502,
+    "book_name": "THE CROW AND THE EAGLE",
+    "author_name": "Arushi Yadav",
+    "school": "JBM Global School",
+    "author_image": "AuthorImages/author_0_441937.png",
+    "cover_image": "BookCovers/book_441937_1.png",
+    "crown_image": "/assets/images/Indiadashboard2023/crown3.svg"
+  },
+  {
+    "rank": 26,
+    "book_id": 144541,
+    "user_id": 219208,
+    "book_name": "A Gaze of My Poetic Sky",
+    "author_name": "Manika Verma",
+    "school": "St. Lawrence High School",
+    "author_image": "AuthorImages/author_0_144541.png",
+    "cover_image": "BookCovers/book_144541_1.png"
+  },
+  {
+    "rank": 18,
+    "book_id": 204003,
+    "user_id": 273770,
+    "book_name": "Mysterious 5th Block!!",
+    "author_name": "Anisha Mathur",
+    "school": "Whitefield Global School",
+    "author_image": "AuthorImages/author_0_204003.png",
+    "cover_image": "BookCovers/book_204003_4.png"
+  },
+  {
+    "rank": 19,
+    "book_id": 207346,
+    "user_id": 272941,
+    "book_name": "The dream cricket final",
+    "author_name": "Reon Rathi",
+    "school": "21K School",
+    "author_image": "AuthorImages/author_0_207346.png",
+    "cover_image": "BookCovers/book_207346_1.png"
+  },
+  {
+    "rank": 30,
+    "book_id": 243086,
+    "user_id": 262475,
+    "book_name": "Emma's Wondrous Dream",
+    "author_name": "Kaavya Upadrasta",
+    "school": "Wisdom World School-S.no. 201",
+    "author_image": "AuthorImages/author_0_243086.png",
+    "cover_image": "BookCovers/book_243086_2.png"
+  },
+  {
+    "rank": 10,
+    "book_id": 256400,
+    "user_id": 255144,
+    "book_name": "In the pursuit of the moon",
+    "author_name": "Shivnanda P Kartha",
+    "school": "St Antonys Public School  Kizhakkambalam",
+    "author_image": "AuthorImages/author_0_256400.png",
+    "cover_image": "BookCovers/book_256400_1.png"
+  },
+  {
+    "rank": 21,
+    "book_id": 273762,
+    "user_id": 261070,
+    "book_name": "The Dragon of North",
+    "author_name": "Bhavya Yadav",
+    "school": "Vishwa Bharati Public School Ghaziabad",
+    "author_image": "AuthorImages/author_0_273762.png",
+    "cover_image": "BookCovers/book_273762_1.png"
+  },
+  {
+    "rank": 38,
+    "book_id": 323512,
+    "user_id": 380532,
+    "book_name": "The musical fire within me",
+    "author_name": "Rashi Tashi",
+    "school": "Tagore International School-South delhi",
+    "author_image": "AuthorImages/author_0_323512.png",
+    "cover_image": "BookCovers/book_323512_1.png"
+  },
+  {
+    "rank": 22,
+    "book_id": 334635,
+    "user_id": 18945,
+    "book_name": "Poetic treasures of my heart!",
+    "author_name": "Tanisha Jain",
+    "school": "Anand Niketan - maninagar branch",
+    "author_image": "AuthorImages/author_0_334635.png",
+    "cover_image": "BookCovers/book_334635_1.png"
+  },
+  {
+    "rank": 34,
+    "book_id": 345543,
+    "user_id": 59011,
+    "book_name": "Connect with nature",
+    "author_name": "Advika sehgal",
+    "school": "Neerja Modi School",
+    "author_image": "AuthorImages/author_0_345543.png",
+    "cover_image": "BookCovers/book_345543_1.png"
+  },
+  {
+    "rank": 29,
+    "book_id": 353940,
+    "user_id": 381405,
+    "book_name": "The Symphony of the Forest",
+    "author_name": "Aaradhy Borkar",
+    "school": "Universal High School - Aurangabad Branch",
+    "author_image": "AuthorImages/author_0_353940.png",
+    "cover_image": "BookCovers/book_353940_1.png"
+  },
+  {
+    "rank": 28,
+    "book_id": 368526,
+    "user_id": 410476,
+    "book_name": "The knight's fight",
+    "author_name": "Yohaan Sheth",
+    "school": "Witty International School - Mumbai(IGCSE)",
+    "author_image": "AuthorImages/author_0_368526.png",
+    "cover_image": "BookCovers/book_368526_2.png"
+  },
+  {
+    "rank": 33,
+    "book_id": 372507,
+    "user_id": 413451,
+    "book_name": "The Necklace",
+    "author_name": "Anika Ojha",
+    "school": "Vishwajyot High School - Navi Mumbai",
+    "author_image": "AuthorImages/author_0_372507.png",
+    "cover_image": "BookCovers/book_372507_1.png"
+  },
+  {
+    "rank": 12,
+    "book_id": 372668,
+    "user_id": 413496,
+    "book_name": "The Indian Sisters",
+    "author_name": "Manya Dhiman",
+    "school": "The Venkateshwar School - Sect 57",
+    "author_image": "AuthorImages/author_0_372668.png",
+    "cover_image": "BookCovers/book_372668_1.png"
+  },
+  {
+    "rank": 7,
+    "book_id": 382697,
+    "user_id": 402661,
+    "book_name": "Keethna's Saustika",
+    "author_name": "Mansha AWALE",
+    "school": "Vikhe Patil Memial School,Lohegaon",
+    "author_image": "AuthorImages/author_0_382697.png",
+    "cover_image": "BookCovers/book_382697_1.png"
+  },
+  {
+    "rank": 25,
+    "book_id": 384504,
+    "user_id": 420411,
+    "book_name": "The Magical Adventure",
+    "author_name": "Swara Shingala",
+    "school": "Vydehi School Of Excellence",
+    "author_image": "AuthorImages/author_0_384504.png",
+    "cover_image": "BookCovers/book_384504_2.png"
+  },
+  {
+    "rank": 17,
+    "book_id": 391502,
+    "user_id": 237181,
+    "book_name": "Cookies and Milk Disaster!",
+    "author_name": "Khushi Sharma",
+    "school": "Rukmini Devi Public School",
+    "author_image": "AuthorImages/author_0_391502.png",
+    "cover_image": "BookCovers/book_391502_1.png"
+  },
+  {
+    "rank": 36,
+    "book_id": 405702,
+    "user_id": 406024,
+    "book_name": "NATURE IS YOUR PAPER!",
+    "author_name": "SWETHA SRI V",
+    "school": "Velammal Bodhi Campus - Theni",
+    "author_image": "AuthorImages/author_0_405702.png",
+    "cover_image": "BookCovers/book_405702_1.png"
+  },
+  {
+    "rank": 9,
+    "book_id": 419389,
+    "user_id": 446949,
+    "book_name": "The 7 Rebels",
+    "author_name": "Joanna Bernice",
+    "school": "Shree Niketan, Rajajipuram",
+    "author_image": "AuthorImages/author_0_419389.png",
+    "cover_image": "BookCovers/book_419389_1.png"
+  },
+  {
+    "rank": 31,
+    "book_id": 421251,
+    "user_id": 448059,
+    "book_name": "find the clue",
+    "author_name": "Shaik Rukhayya Muskaan",
+    "school": "Sadhana Infinity School",
+    "author_image": "AuthorImages/author_0_421251.png",
+    "cover_image": "BookCovers/book_421251_1.png"
+  },
+  {
+    "rank": 32,
+    "book_id": 447879,
+    "user_id": 457761,
+    "book_name": "The Average teenager",
+    "author_name": "Pari Agarwal",
+    "school": "Vishwa Vidyapeeth - Bangalore Urban",
+    "author_image": "AuthorImages/author_0_447879.png",
+    "cover_image": "BookCovers/book_447879_1.png"
+  },
+  {
+    "rank": 14,
+    "book_id": 454295,
+    "user_id": 472290,
+    "book_name": "The seven dogs and the owner",
+    "author_name": "Sabah Zaidi",
+    "school": "Focus High School",
+    "author_image": "AuthorImages/author_0_454295.png",
+    "cover_image": "BookCovers/book_454295_1.png"
+  },
+  {
+    "rank": 27,
+    "book_id": 456220,
+    "user_id": 472018,
+    "book_name": "the Entrepreneur Gamer",
+    "author_name": "PRINCE KUMAR",
+    "school": "515 Army Base Wkshop High School",
+    "author_image": "AuthorImages/author_0_456220.png",
+    "cover_image": "BookCovers/book_456220_1.png"
+  },
+  {
+    "rank": 16,
+    "book_id": 458612,
+    "user_id": 207913,
+    "book_name": "THE MISSILE MAN OF INDIA",
+    "author_name": "SURYANSHI VERMA",
+    "school": "DPS - Nacharam Branch",
+    "author_image": "AuthorImages/author_0_458612.png",
+    "cover_image": "BookCovers/book_458612_1.png"
+  },
+  {
+    "rank": 6,
+    "book_id": 461532,
+    "user_id": 477044,
+    "book_name": "the case of missing ruby",
+    "author_name": "DIYA EZHAVA",
+    "school": "Anand Niketan - maninagar branch",
+    "author_image": "AuthorImages/author_0_461532.png",
+    "cover_image": "BookCovers/book_461532_1.png"
+  },
+  {
+    "rank": 4,
+    "book_id": 476190,
+    "user_id": 465568,
+    "book_name": "Pitter Patter and the Tiger",
+    "author_name": "Shreya Sharma",
+    "school": "Neerja Modi School",
+    "author_image": "AuthorImages/author_0_476190.png",
+    "cover_image": "BookCovers/book_476190_1.png"
+  },
+  {
+    "rank": 37,
+    "book_id": 476907,
+    "user_id": 463006,
+    "book_name": "UNPREDICTED CHANGE",
+    "author_name": "Aarna Kabthiyal",
+    "school": "Jaypee public school noida sector 128",
+    "author_image": "AuthorImages/author_0_476907.png",
+    "cover_image": "BookCovers/book_476907_2.png"
+  },
+  {
+    "rank": 15,
+    "book_id": 477258,
+    "user_id": 456837,
+    "book_name": "KEY HUNTERS",
+    "author_name": "RADHESH I",
+    "school": "Velammal Bodhi Campus - Theni",
+    "author_image": "AuthorImages/author_0_477258.png",
+    "cover_image": "BookCovers/book_477258_1.png"
+  },
+  {
+    "rank": 13,
+    "book_id": 479278,
+    "user_id": 329441,
+    "book_name": "The tale of the Weaver",
+    "author_name": "Avani Pant",
+    "school": "Suncity School",
+    "author_image": "AuthorImages/author_0_479278.png",
+    "cover_image": "BookCovers/book_479278_2.png"
+  },
+  {
+    "rank": 5,
+    "book_id": 486915,
+    "user_id": 464612,
+    "book_name": "Never Ever Lie",
+    "author_name": "Advit Sharma",
+    "school": "Neerja Modi School",
+    "author_image": "AuthorImages/author_0_486915.png",
+    "cover_image": "BookCovers/book_486915_1.png"
+  },
+  {
+    "rank": 23,
+    "book_id": 489970,
+    "user_id": 413481,
+    "book_name": "Our Beautiful Earth",
+    "author_name": "Devanshi Parashar",
+    "school": "JBM Global School",
+    "author_image": "AuthorImages/author_0_489970.png",
+    "cover_image": "BookCovers/book_489970_1.png"
+  },
+  {
+    "rank": 8,
+    "book_id": 491910,
+    "user_id": 438777,
+    "book_name": "The THREE LESSONS",
+    "author_name": "Ishaan Prangya Samantray",
+    "school": "Silver Oaks International School, Hyderabad",
+    "author_image": "AuthorImages/author_0_491910.png",
+    "cover_image": "BookCovers/book_491910_1.png"
+  },
+  {
+    "rank": 35,
+    "book_id": 499139,
+    "user_id": 441596,
+    "book_name": "Friendship-A precious bond",
+    "author_name": "Anushka S Hatti",
+    "school": "Vinay Chikkatti School",
+    "author_image": "AuthorImages/author_0_499139.png",
+    "cover_image": "BookCovers/book_499139_1.png"
+  },
+  {
+    "rank": 20,
+    "book_id": 503672,
+    "user_id": 452054,
+    "book_name": "The Kingdom Of Alabaster",
+    "author_name": "P Prakalya Yazhini",
+    "school": "Lalaji Memorial Omega International School",
+    "author_image": "AuthorImages/author_0_503672.png",
+    "cover_image": "BookCovers/book_503672_1.png"
+  },
+  {
+    "rank": 24,
+    "book_id": 503825,
+    "user_id": 457673,
+    "book_name": "THE TIME MACHINE",
+    "author_name": "S MOASHIK PRANAV",
+    "school": "Lalaji Memorial Omega International School",
+    "author_image": "AuthorImages/author_0_503825.png",
+    "cover_image": "BookCovers/book_503825_1.png"
+  },
+  {
+    "rank": 11,
+    "book_id": 506347,
+    "user_id": 457639,
+    "book_name": "The Secret Doorway",
+    "author_name": "Mahniya Maduri",
+    "school": "The Hyderabad Public School, Begumpet ICSE",
+    "author_image": "AuthorImages/author_0_506347.png",
+    "cover_image": "BookCovers/book_506347_1.png"
+  }
+]
