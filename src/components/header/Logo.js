@@ -38,7 +38,7 @@ const Logo = (props) => {
 							src="/assets/images/BriBooks-Logos/coloured-logo.svg"
 							height={45}
 							width={150}
-							alt="BriBooks"
+							alt="Logo"
 							className="logo"
 							priority={true}
 						/>
