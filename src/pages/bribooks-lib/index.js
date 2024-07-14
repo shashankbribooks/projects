@@ -2,8 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { Inter } from "next/font/google";
 import styles from "./lib.module.css";
-import Layout from "../../components/layout/Layout";
-import Tags from "../../constants/tags";
+
 import JuryData from "../../assets/data/india_jurry_awards.json";
 const inter = Inter({
   subsets: ["latin"],
@@ -14,13 +13,6 @@ const inter = Inter({
 const index = () => {
   console.log(JuryData);
   return (
-<Layout
-      title={Tags.libary.title}
-      description={Tags.libary.description}
-      theme="dark"
-      header={false}
-      footer={false}
-    >
     <div className="" style={{ backgroundColor: "#FFFFFF" }}>
       <div className="container relative">
         <div className="logo mt-2 ">
@@ -101,7 +93,6 @@ const index = () => {
         ))}
       </div>
     </div>
-</Layout>
   );
 };
 
