@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import NoConnection from "../../components/common/NoConnection";
+
 import { useRouter } from "next/router";
 
 import { Toast, ToastContainer } from "react-bootstrap";
@@ -36,8 +36,8 @@ const Layout = forwardRef((props, ref) => {
     loginButton = true,
   } = props;
 
-//   const dispatch = useAppDispatch();
-//   const { user } = useAppState();
+  //   const dispatch = useAppDispatch();
+  //   const { user } = useAppState();
 
   const [error, setError] = useState(null);
   const [errorType, setErrorType] = useState("danger");
@@ -111,7 +111,6 @@ const Layout = forwardRef((props, ref) => {
 
       <main className={className ?? ""}>
         {children}
-        {NoConnection && <NoConnection />}
 
         <ToastContainer
           ref={ref}

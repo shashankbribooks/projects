@@ -14,7 +14,7 @@ export default function Home() {
         title={Tags.home.title}
         description={Tags.home.description}
         theme="dark"
-        header={false}
+        header={true}
         footer={false}
       >
         <div

@@ -3,7 +3,8 @@ import React from "react";
 import { Inter } from "next/font/google";
 import styles from "./lib.module.css";
 import Layout from "../../components/layout/Layout";
-
+import Tags from "../../constants/tags";
+import JuryData from "../../assets/data/india_jurry_awards.json";
 const inter = Inter({
   subsets: ["latin"],
   weight: "700",
@@ -11,8 +12,15 @@ const inter = Inter({
 });
 
 const index = () => {
+  console.log(JuryData);
   return (
-    <Layout >
+    <Layout
+      title={Tags.libary.title}
+      description={Tags.libary.description}
+      theme="dark"
+      header={false}
+      footer={false}
+    >
       <div className="" style={{ backgroundColor: "#FFFFFF" }}>
         <div className="container relative">
           <div className="logo mt-2 ">
@@ -59,44 +67,38 @@ const index = () => {
           </div>
         </div>
         <div
-          className={`${styles.mainbox} container absolute d-flex flex-wrap border-top`}
+          className={`${styles.mainbox} container absolute d-flex flex-wrap justify-content-center border-top`}
         >
-          <div className={`${styles.bookbox}  text-center mt-2 mx-2`}>
-            <div className={`${styles.book_img}`}>
-              <Image
-                src={"/assets/images/libry/book.png"}
-                width={145}
-                height={210}
-                alt="book img"
-              />
-            </div>
-            <div className={`${styles.stag}`}>
-              <Image
-                src={"/assets/images/libry/lives.png"}
-                width={210}
-                height={56}
-                alt="lives img"
-              />
-              <Image
-                src={"/assets/images/libry/stage.png"}
-                width={190}
-                height={15}
-                alt="stag img"
-              />
-            </div>
+          {JuryData.map((item) => (
+            <div className={`${styles.bookbox}  text-center mt-2 mx-2`}>
+              <div className={`${styles.book_img}`}>
+                <Image
+                  src={item.cover_image}
+                  width={145}
+                  height={210}
+                  alt="book img"
+                />
+              </div>
+              <div className={`${styles.stag}`}>
+                <Image
+                  src={"/assets/images/libry/lives.png"}
+                  width={210}
+                  height={56}
+                  alt="lives img"
+                />
+                <Image
+                  src={"/assets/images/libry/stage.png"}
+                  width={190}
+                  height={15}
+                  alt="stag img"
+                />
+              </div>
 
-            <div className={`${styles.author_name}`}>
-              <p>Written by Rudraang Goenka</p>
+              <div className={`${styles.author_name}`}>
+                <p>{item.author_name}</p>
+              </div>
             </div>
-          </div>
-          <div className={`${styles.bookbox}  mt-2 mx-2 `}>aksjbgshjbvsh</div>
-          <div className={`${styles.bookbox}  mt-2 mx-2`}>
-            {" "}
-            skjhbfvjashvjhbs{" "}
-          </div>
-          <div className={`${styles.bookbox}  mt-2 mx-2`}>askjbvjhasbhsv</div>
-          <div className={`${styles.bookbox}  mt-2 mx-2 `}>svjkbsvbashv</div>
-          <div className={`${styles.bookbox}  mt-2 mx-2`}>jhabsvjhabsvhbvs</div>
+          ))}
         </div>
       </div>
     </Layout>

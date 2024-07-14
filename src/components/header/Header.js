@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import Logo from "../../components/header/Logo";
 import Menu from "../../components/header/Menu";
 import LoginButton from "../../components/header/LoginButton";

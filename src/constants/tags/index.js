@@ -4,8 +4,8 @@ const Tags = {
     description:
       "Designed a live project for Bribooks to enhance the online bookstore's user interface and overall user experience. The project aimed to streamline the browsing and purchasing process for users. ",
   },
-  about: {
-    title: "BriBooks: Mission, Vision & more about the Organization",
+  libary: {
+    title: "BriBooks libary ",
     description:
       "BriBooks aims to provide every child with a voice, the ability to write for enjoyment, the desire to read, and the passion to become exceptional storytellers",
   },

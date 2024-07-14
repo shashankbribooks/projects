@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 import { useAppState, useAppDispatch } from "../../context/AppProvider";
 // import { Config } from '@/config'
 // import Api from '@/service/Api'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 
 const LoginButton = (props) => {
