@@ -1,72 +1,70 @@
-import React, { useState, useEffect } from "react";
-function TodoList() {
-  // const storedTodos = JSON.parse(localStorage.getItem("todos") || "[]");
-  const [todos, setTodos] = useState();
-  const [todoInput, setTodoInput] = useState("");
-  useEffect(() => {
-    localStorage.setItem("todos", JSON.stringify(todos));
-  }, [todos]);
+import { useState } from "react";
+import styles from "../../pages/todo-list/todo.module.css";
 
-  const handleAddTodo = () => {
-    setTodos([...todos, { id: Date.now(), text: todoInput }]);
-    setTodoInput("");
+export default function Home() {
+  const [tasks, setTasks] = useState([]);
+  const [task, setTask] = useState("");
+
+  const addTask = () => {
+    if (task.trim() === "") return;
+    setTasks([...tasks, { id: Date.now(), text: task, completed: false }]);
+    setTask("");
   };
 
-  // if condtion is true => first logic showing & if condition is false then => second logic showing .
-  const checkNumber = (x) => {
-    return x > 10 ? "grater than 10 " : "less then or equal to 10";
+  const deleteTask = (id) => {
+    setTasks(tasks.filter((task) => task.id !== id));
   };
-  console.log(checkNumber(4));
 
-  //object
-  const person = {
-    name: "imtz",
-    age: 25,
-    course: "mca",
+  const toggleTaskCompletion = (id) => {
+    setTasks(
+      tasks.map((task) =>
+        task.id === id ? { ...task, completed: !task.completed } : task
+      )
+    );
   };
-  console.log(person.age);
-
-  //map function
-  const x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  const db = x.map((x) => x + 5);
-  console.log(db);
-
-  //filter map function
-  const num = [2, 4, 5, 6, 7, 8, 9, "num"];
-  console.log(num);
-  const even_num = num.filter((x) => x % 2 === 0);
-  console.log(even_num);
-
-  //reduce functin
-  const number = [2, 3, 4, 56, 6, 8];
-  console.log(number, "without reduce value");
-  const sum = number.reduce((acc, cur) => acc + cur);
-  console.log(sum);
-
-  //useEffect when it working our compoent is mount .. ya data fetching..
-  // useEffect(() => {
-  //   alert("welcome to our count page");
-  // }, []);
-  const [count, setCount] = useState(0);
-  // useEffect(() => {
-  //   alert("count was change");
-  // }, [count]);
 
   return (
-    <div>
-      <input value={todoInput} onChange={(e) => setTodoInput(e.target.value)} />
-      <button onClick={handleAddTodo}>Add Todo</button>
-      <ul>
-        {todos?.map((todo) => (
-          <li key={todo.id}>{todo.text}</li>
-        ))}
-      </ul>
-      <div>
-        <h2>Count value {count}</h2>
-        <button onClick={() => setCount(count + 1)}>update count</button>
+    <div className={styles.container}>
+      <div className={styles.main}>
+        <h1 className="text-center fw-bold ">To-Do List</h1>
+        <div className="d-flex justify-content-between">
+          <input
+            type="text"
+            value={task}
+            onChange={(e) => setTask(e.target.value)}
+            placeholder="Enter a new task"
+          />
+          <button onClick={addTask} className={styles.btn}>
+            Add Task
+          </button>
+        </div>
+        <ul className={`${styles.taskList} list-group-numbered `}>
+          {tasks.map((task) => (
+            <div className="d-flex justify-content-between">
+              <li
+                key={task.id}
+                className={`${styles.taskItem} list-group-item`}
+                style={{
+                  textDecoration: task.completed ? "line-through" : "none",
+                  color: task.completed ? "red" : "green",
+                  border: task.completed ? "0.005px solid red" : "none",
+                }}
+              >
+                {task.text}
+              </li>
+              <div>
+                <button
+                  onClick={() => toggleTaskCompletion(task.id)}
+                  className="me-2"
+                >
+                  {task.completed ? "Undo" : "Complete"}
+                </button>
+                <button onClick={() => deleteTask(task.id)}>Delete</button>
+              </div>
+            </div>
+          ))}
+        </ul>
       </div>
     </div>
   );
 }
-
-export default TodoList;
