@@ -2,8 +2,8 @@ import Image from "next/image";
 import React from "react";
 import { Inter } from "next/font/google";
 import styles from "./lib.module.css";
+import JuryData from "../../assets/data/top50_aue_author.json";
 
-import JuryData from "../../assets/data/india_jurry_awards.json";
 const inter = Inter({
   subsets: ["latin"],
   weight: "700",
@@ -12,6 +12,7 @@ const inter = Inter({
 
 const index = () => {
   console.log(JuryData);
+
   return (
     <div className="" style={{ backgroundColor: "#FFFFFF" }}>
       <div className="container relative">
@@ -65,7 +66,7 @@ const index = () => {
           <div className={`${styles.bookbox}  text-center mt-2 mx-2`}>
             <div className={`${styles.book_img}`}>
               <Image
-                src={item.cover_image}
+                src={"/assets/images/bristore/book dhairya.webp"}
                 width={145}
                 height={210}
                 alt="book img"
@@ -87,7 +88,7 @@ const index = () => {
             </div>
 
             <div className={`${styles.author_name}`}>
-              <p>{item.author_name}</p>
+              <p className="mb-0 ">{item.author_name}</p>
             </div>
           </div>
         ))}

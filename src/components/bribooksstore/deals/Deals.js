@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import SwiperNavButtons from "./SwiperNavButtons";
 import Item from "../item/Item";
-import login from "@/pages/bristore/login";
+// import login from "@/pages/bristore/login";
 
 const Deals = ({ top10selling, title, ...props }) => {
   const Imgurl =
