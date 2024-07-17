@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import styles from "../../pages/todo-list/todo.module.css";
 import { Container, Spinner, InputGroup, Form, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import * as SolidIcons from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 
 export default function Home() {
