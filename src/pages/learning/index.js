@@ -1,47 +1,37 @@
 import React, { useState, useEffect } from "react";
 function TodoList() {
   // const storedTodos = JSON.parse(localStorage.getItem("todos") || "[]");
-  const [todos, setTodos] = useState();
-  const [todoInput, setTodoInput] = useState("");
-  useEffect(() => {
-    localStorage.setItem("todos", JSON.stringify(todos));
-  }, [todos]);
-
-  const handleAddTodo = () => {
-    setTodos([...todos, { id: Date.now(), text: todoInput }]);
-    setTodoInput("");
-  };
 
   // if condtion is true => first logic showing & if condition is false then => second logic showing .
-  const checkNumber = (x) => {
-    return x > 10 ? "grater than 10 " : "less then or equal to 10";
-  };
-  console.log(checkNumber(4));
+  // const checkNumber = (x) => {
+  //   return x > 10 ? "grater than 10 " : "less then or equal to 10";
+  // };
+  // console.log(checkNumber(4));
 
   //object
-  const person = {
-    name: "imtz",
-    age: 25,
-    course: "mca",
-  };
-  console.log(person.age);
+  // const person = {
+  //   name: "imtz",
+  //   age: 25,
+  //   course: "mca",
+  // };
+  // console.log(person.age);
 
   //map function
-  const x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  const db = x.map((x) => x + 5);
-  console.log(db);
+  // const x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  // const db = x.map((x) => x + 5);
+  // console.log(db);
 
   //filter map function
-  const num = [2, 4, 5, 6, 7, 8, 9, "num"];
-  console.log(num);
-  const even_num = num.filter((x) => x % 2 === 0);
-  console.log(even_num);
+  // const num = [2, 4, 5, 6, 7, 8, 9, "num"];
+  // console.log(num);
+  // const even_num = num.filter((x) => x % 2 === 0);
+  // console.log(even_num);
 
   //reduce functin
-  const number = [2, 3, 4, 56, 6, 8];
-  console.log(number, "without reduce value");
-  const sum = number.reduce((acc, cur) => acc + cur);
-  console.log(sum);
+  // const number = [2, 3, 4, 56, 6, 8];
+  // console.log(number, "without reduce value");
+  // const sum = number.reduce((acc, cur) => acc + cur);
+  // console.log(sum);
 
   //useEffect when it working our compoent is mount .. ya data fetching..
   // useEffect(() => {
@@ -78,10 +68,18 @@ function TodoList() {
   };
   const logout = true;
 
-  
+  // update a value in array 
+  // const list = [
+  //   { author: "imtaz", book_name: "About last trip" },
+  //   { author: "javed", book_name: "Ladhak to kashmir" },
+  //   { author: "rashid ", book_name: "jaipur next trip" },
+  //   { author: "aatif", book_name: "Jk" },
+  // ];
+  // const updte = (list[1].book_name = "khanshb");
+  // console.log(list);
+
   return (
     <div>
-      
       <div>
         <h2>Count value {count}</h2>
         <button onClick={() => setCount(count + 1)}>update count</button>
@@ -114,7 +112,11 @@ function TodoList() {
       </div>
 
       <div>
-        {logout ? <p>you are right path</p> : <p>Please go back and login</p>}
+        {logout ? (
+          <p className="bg-info">you are right path</p>
+        ) : (
+          <p>Please go back and login</p>
+        )}
       </div>
     </div>
   );
