@@ -9,24 +9,48 @@
   /* align-items: center; */
 }
 .main {
-  width: 340px;
+  width: 500px;
   height: auto;
+}
+@media screen and (min-width: 400px) and(max-width:768px) {
+  .main {
+    width: 400px;
+    height: auto;
+  }
 }
 .taskList {
   list-style-type: none;
   padding: 0;
-  margin-top: 5px;
+  position: relative;
 }
+
 .taskItem {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
   height: 40px;
 }
+
+.taskText {
+  max-height: 50px; /* Adjust based on font-size to limit to two lines */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 290px; /* Adjust as needed */
+}
+
+.taskText:hover {
+  white-space: normal;
+  overflow: auto;
+}
+
 .taskItem button {
   margin-left: 10px;
 }
 .btn {
-  width: 133px;
+  width: 100px;
   height: 40px;
+}
+.input_box {
+  width: 290px;
 }
