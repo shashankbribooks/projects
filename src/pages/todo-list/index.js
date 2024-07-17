@@ -10,47 +10,69 @@ export default function Home() {
   const [editTaskId, setEditTaskId] = useState(null);
   const [editTaskText, setEditTaskText] = useState("");
 
-  // Load tasks from local storage when the component mounts
   useEffect(() => {
-    const storedTasks = localStorage.getItem("tasks");
-    if (storedTasks) {
-      setTasks(JSON.parse(storedTasks));
-    }
+    fetchTasks();
   }, []);
 
-  // Save tasks to local storage whenever the tasks state changes
-  useEffect(() => {
-    localStorage.setItem("tasks", JSON.stringify(tasks));
-  }, [tasks]);
+  const fetchTasks = async () => {
+    const response = await fetch("http://localhost:5000/tasks");
+    const data = await response.json();
+    setTasks(data);
+  };
 
-  const addTask = () => {
+  const addTask = async () => {
     if (task.trim() === "") return;
-    setTasks([...tasks, { id: Date.now(), text: task, completed: false }]);
+    const newTask = { id: Date.now(), text: task, completed: false };
+    const response = await fetch("http://localhost:5000/tasks", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(newTask),
+    });
+    const data = await response.json();
+    setTasks([...tasks, data]);
     setTask("");
   };
 
-  const deleteTask = (id) => {
+  const deleteTask = async (id) => {
+    await fetch(`http://localhost:5000/tasks/${id}`, {
+      method: "DELETE",
+    });
     setTasks(tasks.filter((task) => task.id !== id));
   };
 
-  const toggleTaskCompletion = (id) => {
-    setTasks(
-      tasks.map((task) =>
-        task.id === id ? { ...task, completed: !task.completed } : task
-      )
-    );
+  const toggleTaskCompletion = async (id) => {
+    const taskToToggle = tasks.find((task) => task.id === id);
+    const updatedTask = { ...taskToToggle, completed: !taskToToggle.completed };
+    const response = await fetch(`http://localhost:5000/tasks/${id}`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(updatedTask),
+    });
+    const data = await response.json();
+    setTasks(tasks.map((task) => (task.id === id ? data : task)));
   };
+
   const editTask = (id, text) => {
     setEditTaskId(id);
     setEditTaskText(text);
   };
 
-  const saveTask = (id) => {
-    setTasks(
-      tasks.map((task) =>
-        task.id === id ? { ...task, text: editTaskText } : task
-      )
-    );
+  const saveTask = async (id) => {
+    const updatedTask = tasks.find((task) => task.id === id);
+    const newTask = { ...updatedTask, text: editTaskText };
+    const response = await fetch(`http://localhost:5000/tasks/${id}`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(newTask),
+    });
+    const data = await response.json();
+    setTasks(tasks.map((task) => (task.id === id ? data : task)));
     setEditTaskId(null);
     setEditTaskText("");
   };
@@ -100,7 +122,7 @@ export default function Home() {
             Add Task
           </button>
         </div> */}
-        <ul className={`${styles.taskList} list-group-numbered mt-3`}>
+        <ul className={`${styles.taskList} list-group-numbered mt-3 ms-1`}>
           {tasks.map((task) => (
             <div className="d-flex justify-content-between">
               <li
