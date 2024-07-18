@@ -3,6 +3,7 @@ import styles from "../../pages/todo-list/todo.module.css";
 import { Container, Spinner, InputGroup, Form, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
+import { isServerOnline } from '../../utils/checkServer';
 
 export default function Home() {
   const [tasks, setTasks] = useState([]);
@@ -10,50 +11,80 @@ export default function Home() {
   const [editTaskId, setEditTaskId] = useState(null);
   const [editTaskText, setEditTaskText] = useState("");
 
+  const [serverOnline, setServerOnline] = useState(true);
+
   useEffect(() => {
-    fetchTasks();
+    const checkServer = async () => {
+      const online = await isServerOnline();
+      setServerOnline(online);
+      if (online) {
+        fetchTasks();
+      } else {
+        const storedTasks = localStorage.getItem('tasks');
+        if (storedTasks) {
+          setTasks(JSON.parse(storedTasks));
+        }
+      }
+    };
+    checkServer();
   }, []);
 
+  useEffect(() => {
+    if (!serverOnline) {
+      localStorage.setItem('tasks', JSON.stringify(tasks));
+    }
+  }, [tasks, serverOnline]);
+
   const fetchTasks = async () => {
-    const response = await fetch("http://localhost:5000/tasks");
+    const response = await fetch('http://localhost:5000/tasks');
     const data = await response.json();
     setTasks(data);
   };
 
   const addTask = async () => {
-    if (task.trim() === "") return;
+    if (task.trim() === '') return;
     const newTask = { id: Date.now(), text: task, completed: false };
-    const response = await fetch("http://localhost:5000/tasks", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(newTask),
-    });
-    const data = await response.json();
-    setTasks([...tasks, data]);
-    setTask("");
+    if (serverOnline) {
+      const response = await fetch('http://localhost:5000/tasks', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(newTask),
+      });
+      const data = await response.json();
+      setTasks([...tasks, data]);
+    } else {
+      setTasks([...tasks, newTask]);
+    }
+    setTask('');
   };
 
   const deleteTask = async (id) => {
-    await fetch(`http://localhost:5000/tasks/${id}`, {
-      method: "DELETE",
-    });
-    setTasks(tasks.filter((task) => task.id !== id));
+    if (serverOnline) {
+      await fetch(`http://localhost:5000/tasks/${id}`, {
+        method: 'DELETE',
+      });
+    }
+    setTasks(tasks.filter(task => task.id !== id));
   };
 
   const toggleTaskCompletion = async (id) => {
-    const taskToToggle = tasks.find((task) => task.id === id);
+    const taskToToggle = tasks.find(task => task.id === id);
     const updatedTask = { ...taskToToggle, completed: !taskToToggle.completed };
-    const response = await fetch(`http://localhost:5000/tasks/${id}`, {
-      method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(updatedTask),
-    });
-    const data = await response.json();
-    setTasks(tasks.map((task) => (task.id === id ? data : task)));
+    if (serverOnline) {
+      const response = await fetch(`http://localhost:5000/tasks/${id}`, {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(updatedTask),
+      });
+      const data = await response.json();
+      setTasks(tasks.map(task => (task.id === id ? data : task)));
+    } else {
+      setTasks(tasks.map(task => (task.id === id ? updatedTask : task)));
+    }
   };
 
   const editTask = (id, text) => {
@@ -62,25 +93,30 @@ export default function Home() {
   };
 
   const saveTask = async (id) => {
-    const updatedTask = tasks.find((task) => task.id === id);
+    const updatedTask = tasks.find(task => task.id === id);
     const newTask = { ...updatedTask, text: editTaskText };
-    const response = await fetch(`http://localhost:5000/tasks/${id}`, {
-      method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(newTask),
-    });
-    const data = await response.json();
-    setTasks(tasks.map((task) => (task.id === id ? data : task)));
+    if (serverOnline) {
+      const response = await fetch(`http://localhost:5000/tasks/${id}`, {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(newTask),
+      });
+      const data = await response.json();
+      setTasks(tasks.map(task => (task.id === id ? data : task)));
+    } else {
+      setTasks(tasks.map(task => (task.id === id ? newTask : task)));
+    }
     setEditTaskId(null);
-    setEditTaskText("");
+    setEditTaskText('');
   };
 
   const cancelEdit = () => {
     setEditTaskId(null);
-    setEditTaskText("");
+    setEditTaskText('');
   };
+
 
   return (
     <div className={styles.container}>
