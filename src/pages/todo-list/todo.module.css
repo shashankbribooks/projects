@@ -12,12 +12,7 @@
   width: 500px;
   height: auto;
 }
-@media screen and (min-width: 400px) and(max-width:768px) {
-  .main {
-    width: 400px;
-    height: auto;
-  }
-}
+
 .taskList {
   list-style-type: none;
   padding: 0;
@@ -53,4 +48,26 @@
 }
 .input_box {
   width: 290px;
+}
+@media screen and (max-width: 500px) {
+  .input_group {
+    width: 390px;
+  }
+  /* .taskList {
+    width: 300px;
+  } */
+  .taskItem {
+    width: 390px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .input_group {
+    width: 350px;
+  }
+  /* .taskList {
+    width: 300px;
+  } */
+  .taskItem {
+    width: 350px;
+  }
 }
