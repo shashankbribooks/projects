@@ -10,7 +10,6 @@ export default function Home() {
   const [task, setTask] = useState("");
   const [editTaskId, setEditTaskId] = useState(null);
   const [editTaskText, setEditTaskText] = useState("");
-
   const [serverOnline, setServerOnline] = useState(true);
 
   useEffect(() => {
@@ -124,8 +123,8 @@ export default function Home() {
         <h1 className="text-center fw-bold ">To-Do List</h1>
         <div className="d-flex justify-content-center align-items-center mt-4 gap-3">
           <InputGroup
-            className="bg-white rounded-3 border border-none"
-            style={{ maxWidth: 768, boxShadow: "0px 0.5px 4px 5px #E5E5E5" }}
+            className={`${styles.input_group} bg-white rounded-3 border border-none`}
+            style={{ boxShadow: "0px 0.5px 4px 5px #E5E5E5" }}
           >
             <Form.Control
               type="text"
