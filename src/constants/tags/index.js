@@ -1,28 +1,18 @@
 const Tags = {
-  home: {
-    title: "i have done these projects in bribooks ",
+  todolist: {
+    title: "Your Task Manager",
     description:
-      "Designed a live project for Bribooks to enhance the online bookstore's user interface and overall user experience. The project aimed to streamline the browsing and purchasing process for users. ",
+      "Manage and track your tasks efficiently. Add, edit, and complete your tasks to stay organized and productive.",
   },
-  libary: {
-    title: "BriBooks libary ",
+  login: {
+    title: "Login to Your Account",
     description:
-      "BriBooks aims to provide every child with a voice, the ability to write for enjoyment, the desire to read, and the passion to become exceptional storytellers",
+      "Enter your email and password to access your account. If you don’t have an account, you can sign up for one quickly.",
   },
-  contact: {
-    title: "Learn Creative Writing & Publish Your Book",
-    description: "Contact Us | BriBooks",
-  },
-  ourstory: {
-    title:
-      "BriBooks: Our journey of building exceptional storytellers from childhood",
+  signup: {
+    title: "Create Your Account",
     description:
-      "Our story began with a belief and a passion that every child should have a voice, the ability to write for enjoyment, the desire to read, and the passion to become exceptional storytellers",
-  },
-  bookstore: {
-    title: "Books written by young authors for young readers - BriBooks",
-    description:
-      "Read & Buy books written by kids for kids using BriBooks AI-powered writing and publishing platform",
+      "Sign up to access exclusive features and start using our service. It's quick and easy",
   },
 };
 
