@@ -14,6 +14,11 @@ const Tags = {
     description:
       "Sign up to access exclusive features and start using our service. It's quick and easy",
   },
+  todoprofile: {
+    title: "User Profile - Manage Your Todo List",
+    description:
+      "Access and manage your personal details and todo list settings. Update your profile information, view tasks, and stay organized with our easy-to-use todo list app.",
+  },
 };
 
 export default Tags;

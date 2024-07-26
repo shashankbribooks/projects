@@ -1,10 +1,11 @@
 // pages/signup.js
 import Signup from "../../components/todo-project/Signup";
+import styles from "./todo.module.css";
 
 const SignupPage = () => {
   return (
-    <div>
-      <h1 className="text-center">Sign Up</h1>
+    <div className={`${styles.bg_signup}`}>
+      <h1 className="text-center fw-bold">Sign Up</h1>
       <Signup />
     </div>
   );

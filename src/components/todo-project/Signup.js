@@ -2,12 +2,14 @@
 import { useState } from "react";
 import { useRouter } from "next/router";
 import { auth, db } from "../../lib/firebase";
-import { createUserWithEmailAndPassword } from "firebase/auth";
+import { createUserWithEmailAndPassword, getAuth } from "firebase/auth";
 import { doc, namedQuery, setDoc } from "firebase/firestore";
+import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import { Form, Button, Alert } from "react-bootstrap";
 import Layout from "../layout/Layout";
 import Tags from "../../constants/tags";
-
+import { app } from "../../../firebaseConfig";
+import styles from "../../pages/todo-project/todo.module.css";
 const getCustomErrorMessage = (errorCode) => {
   const errorMessages = {
     "auth/invalid-email": "The email address is not valid.",
@@ -33,17 +35,16 @@ const Signup = () => {
   const [name, setName] = useState("");
   const [mobile, setMobile] = useState("");
   const [age, setAge] = useState("");
-
+  const [image, setImage] = useState(null);
+  const [message, setMessage] = useState("");
+  const auth = getAuth(app);
   const router = useRouter(); // Initialize useRouter
+
+  const handleImageChange = (e) => {
+    setImage(e.target.files[0]);
+  };
   const handleSignup = async (e) => {
     e.preventDefault();
-
-    // Basic form validation
-    if (!email || !password || !name || !mobile || !age) {
-      alert("All fields are required");
-      return;
-    }
-
     try {
       const userCredential = await createUserWithEmailAndPassword(
         auth,
@@ -51,35 +52,38 @@ const Signup = () => {
         password
       );
       const user = userCredential.user;
+
+      let imageURL = "";
+      if (image) {
+        // Upload image to Firebase Storage
+        const storage = getStorage(app);
+        const imageRef = ref(storage, `profilePictures/${user.uid}`);
+        await uploadBytes(imageRef, image);
+        imageURL = await getDownloadURL(imageRef);
+      }
+      // Save additional user data to Firestore
       await setDoc(doc(db, "users", user.uid), {
-        name,
-        email,
-        mobile,
-        age,
+        name: name,
+        mobile: mobile,
+        age: age,
+        email: email,
+        profilePicture: imageURL, // Save image URL
       });
-      //   alert("User created successfully!");
-      router.push("/todo-project/login");
+
+      console.log("User signed up and additional data saved");
+      router.push("/todo-project/login"); // Redirect to login after successful signup
     } catch (error) {
-      // console.error("Error signing up:", error);
-      switch (error.code) {
-        case "auth/email-already-in-use":
-          alert("The email address is already in use by another account.");
-          break;
-        case "auth/invalid-email":
-          alert("The email address is not valid.");
-          break;
-        case "auth/operation-not-allowed":
-          alert("Email/password accounts are not enabled.");
-          break;
-        case "auth/weak-password":
-          alert("The password is too weak.");
-          break;
-        default:
-          alert("Error signing up: " + error.message);
-          break;
+      console.error("Error signing up:", error);
+      if (error.code) {
+        // Specific Firebase Auth error code
+        alert(`Error signing up: ${error.code} - ${error.message}`);
+      } else {
+        // General error
+        alert(`Error signing up: ${error.message}`);
       }
     }
   };
+
   const handleLogin = () => {
     router.push("/todo-project/login");
   };
@@ -91,8 +95,8 @@ const Signup = () => {
       header={false}
       footer={false}
     >
-      <div className="d-flex justify-content-center align-items-center ">
-        <Form onSubmit={handleSignup} className="w-50">
+      <div className={`  d-flex justify-content-center align-items-center `}>
+        <Form onSubmit={handleSignup} className="w-25">
           <Form.Group controlId="Name" className="mb-3">
             <Form.Label>Name</Form.Label>
             <Form.Control
@@ -179,6 +183,14 @@ const Signup = () => {
           required
         /> */}
           {/* <button type="submit">Sign Up</button> */}
+          <Form.Group controlId="formBasicImage" className="mb-3">
+            <Form.Label>Profile Picture</Form.Label>
+            <Form.Control
+              type="file"
+              accept="image/*"
+              onChange={handleImageChange}
+            />
+          </Form.Group>
           <Button variant="primary" type="submit" className="w-100 mb-3">
             Sign Up
           </Button>
@@ -190,6 +202,7 @@ const Signup = () => {
             Login
           </Button>
         </Form>
+        {message && <p>{message}</p>}
       </div>
     </Layout>
   );

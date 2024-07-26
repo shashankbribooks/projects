@@ -13,7 +13,7 @@ const Login = () => {
     try {
       await signInWithEmailAndPassword(auth, email, password);
       //   alert("User logged in successfully!");
-      router.push("/bripublish");
+      router.push("todo-project/todo");
     } catch (error) {
       console.error("Error logging in:", error);
     }

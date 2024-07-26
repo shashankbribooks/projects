@@ -12,13 +12,29 @@
   width: 500px;
   height: auto;
 }
-
+/* .main_div {
+  width: 768px;
+} */
 .taskList {
   list-style-type: none;
   padding: 0;
   position: relative;
 }
+.taskList_profile {
+  list-style-type: none;
+  padding: 5px;
+  position: relative;
+  /* width: 480px; */
+  max-width: 768px;
+}
+.taskList_profile li {
+  max-width: 768px;
+  height: 50px;
+  padding-top: 10px;
+  overflow-y: auto;
+}
 .bg_img {
+  position: relative;
   background-image: url("/assets/images/todo-project/bg-todo.jpg");
   background-size: cover; /* Ensures the image covers the entire element */
   background-attachment: fixed; /* Keeps the image fixed in place while scrolling */
@@ -26,10 +42,19 @@
   background-repeat: no-repeat; /* Prevents the image from repeating */
   height: 100vh; /* Sets the height to cover the viewport height */
   width: 100%;
-  filter: blur(0.996px); /* Applies blur effect */
-  z-index: -0; /* Sends background image behind other content */
+  /* Sends background image behind other content */
 }
-
+.bg_signup {
+  background-image: url("/assets/images/todo-project/signup-bg.jpg");
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-attachment: fixed; /* Keeps the image fixed in place while scrolling */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 100vh; /* Sets the height to cover the viewport height */
+  width: 100%;
+  filter: blur(0.196px);
+  /* z-index: -0; */
+}
 .taskItem {
   display: flex;
   align-items: center;
@@ -60,6 +85,12 @@
 .input_box {
   width: 290px;
 }
+.blurredtable {
+  position: relative;
+  background: inherit;
+  overflow: hidden;
+}
+
 @media screen and (max-width: 500px) {
   .input_group {
     width: 390px;

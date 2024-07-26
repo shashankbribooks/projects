@@ -10,22 +10,106 @@ import {
   deleteDoc,
   doc,
   updateDoc,
-  getDocs,
   query,
+  getDocs,
   where,
 } from "firebase/firestore";
 import { getAuth, signOut, onAuthStateChanged } from "firebase/auth";
 import Layout from "../layout/Layout";
-// import Tags from "../../constants/tags";
 import Tags from "../../constants/tags";
-export default function Home() {
+import withAuth from "../../components/todo-project/withAuth"; // Import the HOC
+import Link from "next/link";
+
+const TaskItem = ({
+  task,
+  onToggle,
+  onEdit,
+  onDelete,
+  onSave,
+  onCancel,
+  isEditing,
+  editText,
+  setEditText,
+}) => (
+  <div key={task.id} className="d-flex justify-content-between">
+    <li
+      className={`${styles.taskItem} list-group-item`}
+      style={{ color: task.completed ? "red" : "green" }}
+    >
+      {isEditing ? (
+        <>
+          <input
+            type="text"
+            value={editText}
+            onChange={(e) => setEditText(e.target.value)}
+            className={`${styles.input_box} rounded border border-none`}
+            style={{
+              maxWidth: 400,
+              height: "40px",
+              boxShadow: "0px 0.5px 4px 5px #E5E5E5",
+            }}
+          />
+          <button
+            onClick={onSave}
+            className="rounded-3 border border-none"
+            style={{ boxShadow: "0px 0.5px 3px 3px #E5E5E5", padding: "5px" }}
+          >
+            Save
+          </button>
+          <button
+            onClick={onCancel}
+            className="rounded-3 border border-none"
+            style={{ boxShadow: "0px 0.5px 3px 3px #E5E5E5", padding: "5px" }}
+          >
+            Cancel
+          </button>
+        </>
+      ) : (
+        <>
+          <span
+            style={{
+              borderBottom: task.completed ? "0.005px solid red" : "none",
+              textDecoration: task.completed ? "line-through" : "none",
+            }}
+            className={`${styles.taskText} my-2`}
+          >
+            {task.text}
+          </span>
+          <button
+            onClick={onToggle}
+            className="rounded-3 border border-none"
+            style={{ boxShadow: "0px 0.5px 3px 3px #E5E5E5", padding: "5px" }}
+          >
+            {task.completed ? "Undo" : "Complete"}
+          </button>
+          {!task.completed && (
+            <button
+              onClick={onEdit}
+              className="rounded-3 border border-none"
+              style={{ boxShadow: "0px 0.5px 3px 3px #E5E5E5", padding: "5px" }}
+            >
+              Edit
+            </button>
+          )}
+          <button
+            onClick={onDelete}
+            className="rounded-3 border border-none"
+            style={{ boxShadow: "0px 0.5px 3px 3px #E5E5E5", padding: "5px" }}
+          >
+            Delete
+          </button>
+        </>
+      )}
+    </li>
+  </div>
+);
+function Home() {
   const [tasks, setTasks] = useState([]);
   const [task, setTask] = useState("");
   const [editTaskId, setEditTaskId] = useState(null);
   const [editTaskText, setEditTaskText] = useState("");
   const [loading, setLoading] = useState(true);
   const router = useRouter();
-
   const auth = getAuth();
 
   useEffect(() => {
@@ -156,108 +240,32 @@ export default function Home() {
 
           <ul className={`${styles.taskList} list-group-numbered mt-3 ms-1`}>
             {tasks.map((task) => (
-              <div key={task.id} className="d-flex justify-content-between">
-                <li
-                  className={`${styles.taskItem} list-group-item`}
-                  style={{
-                    color: task.completed ? "red" : "green",
-                  }}
-                >
-                  {editTaskId === task.id ? (
-                    <>
-                      <input
-                        type="text"
-                        value={editTaskText}
-                        onChange={(e) => setEditTaskText(e.target.value)}
-                        className={`${styles.input_box} rounded border border-none`}
-                        style={{
-                          maxWidth: 400,
-                          height: "40px",
-                          boxShadow: "0px 0.5px 4px 5px #E5E5E5",
-                        }}
-                      />
-                      <button
-                        onClick={() => saveTask(task.id)}
-                        className="bg-white rounded-3 border border-none"
-                        style={{
-                          boxShadow: "0px 0.5px 3px 3px #E5E5E5",
-                          padding: "5px",
-                        }}
-                      >
-                        Save
-                      </button>
-                      <button
-                        onClick={cancelEdit}
-                        className="bg-white rounded-3 border border-none"
-                        style={{
-                          boxShadow: "0px 0.5px 3px 3px #E5E5E5",
-                          padding: "5px",
-                        }}
-                      >
-                        Cancel
-                      </button>
-                    </>
-                  ) : (
-                    <>
-                      <span
-                        style={{
-                          borderBottom: task.completed
-                            ? "0.005px solid red"
-                            : "none",
-                          textDecoration: task.completed
-                            ? "line-through"
-                            : "none",
-                        }}
-                        className={`${styles.taskText} my-2`}
-                      >
-                        {task.text}
-                      </span>
-                      <button
-                        onClick={() => toggleTaskCompletion(task.id)}
-                        className="bg-white rounded-3 border border-none"
-                        style={{
-                          boxShadow: "0px 0.5px 3px 3px #E5E5E5",
-                          padding: "5px",
-                        }}
-                      >
-                        {task.completed ? "Undo" : "Complete"}
-                      </button>
-                      {!task.completed && (
-                        <button
-                          onClick={() => editTask(task.id, task.text)}
-                          className="bg-white rounded-3 border border-none"
-                          style={{
-                            boxShadow: "0px 0.5px 3px 3px #E5E5E5",
-                            padding: "5px",
-                          }}
-                        >
-                          Edit
-                        </button>
-                      )}
-                      <button
-                        onClick={() => deleteTask(task.id)}
-                        className="bg-white rounded-3 border border-none"
-                        style={{
-                          boxShadow: "0px 0.5px 3px 3px #E5E5E5",
-                          padding: "5px",
-                        }}
-                      >
-                        Delete
-                      </button>
-                    </>
-                  )}
-                </li>
-              </div>
+              <TaskItem
+                key={task.id}
+                task={task}
+                onToggle={() => toggleTaskCompletion(task.id)}
+                onEdit={() => editTask(task.id, task.text)}
+                onDelete={() => deleteTask(task.id)}
+                onSave={() => saveTask(task.id)}
+                onCancel={cancelEdit}
+                isEditing={editTaskId === task.id}
+                editText={editTaskText}
+                setEditText={setEditTaskText}
+              />
             ))}
           </ul>
 
           <div className="text-center">
-            <Button onClick={handleLogout} className="mt-3">
+            <Button onClick={handleLogout} className="mt-3 me-3">
               Logout
             </Button>
+            <Link href="todo-project/profile">
+              <Button className="mt-3">View Profile</Button>
+            </Link>
           </div>
         </div>
       </div>
     </Layout>
   );
 }
+export default withAuth(Home);
