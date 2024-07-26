@@ -42,7 +42,7 @@ const LoginPage = () => {
     e.preventDefault();
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      router.push("/todo-project/todo-list");
+      router.push("/todo-project/");
     } catch (error) {
       setError(getCustomErrorMessage(error.code));
     }
@@ -84,8 +84,8 @@ const LoginPage = () => {
       <div
         className={`${styles.bg_img} d-flex justify-content-center align-items-center  min-vh-100`}
       >
-        <Form onSubmit={handleLogin} className="w-25 ">
-          <h1 className="text-center mb-4">Login</h1>
+        <Form onSubmit={handleLogin} className="">
+          <h1 className="text-center mb-4 ">Login</h1>
           {error && <Alert variant="danger">{error}</Alert>}
           {resetEmailSent && (
             <Alert variant="success">Password reset email sent!</Alert>
