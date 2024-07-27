@@ -1,89 +1,71 @@
 import { useEffect, useState } from "react";
 import styles from "../../pages/todo-list/todo.module.css";
 import { Container, Spinner, InputGroup, Form, Button } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Image from "next/image";
-import { isServerOnline } from '../../utils/checkServer';
+
+import {
+  collection,
+  addDoc,
+  getDocs,
+  updateDoc,
+  deleteDoc,
+  doc,
+} from "firebase/firestore";
+import { db, auth } from "../../utils/firebase";
+import { onAuthStateChanged } from "firebase/auth";
+// import Login from "../../components/todo-list/login";
 
 export default function Home() {
   const [tasks, setTasks] = useState([]);
   const [task, setTask] = useState("");
   const [editTaskId, setEditTaskId] = useState(null);
   const [editTaskText, setEditTaskText] = useState("");
-  const [serverOnline, setServerOnline] = useState(true);
+  const [user, setUser] = useState(null);
 
   useEffect(() => {
-    const checkServer = async () => {
-      const online = await isServerOnline();
-      setServerOnline(online);
-      if (online) {
+    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+      setUser(currentUser);
+      if (currentUser) {
         fetchTasks();
-      } else {
-        const storedTasks = localStorage.getItem('tasks');
-        if (storedTasks) {
-          setTasks(JSON.parse(storedTasks));
-        }
       }
-    };
-    checkServer();
+    });
+
+    return () => unsubscribe();
   }, []);
 
-  useEffect(() => {
-    if (!serverOnline) {
-      localStorage.setItem('tasks', JSON.stringify(tasks));
-    }
-  }, [tasks, serverOnline]);
-
   const fetchTasks = async () => {
-    const response = await fetch('http://localhost:5000/tasks');
-    const data = await response.json();
-    setTasks(data);
+    const tasksCol = collection(db, "tasks");
+    const taskSnapshot = await getDocs(tasksCol);
+    const taskList = taskSnapshot.docs.map((doc) => ({
+      id: doc.id,
+      ...doc.data(),
+    }));
+    setTasks(taskList);
   };
 
   const addTask = async () => {
-    if (task.trim() === '') return;
-    const newTask = { id: Date.now(), text: task, completed: false };
-    if (serverOnline) {
-      const response = await fetch('http://localhost:5000/tasks', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(newTask),
-      });
-      const data = await response.json();
-      setTasks([...tasks, data]);
-    } else {
-      setTasks([...tasks, newTask]);
-    }
-    setTask('');
+    if (task.trim() === "") return;
+    const newTask = { text: task, completed: false, userId: user.uid };
+    const docRef = await addDoc(collection(db, "tasks"), newTask);
+    setTasks([...tasks, { id: docRef.id, ...newTask }]);
+    setTask("");
   };
 
   const deleteTask = async (id) => {
-    if (serverOnline) {
-      await fetch(`http://localhost:5000/tasks/${id}`, {
-        method: 'DELETE',
-      });
+    const taskToDelete = tasks.find((task) => task.id === id);
+    if (user.uid === taskToDelete.userId) {
+      await deleteDoc(doc(db, "tasks", id));
+      setTasks(tasks.filter((task) => task.id !== id));
+    } else {
+      alert("You do not have permission to delete this task.");
     }
-    setTasks(tasks.filter(task => task.id !== id));
   };
 
   const toggleTaskCompletion = async (id) => {
-    const taskToToggle = tasks.find(task => task.id === id);
+    const taskToToggle = tasks.find((task) => task.id === id);
     const updatedTask = { ...taskToToggle, completed: !taskToToggle.completed };
-    if (serverOnline) {
-      const response = await fetch(`http://localhost:5000/tasks/${id}`, {
-        method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(updatedTask),
-      });
-      const data = await response.json();
-      setTasks(tasks.map(task => (task.id === id ? data : task)));
-    } else {
-      setTasks(tasks.map(task => (task.id === id ? updatedTask : task)));
-    }
+    const taskDoc = doc(db, "tasks", id);
+    await updateDoc(taskDoc, updatedTask);
+    setTasks(tasks.map((task) => (task.id === id ? updatedTask : task)));
   };
 
   const editTask = (id, text) => {
@@ -92,30 +74,25 @@ export default function Home() {
   };
 
   const saveTask = async (id) => {
-    const updatedTask = tasks.find(task => task.id === id);
-    const newTask = { ...updatedTask, text: editTaskText };
-    if (serverOnline) {
-      const response = await fetch(`http://localhost:5000/tasks/${id}`, {
-        method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(newTask),
-      });
-      const data = await response.json();
-      setTasks(tasks.map(task => (task.id === id ? data : task)));
-    } else {
-      setTasks(tasks.map(task => (task.id === id ? newTask : task)));
-    }
+    const taskDoc = doc(db, "tasks", id);
+    await updateDoc(taskDoc, { text: editTaskText });
+    setTasks(
+      tasks.map((task) =>
+        task.id === id ? { ...task, text: editTaskText } : task
+      )
+    );
     setEditTaskId(null);
-    setEditTaskText('');
+    setEditTaskText("");
   };
 
   const cancelEdit = () => {
     setEditTaskId(null);
-    setEditTaskText('');
+    setEditTaskText("");
   };
 
+  if (!user) {
+    return <Login />;
+  }
 
   return (
     <div className={styles.container}>
