@@ -2,5 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/Inter-generational": "pages/Inter-generational.js"
+  "/todo-project/profile": "pages/todo-project/profile.js",
+  "/todo-project/login": "pages/todo-project/login.js",
+  "/todo-project": "pages/todo-project.js"
 }

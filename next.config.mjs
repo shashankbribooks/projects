@@ -5,7 +5,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "dummyjson.com",
+        hostname: "youbooks-storage-5fd6173683748-webdev.s3.amazonaws.com",
       },
     ],
   },

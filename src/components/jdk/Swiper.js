@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import styles from "./box.module.css";
 import "swiper/css";
 import Box from "./box";
-import data from "@/assets/data/top50_aue_author.json";
+import data from "../../assets/data/top50_aue_author.json";
 
 const Swiperjdk = () => {
   const swiperRef = useRef();
@@ -16,7 +16,6 @@ const Swiperjdk = () => {
           onClick={() => swiperRef.current.swiper.slidePrev()}
         >
           <img src="./assets/images/ae/left-arrow.png" alt="" />
-
         </div>
         <Swiper
           ref={swiperRef}
@@ -85,7 +84,10 @@ const Swiperjdk = () => {
                       <div className={`${styles.booktext}`}>
                         <div className="fs-6 d-flex Poppins-Regular">
                           <span className="me-2">
-                            <img src="./assets/images/Ae/Group (4).svg" alt="" />
+                            <img
+                              src="./assets/images/Ae/Group (4).svg"
+                              alt=""
+                            />
                           </span>
                           <p>Grade: 2</p>
                         </div>
@@ -100,7 +102,10 @@ const Swiperjdk = () => {
                         </div>
                         <div className="d-flex fs-6 Poppins-Regular">
                           <span className="me-2">
-                            <img src="./assets/images/Ae/Group (5).svg" alt="" />
+                            <img
+                              src="./assets/images/Ae/Group (5).svg"
+                              alt=""
+                            />
                           </span>
                           <p>gurgaon</p>
                         </div>
@@ -118,7 +123,6 @@ const Swiperjdk = () => {
           onClick={() => swiperRef.current.swiper.slideNext()}
         >
           <img src="./assets/images/ae/right-arrow.png" alt="" />
-
         </div>
       </div>
     </>
