@@ -2,10 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { Inter } from "next/font/google";
 import styles from "./lib.module.css";
-<<<<<<< HEAD
 import JuryData from "../../assets/data/top50_aue_author.json";
-=======
->>>>>>> f7912ea806c924e54498d957793bac1cd4dc217b
 
 const inter = Inter({
   subsets: ["latin"],
@@ -37,11 +34,7 @@ const index = () => {
         </div>
         <div className={`${styles.full_width_image} absolute text-center`}>
           <Image
-<<<<<<< HEAD
             src="/assets/images/libry/Group 1000004582.png"
-=======
-            src="/assets/Group 1000004582.png"
->>>>>>> f7912ea806c924e54498d957793bac1cd4dc217b
             alt="Descriptive text"
             layout="responsive"
             width={1200}
@@ -65,7 +58,6 @@ const index = () => {
             // onChange={(event) => setInput(event.target.value)}
           />
         </div>
-<<<<<<< HEAD
       </div>
       <div
         className={`${styles.mainbox} container absolute d-flex flex-wrap justify-content-center border-top`}
@@ -101,19 +93,6 @@ const index = () => {
           </div>
         ))}
       </div>
-=======
-      </div>
-      <div
-        className={`${styles.mainbox} container absolute d-flex flex-wrap border-top`}
-      >
-        <div className={`${styles.bookbox} border mt-2 mx-2`}></div>
-        <div className={`${styles.bookbox} border mt-2 mx-2 `}></div>
-        <div className={`${styles.bookbox} border mt-2 mx-2`}></div>
-        <div className={`${styles.bookbox} border mt-2 mx-2`}></div>
-        <div className={`${styles.bookbox} border mt-2 mx-2 `}></div>
-        <div className={`${styles.bookbox} border mt-2 mx-2`}></div>
-      </div>
->>>>>>> f7912ea806c924e54498d957793bac1cd4dc217b
     </div>
   );
 };
