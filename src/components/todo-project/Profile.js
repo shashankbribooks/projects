@@ -10,7 +10,7 @@ import {
   getDocs,
   updateDoc,
 } from "firebase/firestore";
-import { ref, uploadBytes, getDownloadURL } from "firebase/storage"; // Ensure correct imports
+import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage"; // Ensure correct imports
 import Layout from "../layout/Layout";
 import Tags from "../../constants/tags";
 import { Image, Spinner, Button, Form, Alert } from "react-bootstrap";
@@ -123,6 +123,8 @@ const Profile = () => {
           await uploadBytes(storageRef, profilePicture);
           const profilePictureUrl = await getDownloadURL(storageRef);
           updatedData.profilePicture = profilePictureUrl;
+        } else {
+          updatedData.profilePicture = userData.profilePicture;
         }
 
         await updateDoc(userRef, updatedData);
@@ -161,6 +163,7 @@ const Profile = () => {
       description={Tags.todoprofile.description}
       header={false}
       footer={false}
+     
     >
       <div className={styles.container}>
         <div className={styles.main}>
