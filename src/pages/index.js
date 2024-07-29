@@ -31,7 +31,7 @@ export default function Home() {
             zIndex: -1,
           }}
         />
-        <div style={{ position: "relative", zIndex: 1 }}>
+        <div style={{ position: "relative", zIndex: 1 }}  >
           <div>
             <Link href="/bripublish" className={`${styles.btn}`}>
               <h2>Bri Publish</h2>

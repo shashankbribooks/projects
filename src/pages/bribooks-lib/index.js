@@ -2,7 +2,6 @@ import Image from "next/image";
 import React from "react";
 import { Inter } from "next/font/google";
 import styles from "./lib.module.css";
-import JuryData from "../../assets/data/top50_aue_author.json";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -11,8 +10,6 @@ const inter = Inter({
 });
 
 const index = () => {
-  console.log(JuryData);
-
   return (
     <div className="" style={{ backgroundColor: "#FFFFFF" }}>
       <div className="container relative">
@@ -34,7 +31,7 @@ const index = () => {
         </div>
         <div className={`${styles.full_width_image} absolute text-center`}>
           <Image
-            src="/assets/images/libry/Group 1000004582.png"
+            src="/assets/Group 1000004582.png"
             alt="Descriptive text"
             layout="responsive"
             width={1200}
@@ -60,38 +57,14 @@ const index = () => {
         </div>
       </div>
       <div
-        className={`${styles.mainbox} container absolute d-flex flex-wrap justify-content-center border-top`}
+        className={`${styles.mainbox} container absolute d-flex flex-wrap border-top`}
       >
-        {JuryData.map((item) => (
-          <div className={`${styles.bookbox}  text-center mt-2 mx-2`}>
-            <div className={`${styles.book_img}`}>
-              <Image
-                src={"/assets/images/bristore/book dhairya.webp"}
-                width={145}
-                height={210}
-                alt="book img"
-              />
-            </div>
-            <div className={`${styles.stag}`}>
-              <Image
-                src={"/assets/images/libry/lives.png"}
-                width={210}
-                height={56}
-                alt="lives img"
-              />
-              <Image
-                src={"/assets/images/libry/stage.png"}
-                width={190}
-                height={15}
-                alt="stag img"
-              />
-            </div>
-
-            <div className={`${styles.author_name}`}>
-              <p className="mb-0 ">{item.author_name}</p>
-            </div>
-          </div>
-        ))}
+        <div className={`${styles.bookbox} border mt-2 mx-2`}></div>
+        <div className={`${styles.bookbox} border mt-2 mx-2 `}></div>
+        <div className={`${styles.bookbox} border mt-2 mx-2`}></div>
+        <div className={`${styles.bookbox} border mt-2 mx-2`}></div>
+        <div className={`${styles.bookbox} border mt-2 mx-2 `}></div>
+        <div className={`${styles.bookbox} border mt-2 mx-2`}></div>
       </div>
     </div>
   );
