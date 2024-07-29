@@ -2,7 +2,14 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import styles from "../../pages/todo-project/todo.module.css";
-import { Container, Spinner, InputGroup, Form, Button } from "react-bootstrap";
+import {
+  Container,
+  Spinner,
+  InputGroup,
+  Form,
+  Button,
+  Image,
+} from "react-bootstrap";
 import { db } from "../../lib/firebase";
 import {
   collection,
@@ -103,7 +110,7 @@ const TaskItem = ({
     </li>
   </div>
 );
-function Home() {
+function Home(props) {
   const [tasks, setTasks] = useState([]);
   const [task, setTask] = useState("");
   const [editTaskId, setEditTaskId] = useState(null);
@@ -111,7 +118,7 @@ function Home() {
   const [loading, setLoading] = useState(true);
   const router = useRouter();
   const auth = getAuth();
-
+  
   useEffect(() => {
     onAuthStateChanged(auth, (user) => {
       if (user) {
@@ -260,7 +267,15 @@ function Home() {
               Logout
             </Button>
             <Link href="todo-project/profile">
-              <Button className="mt-3">View Profile</Button>
+              <Button className="mt-3">
+                {/* <Image
+                  src="/assets/images/dashboard/school-Logo.svg"
+                  width={35}
+                  height={35}
+                  alt="cart"
+                /> */}
+                View Profile
+              </Button>
             </Link>
           </div>
         </div>
