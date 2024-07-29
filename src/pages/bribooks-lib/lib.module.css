@@ -28,12 +28,9 @@
 }
 
 .bookbox {
-  width: 224px;
+  width: 200px;
   height: 284px;
-  padding: 5px;
   background-color: white;
-  border-radius: 17.6px;
-  border: 2px solid rgba(220, 195, 103, 0.3);
 }
 
 .mainbox {
@@ -43,17 +40,4 @@
   top: 300px;
   width: 100vw; /* Full viewport width */
   /* height: auto; */
-}
-
-.book_img {
-  position: relative;
-  top: 18px;
-}
-.stag {
-  position: relative;
-  bottom: 42px;
-}
-.author_name {
-  position: relative;
-  bottom: 45px;
 }
